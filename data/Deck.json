@@ -1,0 +1,1562 @@
+{
+    "Slumbering Dragon": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 1.0,
+        "edhrecRank": 7842,
+        "foreignData": [
+            {
+                "language": "German",
+                "name": "Dösender Drache",
+                "text": "Fliegend\nDer Dösende Drache kann weder angreifen noch blocken, falls nicht fünf oder mehr +1/+1-Marken auf ihm liegen.\nImmer wenn eine Kreatur dich oder einen Planeswalker, den du kontrollierst, angreift, lege eine +1/+1-Marke auf den Dösenden Drachen.",
+                "type": "Kreatur — Drache"
+            },
+            {
+                "language": "Spanish",
+                "name": "Dragón adormecido",
+                "text": "Vuela.\nEl Dragón adormecido no puede atacar ni bloquear a menos que tenga cinco o más contadores +1/+1 sobre él.\nSiempre que una criatura te ataque a ti o a un planeswalker que controlas, pon un contador +1/+1 sobre el Dragón adormecido.",
+                "type": "Criatura — Dragón"
+            },
+            {
+                "language": "French",
+                "name": "Dragon endormi",
+                "text": "Vol\nLe Dragon endormi ne peut ni attaquer ni bloquer à moins qu'il n'ait au moins cinq marqueurs +1/+1 sur lui.\nÀ chaque fois qu'une créature vous attaque ou attaque un planeswalker que vous contrôlez, mettez un marqueur +1/+1 sur le Dragon endormi.",
+                "type": "Créature : dragon"
+            },
+            {
+                "language": "Italian",
+                "name": "Drago Assopito",
+                "text": "Volare\nIl Drago Assopito non può attaccare o bloccare a meno che non abbia cinque o più segnalini +1/+1.\nOgniqualvolta una creatura attacca te o un planeswalker che controlli, metti un segnalino +1/+1 sul Drago Assopito.",
+                "type": "Creatura — Drago"
+            },
+            {
+                "language": "Japanese",
+                "name": "まどろむドラゴン",
+                "text": "飛行\nまどろむドラゴンは、それの上に５個以上の+１/＋１カウンターが置かれていないかぎり攻撃したりブロックしたりできない。\nいずれかのクリーチャーがあなたかあなたがコントロールするプレインズウォーカーを攻撃するたび、まどろむドラゴンの上に＋１/＋１カウンターを１個置く。",
+                "type": "クリーチャー — ドラゴン"
+            },
+            {
+                "language": "Korean",
+                "name": "잠자는 용",
+                "text": "비행\n잠자는 용은 +1/+1 카운터를 다섯 개 이상 가지고 있어야만 공격하거나 방어할 수 있다.\n생물이 당신 또는 당신이 조종하는 플레인즈워커를 공격할 때마다, 잠자는 용에 +1/+1 카운터 한 개를 올려놓는다.",
+                "type": "생물 — 용"
+            },
+            {
+                "language": "Portuguese (Brazil)",
+                "name": "Dragão Adormecido",
+                "text": "Voar\nDragão Adormecido não pode atacar ou bloquear a menos que tenha cinco ou mais marcadores +1/+1 sobre ele.\nToda vez que uma criatura atacar você ou um planeswalker que você controla, coloque um marcador +1/+1 sobre Dragão Adormecido.",
+                "type": "Criatura — Dragão"
+            },
+            {
+                "language": "Russian",
+                "name": "Дремлющий Дракон",
+                "text": "Полет\nДремлющий Дракон не может атаковать или блокировать, если только на нем нет пяти или больше жетонов +1/+1.\nКаждый раз, когда существо атакует вас или planeswalker-а под вашим контролем, положите один жетон +1/+1 на Дремлющего Дракона.",
+                "type": "Существо — Дракон"
+            },
+            {
+                "language": "Chinese Simplified",
+                "name": "静眠巨龙",
+                "text": "飞行\n除非静眠巨龙上有五个或更多+1/+1指示物，否则它不能进行攻击或阻挡。\n每当一个生物攻击你或由你操控的某个鹏洛客时，在静眠巨龙上放置一个+1/+1指示物。",
+                "type": "生物～龙"
+            },
+            {
+                "language": "Chinese Traditional",
+                "name": "靜眠巨龍",
+                "text": "飛行\n除非靜眠巨龍上有五個或更多+1/+1指示物，否則它不能進行攻擊或阻擋。\n每當一個生物攻擊你或由你操控的某個鵬洛客時，在靜眠巨龍上放置一個+1/+1指示物。",
+                "type": "生物～龍"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "d424cab6-84be-4e55-8f4e-af11b1c50ede"
+        },
+        "keywords": [
+            "Flying"
+        ],
+        "layout": "normal",
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "penny": "Legal",
+            "vintage": "Legal"
+        },
+        "manaCost": "{R}",
+        "manaValue": 1.0,
+        "name": "Slumbering Dragon",
+        "power": "3",
+        "printings": [
+            "M13"
+        ],
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/e951c58c21239909",
+            "cardKingdomFoil": "https://mtgjson.com/links/004bc68c4a9af246",
+            "cardmarket": "https://mtgjson.com/links/7288e815ff71738b",
+            "tcgplayer": "https://mtgjson.com/links/45f766226d6bac7a"
+        },
+        "rulings": [
+            {
+                "date": "2012-07-01",
+                "text": "Slumbering Dragon’s second ability counts all +1/+1 counters on it, not just the ones added by its third ability."
+            },
+            {
+                "date": "2012-07-01",
+                "text": "The +1/+1 counter is put on Slumbering Dragon before blockers are declared. This may allow Slumbering Dragon to “wake up” and block the creature that attacked and caused its ability to trigger."
+            },
+            {
+                "date": "2012-07-01",
+                "text": "Slumbering Dragon’s third ability will trigger once for each creature that attacks you or a planeswalker you control."
+            }
+        ],
+        "subtypes": [
+            "Dragon"
+        ],
+        "supertypes": [],
+        "text": "Flying\nSlumbering Dragon can't attack or block unless it has five or more +1/+1 counters on it.\nWhenever a creature attacks you or a planeswalker you control, put a +1/+1 counter on Slumbering Dragon.",
+        "toughness": "3",
+        "type": "Creature — Dragon",
+        "types": [
+            "Creature"
+        ]
+    },
+    "Dragon Whisperer": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 2.0,
+        "edhrecRank": 12990,
+        "foreignData": [
+            {
+                "language": "German",
+                "name": "Drachenflüsterin",
+                "text": "{R}: Die Drachenflüsterin erhält Flugfähigkeit bis zum Ende des Zuges.\n{1}{R}: Die Drachenflüsterin erhält +1/+0 bis zum Ende des Zuges.\nGewaltig — {4}{R}{R}: Bringe einen 4/4 roten Drache-Kreaturenspielstein mit Flugfähigkeit ins Spiel. Aktiviere diese Fähigkeit nur, falls die Kreaturen, die du kontrollierst, eine Gesamtstärke von 8 oder mehr haben.",
+                "type": "Kreatur — Mensch, Schamane"
+            },
+            {
+                "language": "Spanish",
+                "name": "Susurradragones",
+                "text": "{R}: La Susurradragones gana la habilidad de volar hasta el final del turno.\n{1}{R}: La Susurradragones obtiene +1/+0 hasta el final del turno.\nFormidable — {4}{R}{R}: Pon en el campo de batalla una ficha de criatura Dragón roja 4/4 con la habilidad de volar. Activa esta habilidad solo si las criaturas que controlas tienen una fuerza total de 8 o más.",
+                "type": "Criatura — Chamán humano"
+            },
+            {
+                "language": "French",
+                "name": "Chuchoteuse aux dragons",
+                "text": "{R} : La Chuchoteuse aux dragons acquiert le vol jusqu'à la fin du tour.\n{1}{R} : La Chuchoteuse aux dragons gagne +1/+0 jusqu'à la fin du tour.\nRedoutable — {4}{R}{R} : Mettez sur le champ de bataille un jeton de créature 4/4 rouge Dragon avec le vol. N'activez cette capacité que si les créatures que vous contrôlez ont une force totale supérieure ou égale à 8.",
+                "type": "Créature : humain et shamane"
+            },
+            {
+                "language": "Italian",
+                "name": "Sussurratrice Draconica",
+                "text": "{R}: La Sussurratrice Draconica ha volare fino alla fine del turno.\n{1}{R}: La Sussurratrice Draconica prende +1/+0 fino alla fine del turno.\nFormidabile — {4}{R}{R}: Metti sul campo di battaglia una pedina creatura Drago 4/4 rossa con volare. Attiva questa abilità solo se le creature che controlli hanno una forza totale pari o superiore a 8.",
+                "type": "Creatura — Sciamano Umano"
+            },
+            {
+                "language": "Japanese",
+                "name": "龍を操る者",
+                "text": "{R}：ターン終了時まで、龍を操る者は飛行を得る。\n{1}{R}：ターン終了時まで、龍を操る者は＋１/＋０の修整を受ける。\n圧倒 ― {4}{R}{R}：飛行を持つ赤の４/４のドラゴン・クリーチャー・トークンを１体戦場に出す。この能力は、あなたがコントロールするクリーチャーのパワーの合計が８以上であるときにのみ起動できる。",
+                "type": "クリーチャー — 人間・シャーマン"
+            },
+            {
+                "language": "Korean",
+                "name": "속삭이는 용언술사",
+                "text": "{R}: 속삭이는 용언술사는 턴종료까지 비행을 얻는다.\n{1}{R}: 속삭이는 용언술사는 턴종료까지 +1/+0을 받는다.\n강대 — {4}{R}{R}: 비행을 가진 4/4 적색 용 생물 토큰 한 개를 전장에 놓는다. 당신이 조종하는 생물들의 공격력 총합이 8 이상인 경우에만 이 능력을 활성화한다.",
+                "type": "생물 — 인간 주술사"
+            },
+            {
+                "language": "Portuguese (Brazil)",
+                "name": "Encantadora de Dragões",
+                "text": "{R}: Encantadora de Dragões ganha voar até o final do turno.\n{1}{R}: Encantadora de Dragões recebe +1/+0 até o final do turno.\nFormidável — {4}{R}{R}: Coloque no campo de batalha uma ficha de criatura vermelha 4/4 do tipo Dragão com voar. Ative esta habilidade somente se as criaturas que você controla tiverem um total de poder igual ou superior a 8.",
+                "type": "Criatura — Humano Xamã"
+            },
+            {
+                "language": "Russian",
+                "name": "Слышащая Драконов",
+                "text": "{R}: Слышащая Драконов получает Полет до конца хода.\n{1}{R}: Слышащая Драконов получает +1/+0 до конца хода.\nВнушительность — {4}{R}{R}: положите на поле битвы одну фишку существа 4/4 красный Дракон с Полетом. Активируйте эту способность, только если сумма значений силы существ под вашим контролем равна 8 или больше.",
+                "type": "Существо — Человек Шаман"
+            },
+            {
+                "language": "Chinese Simplified",
+                "name": "巨龙传谕",
+                "text": "{R}：巨龙传谕获得飞行异能直到回合结束。\n{1}{R}：巨龙传谕得+1/+0直到回合结束。\n强横～{4}{R}{R}：将一个4/4红色，具飞行异能的龙衍生生物放进战场。只能于由你操控之生物的力量总和等于或大于8时起动此异能。",
+                "type": "生物～人类／祭师"
+            },
+            {
+                "language": "Chinese Traditional",
+                "name": "巨龍傳諭",
+                "text": "{R}：巨龍傳諭獲得飛行異能直到回合結束。\n{1}{R}：巨龍傳諭得+1/+0直到回合結束。\n強橫～{4}{R}{R}：將一個4/4紅色，具飛行異能的龍衍生生物放進戰場。只能於由你操控之生物的力量總和等於或大於8時起動此異能。",
+                "type": "生物～人類／祭師"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "54884040-b426-43da-9bb1-016621e1446d"
+        },
+        "keywords": [
+            "Formidable"
+        ],
+        "layout": "normal",
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "penny": "Legal",
+            "pioneer": "Legal",
+            "vintage": "Legal"
+        },
+        "manaCost": "{R}{R}",
+        "manaValue": 2.0,
+        "name": "Dragon Whisperer",
+        "power": "2",
+        "printings": [
+            "DTK"
+        ],
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/b883685aa0383342",
+            "cardKingdomFoil": "https://mtgjson.com/links/c4c15ab59647ce52",
+            "cardmarket": "https://mtgjson.com/links/987cae260f8d044b",
+            "tcgplayer": "https://mtgjson.com/links/1e3f104e85916395"
+        },
+        "rulings": [
+            {
+                "date": "2015-02-25",
+                "text": "If you control a creature with power less than 0, use its actual power when calculating the total power of creatures you control. For example, if you control three creatures with powers 4, 5, and -2, the total power of creatures you control is 7."
+            },
+            {
+                "date": "2015-02-25",
+                "text": "Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn’t matter what happens to the total power of creatures you control."
+            },
+            {
+                "date": "2015-02-25",
+                "text": "Other formidable abilities are triggered abilities with an “intervening ‘if’” clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect."
+            }
+        ],
+        "subtypes": [
+            "Human",
+            "Shaman"
+        ],
+        "supertypes": [],
+        "text": "{R}: Dragon Whisperer gains flying until end of turn.\n{1}{R}: Dragon Whisperer gets +1/+0 until end of turn.\nFormidable — {4}{R}{R}: Create a 4/4 red Dragon creature token with flying. Activate only if creatures you control have total power 8 or greater.",
+        "toughness": "2",
+        "type": "Creature — Human Shaman",
+        "types": [
+            "Creature"
+        ]
+    },
+    "Scourge of Valkas": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 5.0,
+        "edhrecRank": 1045,
+        "foreignData": [
+            {
+                "language": "Japanese",
+                "name": "ヴァルカスの災い魔",
+                "text": "飛行\nヴァルカスの災い魔か他のドラゴンが１体あなたのコントロール下で戦場に出るたび、クリーチャー１体かプレイヤー１人を対象とする。その戦場に出たクリーチャーは、それにＸ点のダメージを与える。Ｘはあなたがコントロールしているドラゴンの総数に等しい。\n{R}：ターン終了時まで、ヴァルカスの災い魔は＋１/＋０の修整を受ける。",
+                "type": "クリーチャー — ドラゴン"
+            },
+            {
+                "language": "Chinese Simplified",
+                "name": "伐卡兹祸害",
+                "text": "飞行\n每当伐卡兹祸害或另一个龙在你的操控下进战场时，它对目标生物或牌手造成X点伤害，X为由你操控的龙数量。\n{R}：伐卡兹祸害得+1/+0直到回合结束。",
+                "type": "生物～龙"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "0a147009-a57c-4ac1-ab81-d8bd8b737631"
+        },
+        "keywords": [
+            "Flying"
+        ],
+        "layout": "normal",
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "pioneer": "Legal",
+            "vintage": "Legal"
+        },
+        "manaCost": "{2}{R}{R}{R}",
+        "manaValue": 5.0,
+        "name": "Scourge of Valkas",
+        "power": "4",
+        "printings": [
+            "AFC",
+            "C17",
+            "IMA",
+            "M14"
+        ],
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/053feeb36c1bf8a6",
+            "cardmarket": "https://mtgjson.com/links/5cfb48bcaf569266",
+            "tcgplayer": "https://mtgjson.com/links/828223862892a12c"
+        },
+        "rulings": [
+            {
+                "date": "2017-11-17",
+                "text": "The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves."
+            },
+            {
+                "date": "2017-11-17",
+                "text": "If a Dragon entering the battlefield causes Scourge of Valkas's ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage."
+            }
+        ],
+        "subtypes": [
+            "Dragon"
+        ],
+        "supertypes": [],
+        "text": "Flying\nWhenever Scourge of Valkas or another Dragon enters the battlefield under your control, it deals X damage to any target, where X is the number of Dragons you control.\n{R}: Scourge of Valkas gets +1/+0 until end of turn.",
+        "toughness": "4",
+        "type": "Creature — Dragon",
+        "types": [
+            "Creature"
+        ]
+    },
+    "Leyline Tyrant": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 4.0,
+        "edhrecRank": 1873,
+        "foreignData": [
+            {
+                "language": "German",
+                "name": "Tyrann der Ley-Linien",
+                "text": "Fliegend\nDu behältst unverbrauchtes rotes Mana, sowie Segmente und Phasen enden.\nWenn der Tyrann der Ley-Linien stirbt, kannst du eine beliebige Menge {R} bezahlen. Wenn du dies tust, fügt er einem Ziel deiner Wahl entsprechend viele Schadenspunkte zu.",
+                "type": "Kreatur — Drache"
+            },
+            {
+                "language": "French",
+                "name": "Tyran des lignes ley",
+                "text": "Vol\nVous ne perdez pas le mana rouge non dépensé au moment où les étapes et les phases se terminent.\nQuand le Tyran des lignes ley meurt, vous pouvez payer la quantité de {R} de votre choix. Quand vous faites ainsi, il inflige autant de blessures à n'importe quelle cible.",
+                "type": "Créature : dragon"
+            },
+            {
+                "language": "Japanese",
+                "name": "力線の暴君",
+                "text": "飛行\nあなたの未消費の赤マナは、ステップやフェイズの終了に際して無くならない。\n力線の暴君が死亡したとき、あなたは望む数の{R}を支払ってもよい。そうしたとき、クリーチャー１体かプレインズウォーカー１体かプレイヤー１人を対象とする。これはそれに、その量に等しい点数のダメージを与える。",
+                "type": "クリーチャー — ドラゴン"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "f92aaa00-6ece-4033-b3df-b2fc2c4718d9"
+        },
+        "keywords": [
+            "Flying"
+        ],
+        "layout": "normal",
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "explorer": "Legal",
+            "gladiator": "Legal",
+            "historic": "Legal",
+            "historicbrawl": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "pioneer": "Legal",
+            "vintage": "Legal"
+        },
+        "manaCost": "{2}{R}{R}",
+        "manaValue": 4.0,
+        "name": "Leyline Tyrant",
+        "power": "4",
+        "printings": [
+            "PRM",
+            "PZNR",
+            "ZNR"
+        ],
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/fd061d327d8d0665",
+            "cardKingdomFoil": "https://mtgjson.com/links/bdb563da39ce5c9c",
+            "cardmarket": "https://mtgjson.com/links/cd90cb417df1734f",
+            "tcgplayer": "https://mtgjson.com/links/5f89e88db70361d6"
+        },
+        "rulings": [
+            {
+                "date": "2020-09-25",
+                "text": "If a red mana you add to your mana pool has certain restrictions or riders associated with it (for example, if it was produced by Base Camp), they’ll apply to that mana no matter when you spend it."
+            },
+            {
+                "date": "2020-09-25",
+                "text": "You can keep red mana in your mana pool indefinitely while Leyline Tyrant is on the battlefield. That means if you add a red mana to your mana pool during one step or phase, you can spend it during a later step or phase, or even a later turn. Other types of mana will continue to empty from your mana pool as each step and phase ends."
+            },
+            {
+                "date": "2020-09-25",
+                "text": "Once Leyline Tyrant leaves the battlefield, you have until the end of the current step or phase to spend whatever red mana is in your mana pool before it empties as normal. There is no penalty associated with this other than the loss of the mana."
+            },
+            {
+                "date": "2020-09-25",
+                "text": "Leyline Tyrant’s last ability goes on the stack without a target. While that ability is resolving, you may pay any amount of red mana, including from the unspent mana you have. If you do, a second ability triggers and you pick one target to be dealt that much damage. This is different from abilities that say “If you do . . .” in that players may cast spells and activate abilities after mana is paid but before the damage is dealt."
+            }
+        ],
+        "subtypes": [
+            "Dragon"
+        ],
+        "supertypes": [],
+        "text": "Flying\nYou don't lose unspent red mana as steps and phases end.\nWhen Leyline Tyrant dies, you may pay any amount of {R}. When you do, it deals that much damage to any target.",
+        "toughness": "4",
+        "type": "Creature — Dragon",
+        "types": [
+            "Creature"
+        ]
+    },
+    "Thunderbreak Regent": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 4.0,
+        "edhrecRank": 2299,
+        "foreignData": [
+            {
+                "flavorText": "Es kann ein fataler Fehler sein, die Aufmerksamkeit eines Drachen auf sich zu ziehen.",
+                "language": "German",
+                "name": "Donnerbruch-Regentin",
+                "text": "Fliegend\nImmer wenn ein Drache, den du kontrollierst, das Ziel eines Zauberspruchs oder einer Fähigkeit wird, den bzw. die ein Gegner kontrolliert, fügt die Donnerbruch-Regentin diesem Spieler 3 Schadenspunkte zu.",
+                "type": "Kreatur — Drache"
+            },
+            {
+                "flavorText": "Atraer la atención de un dragón puede ser el último error que cometas.",
+                "language": "Spanish",
+                "name": "Regente tempestad desatada",
+                "text": "Vuela.\nSiempre que un Dragón que controlas sea objetivo de un hechizo o habilidad que controla un oponente, la Regente tempestad desatada hace 3 puntos de daño a ese jugador.",
+                "type": "Criatura — Dragón"
+            },
+            {
+                "flavorText": "Attirer l'attention d'un dragon sera probablement votre dernière erreur.",
+                "language": "French",
+                "name": "Régente brisetonnerre",
+                "text": "Vol\nÀ chaque fois qu'un dragon que vous contrôlez devient la cible d'un sort ou d'une capacité qu'un adversaire contrôle, la Régente brisetonnerre inflige 3 blessures à ce joueur.",
+                "type": "Créature : dragon"
+            },
+            {
+                "flavorText": "Attirare l'attenzione di un drago potrebbe essere l'ultimo errore che commetti.",
+                "language": "Italian",
+                "name": "Reggente Squarciatuono",
+                "text": "Volare\nOgniqualvolta un Drago che controlli diventa bersaglio di una magia o abilità controllata da un avversario, la Reggente Squarciatuono infligge 3 danni a quel giocatore.",
+                "type": "Creatura — Drago"
+            },
+            {
+                "flavorText": "龍の注意を引くことは、最期の過ちとなりかねない。",
+                "language": "Japanese",
+                "name": "雷破の執政",
+                "text": "飛行\nあなたがコントロールするドラゴン１体が対戦相手がコントロールする呪文や能力の対象になるたび、雷破の執政はそのプレイヤーに３点のダメージを与える。",
+                "type": "クリーチャー — ドラゴン"
+            },
+            {
+                "flavorText": "용의 주의를 끄는 행동은 인생의 마지막 실수가 될 것이다.",
+                "language": "Korean",
+                "name": "하늘을 찢는 천둥의 섭정",
+                "text": "비행\n당신이 조종하는 용이 상대가 조종하는 주문이나 능력의 목표가 될 때마다, 하늘을 찢는 천둥의 섭정은 그 플레이어에게 피해 3점을 입힌다.",
+                "type": "생물 — 용"
+            },
+            {
+                "flavorText": "Atrair a atenção de um dragão pode ser o último erro que você vai cometer.",
+                "language": "Portuguese (Brazil)",
+                "name": "Regente do Ataque Fulminante",
+                "text": "Voar\nToda vez que um Dragão que você controla se torna alvo de uma mágica ou habilidade que um oponente controla, Regente do Ataque Fulminante causa 3 pontos de dano àquele jogador.",
+                "type": "Criatura — Dragão"
+            },
+            {
+                "flavorText": "Если ты обратишь на себя внимание дракона, это может стать твоей последней ошибкой.",
+                "language": "Russian",
+                "name": "Регент Грянувшего Грома",
+                "text": "Полет\nКаждый раз, когда Дракон под вашим контролем становится целью заклинания или способности под контролем оппонента, Регент Грянувшего Грома наносит 3 повреждения тому игроку.",
+                "type": "Существо — Дракон"
+            },
+            {
+                "flavorText": "引起巨龙的注意可能是你最不该犯的错误。",
+                "language": "Chinese Simplified",
+                "name": "破霆龙侯",
+                "text": "飞行\n每当一个由你操控的龙成为由对手操控之咒语或异能的目标时，破霆龙侯对该牌手造成3点伤害。",
+                "type": "生物～龙"
+            },
+            {
+                "flavorText": "引起巨龍的注意可能是你最不該犯的錯誤。",
+                "language": "Chinese Traditional",
+                "name": "破霆龍侯",
+                "text": "飛行\n每當一個由你操控的龍成為由對手操控之咒語或異能的目標時，破霆龍侯對該玩家造成3點傷害。",
+                "type": "生物～龍"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "bb04f927-0348-4a14-9e74-381f18083f6a"
+        },
+        "keywords": [
+            "Flying"
+        ],
+        "layout": "normal",
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "explorer": "Legal",
+            "gladiator": "Legal",
+            "historic": "Legal",
+            "historicbrawl": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "penny": "Legal",
+            "pioneer": "Legal",
+            "vintage": "Legal"
+        },
+        "manaCost": "{2}{R}{R}",
+        "manaValue": 4.0,
+        "name": "Thunderbreak Regent",
+        "power": "4",
+        "printings": [
+            "AFC",
+            "DTK",
+            "J21",
+            "PDTK",
+            "PRM"
+        ],
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/7b4247ce17cf202a",
+            "tcgplayer": "https://mtgjson.com/links/5be35604221d632e"
+        },
+        "rulings": [
+            {
+                "date": "2015-02-25",
+                "text": "Thunderbreak Regent's ability will resolve before the spell or ability that caused it to trigger."
+            }
+        ],
+        "subtypes": [
+            "Dragon"
+        ],
+        "supertypes": [],
+        "text": "Flying\nWhenever a Dragon you control becomes the target of a spell or ability an opponent controls, Thunderbreak Regent deals 3 damage to that player.",
+        "toughness": "4",
+        "type": "Creature — Dragon",
+        "types": [
+            "Creature"
+        ]
+    },
+    "Avaricious Dragon": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 4.0,
+        "edhrecRank": 5645,
+        "foreignData": [
+            {
+                "flavorText": "Auf Gier folgt Verschwendung.",
+                "language": "German",
+                "name": "Raffgieriger Drache",
+                "text": "FliegendZiehe zu Beginn deines Ziehsegments eine zusätzliche Karte.Wirf zu Beginn deines Endsegments alle Karten aus deiner Hand ab.",
+                "type": "Kreatur — Drache"
+            },
+            {
+                "flavorText": "Al deseo le sucede el derroche.",
+                "language": "Spanish",
+                "name": "Dragón avaricioso",
+                "text": "Vuela.Al comienzo de tu paso de robar, roba una carta adicional.Al comienzo de tu paso final, descarta tu mano.",
+                "type": "Criatura — Dragón"
+            },
+            {
+                "flavorText": "Le gaspillage fait suite à la cupidité.",
+                "language": "French",
+                "name": "Dragon avare",
+                "text": "VolAu début de votre étape de pioche, piochez une carte supplémentaire.Au début de votre étape de fin, défaussez-vous de votre main.",
+                "type": "Créature : dragon"
+            },
+            {
+                "flavorText": "Lo sperpero è una conseguenza dell'ingordigia.",
+                "language": "Italian",
+                "name": "Drago Ingordo",
+                "text": "VolareAll'inizio della tua acquisizione, pesca una carta addizionale.All'inizio della tua sottofase finale, scarta la tua mano.",
+                "type": "Creatura — Drago"
+            },
+            {
+                "flavorText": "欲望に続くのは浪費である。",
+                "language": "Japanese",
+                "name": "強欲なドラゴン",
+                "text": "飛行あなたのドロー・ステップの開始時に、カードを追加で１枚引く。あなたの終了ステップの開始時に、あなたの手札を捨てる。",
+                "type": "クリーチャー — ドラゴン"
+            },
+            {
+                "flavorText": "뭐든 낭비해 버리면 나중에 절실하게 필요해진다.",
+                "language": "Korean",
+                "name": "탐욕스러운 용",
+                "text": "비행당신의 뽑기단 시작에, 카드 한 장을 추가로 뽑는다.당신의 종료단 시작에, 당신의 손을 버린다.",
+                "type": "생물 — 용"
+            },
+            {
+                "flavorText": "Quem compra o supérfluo vende o necessário.",
+                "language": "Portuguese (Brazil)",
+                "name": "Dragão Avarento",
+                "text": "VoarNo início da sua etapa de compra, compre um card adicional.No início da sua etapa final, descarte a sua mão.",
+                "type": "Criatura — Dragão"
+            },
+            {
+                "flavorText": "За жадностью следует расплата.",
+                "language": "Russian",
+                "name": "Алчный Дракон",
+                "text": "ПолетВ начале вашего шага взятия карты возьмите дополнительную карту.В начале вашего заключительного шага сбросьте вашу руку.",
+                "type": "Существо — Дракон"
+            },
+            {
+                "flavorText": "欲求在前，浪费在后。",
+                "language": "Chinese Simplified",
+                "name": "贪戾巨龙",
+                "text": "飞行在你的抓牌步骤开始时，额外抓一张牌。在你的结束步骤开始时，弃掉你的手牌。",
+                "type": "生物～龙"
+            },
+            {
+                "flavorText": "欲求在前，浪費在後。",
+                "language": "Chinese Traditional",
+                "name": "貪戾巨龍",
+                "text": "飛行在你的抽牌步驟開始時，額外抽一張牌。在你的結束步驟開始時，棄掉你的手牌。",
+                "type": "生物～龍"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "9be9d534-470d-463a-ba2f-9817a6723692"
+        },
+        "keywords": [
+            "Flying"
+        ],
+        "layout": "normal",
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "penny": "Legal",
+            "pioneer": "Legal",
+            "vintage": "Legal"
+        },
+        "manaCost": "{2}{R}{R}",
+        "manaValue": 4.0,
+        "name": "Avaricious Dragon",
+        "power": "4",
+        "printings": [
+            "ORI"
+        ],
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/cccef7dd405f940a",
+            "cardKingdomFoil": "https://mtgjson.com/links/34bf21c22f937910",
+            "cardmarket": "https://mtgjson.com/links/7beeff3097b7a980",
+            "tcgplayer": "https://mtgjson.com/links/4099b04dcf043d2b"
+        },
+        "rulings": [],
+        "subtypes": [
+            "Dragon"
+        ],
+        "supertypes": [],
+        "text": "Flying\nAt the beginning of your draw step, draw an additional card.\nAt the beginning of your end step, discard your hand.",
+        "toughness": "4",
+        "type": "Creature — Dragon",
+        "types": [
+            "Creature"
+        ]
+    },
+    "Verix Bladewing": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 4.0,
+        "edhrecRank": 7127,
+        "foreignData": [
+            {
+                "language": "German",
+                "name": "Verix Bladewing",
+                "text": "Bonus {3} (Du kannst zusätzlich {3} bezahlen, sowie du diesen Zauberspruch wirkst.)\nFliegend\nWenn Verix Bladewing ins Spiel kommt und falls ihre Bonuskosten bezahlt wurden, erzeuge einen legendären 4/4 roten Drache-Kreaturenspielstein mit Flugfähigkeit namens Karox Bladewing.",
+                "type": "Legendäre Kreatur — Drache"
+            },
+            {
+                "language": "Spanish",
+                "name": "Vérix Alacortante",
+                "text": "Estímulo {3}. (Puedes pagar {3} adicionales al lanzar este hechizo.)\nVuela.\nCuando Vérix Alacortante entre al campo de batalla, si fue estimulada, crea a Károx Alacortante, una ficha de criatura legendaria Dragón roja 4/4 con la habilidad de volar.",
+                "type": "Criatura legendaria — Dragón"
+            },
+            {
+                "language": "French",
+                "name": "Verix Ailelame",
+                "text": "Kick {3} (Vous pouvez payer {3} supplémentaires au moment où vous lancez ce sort.)\nVol\nQuand Verix Ailelame arrive sur le champ de bataille, s'il a été kické, créez Karox Ailelame, un jeton de créature légendaire 4/4 rouge Dragon avec le vol.",
+                "type": "Créature légendaire : dragon"
+            },
+            {
+                "language": "Italian",
+                "name": "Verix Alaspada",
+                "text": "Potenziamento {3} (Puoi pagare {3} addizionale mentre lanci questa magia.)\nVolare\nQuando Verix Alaspada entra nel campo di battaglia, se è stata potenziata, crea Karox Alaspada, una pedina creatura leggendaria Drago 4/4 rossa con volare.",
+                "type": "Creatura Leggendaria — Drago"
+            },
+            {
+                "language": "Japanese",
+                "name": "刃の翼ヴェリックス",
+                "text": "キッカー{3}（あなたはこの呪文を唱えるに際し、追加で{3}を支払ってもよい。）\n飛行\n刃の翼ヴェリックスが戦場に出たとき、これがキッカーされていた場合、「刃の翼カロックス」という名前で飛行を持つ赤の４/４の伝説のドラゴン・クリーチャー・トークンを１体生成する。",
+                "type": "伝説のクリーチャー — ドラゴン"
+            },
+            {
+                "language": "Korean",
+                "name": "칼날날개 베릭스",
+                "text": "키커 {3} (당신은 이 주문을 발동하면서 추가로 {3}을 지불할 수 있다.)\n비행\n칼날날개 베릭스가 전장에 들어올 때, 키커 비용이 지불되었다면, 비행을 가진 전설적 4/4 적색 용 생물 토큰인 칼날날개 카록스 한 개를 만든다.",
+                "type": "전설적 생물 — 용"
+            },
+            {
+                "language": "Portuguese (Brazil)",
+                "name": "Verix Asas Laminadas",
+                "text": "Reforçar {3} (Você pode pagar um custo adicional de {3} ao conjurar esta mágica.)\nVoar\nQuando Verix Asas Laminadas entrar no campo de batalha, se tiver sido reforçado, crie Karox Asas Laminadas, uma ficha de criatura vermelha lendária 4/4 do tipo Dragão com voar.",
+                "type": "Criatura Lendária — Dragão"
+            },
+            {
+                "language": "Russian",
+                "name": "Саблекрылая Верикс",
+                "text": "Усилитель {3} (При разыгрывании этого заклинания вы можете дополнительно заплатить {3}.)\nПолет\nКогда Саблекрылая Верикс выходит на поле битвы, если она получила Усилитель, создайте Саблекрылого Карокса, фишку легендарного существа 4/4 красный Дракон с Полетом.",
+                "type": "Легендарное Существо — Дракон"
+            },
+            {
+                "language": "Chinese Simplified",
+                "name": "锋翼维黎兹",
+                "text": "增幅{3}（你施放此咒语时可以额外支付{3}。）\n飞行\n当锋翼维黎兹进战场时，若它已增幅，则派出传奇衍生生物锋翼卡洛兹，其为4/4红色，具飞行异能的龙。",
+                "type": "传奇生物 ～龙"
+            },
+            {
+                "language": "Chinese Traditional",
+                "name": "鋒翼維黎茲",
+                "text": "增幅{3}（你施放此咒語時可以額外支付{3}。）\n飛行\n當鋒翼維黎茲進戰場時，若它已增幅，則派出傳奇衍生生物鋒翼卡洛茲，其為4/4紅色，具飛行異能的龍。",
+                "type": "傳奇生物 ～龍"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "d7315b3b-6e5d-4d28-a503-bfae1daf6c43"
+        },
+        "keywords": [
+            "Flying",
+            "Kicker"
+        ],
+        "layout": "normal",
+        "leadershipSkills": {
+            "brawl": false,
+            "commander": true,
+            "oathbreaker": false
+        },
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "explorer": "Legal",
+            "gladiator": "Legal",
+            "historic": "Legal",
+            "historicbrawl": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "penny": "Legal",
+            "pioneer": "Legal",
+            "vintage": "Legal"
+        },
+        "manaCost": "{2}{R}{R}",
+        "manaValue": 4.0,
+        "name": "Verix Bladewing",
+        "power": "4",
+        "printings": [
+            "DOM",
+            "PDOM"
+        ],
+        "purchaseUrls": {
+            "cardKingdomFoil": "https://mtgjson.com/links/f6de5359dc813e7a",
+            "tcgplayer": "https://mtgjson.com/links/c2fcda31e3b32489"
+        },
+        "rulings": [
+            {
+                "date": "2018-04-27",
+                "text": "Verix Bladewing features a new template for creating legendary tokens. It’s functionally identical to the text “create a legendary 4/4 red Dragon creature token with flying named Karox Bladewing.”"
+            }
+        ],
+        "subtypes": [
+            "Dragon"
+        ],
+        "supertypes": [
+            "Legendary"
+        ],
+        "text": "Kicker {3} (You may pay an additional {3} as you cast this spell.)\nFlying\nWhen Verix Bladewing enters the battlefield, if it was kicked, create Karox Bladewing, a legendary 4/4 red Dragon creature token with flying.",
+        "toughness": "4",
+        "type": "Legendary Creature — Dragon",
+        "types": [
+            "Creature"
+        ]
+    },
+    "Gadrak, the Crown-Scourge": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 3.0,
+        "edhrecRank": 1455,
+        "foreignData": [
+            {
+                "language": "French",
+                "name": "Gadrak, le fléau des couronnes",
+                "text": "Vol\nGadrak, le fléau des couronnes ne peut pas attaquer à moins que vous ne contrôliez au moins quatre artefacts.\nAu début de votre étape de fin, créez un jeton Trésor pour chaque créature non-jeton qui est morte ce tour-ci.",
+                "type": "Créature légendaire : dragon"
+            },
+            {
+                "language": "Japanese",
+                "name": "冠滅ぼしのガドラク",
+                "text": "飛行\nあなたがアーティファクトを４つ以上コントロールしていないかぎり、冠滅ぼしのガドラクでは攻撃できない。\nあなたの終了ステップの開始時に、このターンに死亡した、トークンでないクリーチャー１体につき、宝物・トークンを１つ生成する。",
+                "type": "伝説のクリーチャー — ドラゴン"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "42d7ec93-0943-43e2-9b65-b7edc3349410"
+        },
+        "keywords": [
+            "Flying"
+        ],
+        "layout": "normal",
+        "leadershipSkills": {
+            "brawl": false,
+            "commander": true,
+            "oathbreaker": false
+        },
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "explorer": "Legal",
+            "gladiator": "Legal",
+            "historic": "Legal",
+            "historicbrawl": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "penny": "Legal",
+            "pioneer": "Legal",
+            "vintage": "Legal"
+        },
+        "manaCost": "{2}{R}",
+        "manaValue": 3.0,
+        "name": "Gadrak, the Crown-Scourge",
+        "power": "5",
+        "printings": [
+            "M21",
+            "PM21",
+            "PRM"
+        ],
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/d3a6d6b25726f4af",
+            "cardKingdomFoil": "https://mtgjson.com/links/099a9146ae639029",
+            "tcgplayer": "https://mtgjson.com/links/ce085402281a495d"
+        },
+        "rulings": [
+            {
+                "date": "2020-06-23",
+                "text": "Once Gadrak has attacked, it will remain an attacking creature even if you no longer control four or more artifacts."
+            },
+            {
+                "date": "2020-06-23",
+                "text": "Gadrak's last ability counts creatures that died during the entire turn, even ones that died before Gadrak entered the battlefield."
+            }
+        ],
+        "subtypes": [
+            "Dragon"
+        ],
+        "supertypes": [
+            "Legendary"
+        ],
+        "text": "Flying\nGadrak, the Crown-Scourge can't attack unless you control four or more artifacts.\nAt the beginning of your end step, create a Treasure token for each nontoken creature that died this turn. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
+        "toughness": "4",
+        "type": "Legendary Creature — Dragon",
+        "types": [
+            "Creature"
+        ]
+    },
+    "Dragon Tempest": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 2.0,
+        "edhrecRank": 845,
+        "foreignData": [
+            {
+                "language": "Japanese",
+                "name": "龍の大嵐",
+                "text": "飛行を持つクリーチャーが１体あなたのコントロール下で戦場に出るたび、ターン終了時まで、それは速攻を得る。\nドラゴンが１体あなたのコントロール下で戦場に出るたび、クリーチャー１体かプレイヤー１人を対象とする。そのドラゴンは、それにＸ点のダメージを与える。Ｘはあなたがコントロールしているドラゴンの総数に等しい。",
+                "type": "エンチャント"
+            },
+            {
+                "language": "Chinese Simplified",
+                "name": "龙袭风暴",
+                "text": "每当一个具飞行异能的生物在你的操控下进战场时，它获得敏捷异能直到回合结束。\n每当一个龙在你的操控下进战场时，它对目标生物或牌手造成X点伤害，X为由你操控之龙的数量。",
+                "type": "结界"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "b9bacb46-fd1d-459b-81c2-d7d08fe73848"
+        },
+        "layout": "normal",
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "penny": "Legal",
+            "pioneer": "Legal",
+            "vintage": "Legal"
+        },
+        "manaCost": "{1}{R}",
+        "manaValue": 2.0,
+        "name": "Dragon Tempest",
+        "printings": [
+            "C17",
+            "DTK",
+            "GN3",
+            "IMA",
+            "PDTK"
+        ],
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/6b30b268d6be30e3",
+            "cardmarket": "https://mtgjson.com/links/bb1094c95791e3be",
+            "tcgplayer": "https://mtgjson.com/links/77aa045da49fc735"
+        },
+        "rulings": [
+            {
+                "date": "2017-11-17",
+                "text": "The amount of damage dealt by the Dragon that entered the battlefield is based on the number of Dragons you control when the ability resolves."
+            },
+            {
+                "date": "2017-11-17",
+                "text": "If a Dragon entering the battlefield causes Dragon Tempest’s second ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage."
+            },
+            {
+                "date": "2017-11-17",
+                "text": "The two abilities aren’t mutually exclusive. If a Dragon with flying (which is most of them) enters the battlefield under your control, both abilities will trigger."
+            }
+        ],
+        "subtypes": [],
+        "supertypes": [],
+        "text": "Whenever a creature with flying enters the battlefield under your control, it gains haste until end of turn.\nWhenever a Dragon enters the battlefield under your control, it deals X damage to any target, where X is the number of Dragons you control.",
+        "type": "Enchantment",
+        "types": [
+            "Enchantment"
+        ]
+    },
+    "Nykthos, Shrine to Nyx": {
+        "colorIdentity": [],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "edhrecRank": 139,
+        "foreignData": [
+            {
+                "language": "German",
+                "name": "Nykthos, Schrein von Nyx",
+                "text": "{T}: Erhöhe deinen Manavorrat um {1}.\n{2}, {T}: Bestimme eine Farbe. Erhöhe deinen Manavorrat um so viel Mana dieser Farbe, wie deine Hingabe zu dieser Farbe beträgt. (Jedes Manasymbol in den Manakosten von bleibenden Karten, die du kontrollierst, erhöht deine Hingabe zu der entsprechenden Farbe um eins.)",
+                "type": "Legendäres Land"
+            },
+            {
+                "language": "Spanish",
+                "name": "Nyktos, altar de Nyx",
+                "text": "{T}: Agrega {1} a tu reserva de maná.\n{2}, {T}: Elige un color. Agrega a tu reserva de maná una cantidad de maná de ese color igual a tu devoción a ese color. (Tu devoción a un color es la cantidad de símbolos de maná de ese color en los costes de maná de los permanentes que controlas.)",
+                "type": "Tierra legendaria"
+            },
+            {
+                "language": "French",
+                "name": "Nykthos, reliquaire de Nyx",
+                "text": "{T} : Ajoutez {1} à votre réserve.\n{2}, {T}: Choisissez une couleur. Ajoutez à votre réserve une quantité de mana de cette couleur égale à votre dévotion à cette couleur. (Votre dévotion à une couleur est le nombre de symboles de mana de cette couleur dans les coûts de mana des permanents que vous contrôlez.)",
+                "type": "Terrain légendaire"
+            },
+            {
+                "language": "Italian",
+                "name": "Nyktos, Santuario di Nyx",
+                "text": "{T}: Aggiungi {1} alla tua riserva di mana.\n{2}, {T}: Scegli un colore. Aggiungi alla tua riserva di mana un ammontare di mana di quel colore pari alla tua devozione a quel colore. (La tua devozione a un colore è il numero di simboli di mana di quel colore nel costo di mana dei permanenti che controlli.)",
+                "type": "Terra Leggendaria"
+            },
+            {
+                "language": "Japanese",
+                "name": "ニクスの祭殿、ニクソス",
+                "text": "{T}：あなたのマナ・プールに{1}を加える。\n{2}, {T}：色を１つ選ぶ。あなたのマナ・プールに、あなたのその色への信心に等しい点数の、その色のマナを加える。（あなたの色への信心は、あなたがコントロールするパーマネントのマナ・コスト内に含まれるその色のマナ・シンボルの数である。）",
+                "type": "伝説の土地"
+            },
+            {
+                "language": "Korean",
+                "name": "닉스의 신전 닉소스",
+                "text": "{T}: {1}를 당신의 마나풀에 담는다.\n{2}, {T}: 색 하나를 선택한다. 당신의 마나풀에 당신이 선택한 색의 마나를 그 색에 대한 신앙심만큼 담는다. (어떤 색에 대한 당신의 신앙심은 당신이 조종하는 지속물에 나온 그 색의 마나 기호 하나당 1씩 증가한다.)",
+                "type": "전설적 대지"
+            },
+            {
+                "language": "Portuguese (Brazil)",
+                "name": "Nyktos, Santuário de Nyx",
+                "text": "{T}: Adicione {1} à sua reserva de mana.\n{2}, {T}: Escolha uma cor. Adicione à sua reserva de mana uma quantidade de mana daquela cor igual à sua devoção àquela cor. (Sua devoção àquela cor é o número de símbolos de mana daquela cor nos custos de mana das permanentes que você controla.)",
+                "type": "Terreno Lendário"
+            },
+            {
+                "language": "Russian",
+                "name": "Никтос, Святилище Никса",
+                "text": "{T}: добавьте {1} в ваше хранилище маны.\n{2}, {T}: выберите цвет. Добавьте в ваше хранилище маны количество маны того цвета, равное вашей Преданности тому цвету. (Ваша Преданность цвету равна общему количеству символов маны этого цвета в мана-стоимости перманентов под вашим контролем.)",
+                "type": "Легендарная Земля"
+            },
+            {
+                "language": "Chinese Simplified",
+                "name": "夜天神殿尼索斯",
+                "text": "{T}：加{1}到你的法术力池中。\n{2}，{T}：选择一种颜色。加若干该色法术力到你的法术力池中，其数量等同于你的该色献力。（你的某色献力，便是由你操控的所有永久物之法术力费用中，该色法术力符号的总数量。）",
+                "type": "传奇地"
+            },
+            {
+                "language": "Chinese Traditional",
+                "name": "夜天神殿尼索斯",
+                "text": "{T}：加{1}到你的魔法力池中。\n{2}，{T}：選擇一種顏色。加若干該色魔法力到你的魔法力池中，其數量等同於你的該色獻力。（你的某色獻力，便是由你操控的所有永久物之魔法力費用中，該色魔法力符號的總數量。）",
+                "type": "傳奇地"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "84dc18f0-8225-4b40-a165-b10321e41769"
+        },
+        "layout": "normal",
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "pioneer": "Legal",
+            "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Nykthos, Shrine to Nyx",
+        "printings": [
+            "PLIST",
+            "PPRO",
+            "THS"
+        ],
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/7517cf82b5f8de49",
+            "cardKingdomFoil": "https://mtgjson.com/links/3a783d3e5f0b7932",
+            "cardmarket": "https://mtgjson.com/links/567abfbdab0c92ef",
+            "tcgplayer": "https://mtgjson.com/links/2f764a61f92ab967"
+        },
+        "rulings": [
+            {
+                "date": "2013-09-15",
+                "text": "The second ability is a mana ability. It doesn’t use the stack and can’t be responded to."
+            },
+            {
+                "date": "2013-09-15",
+                "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+            },
+            {
+                "date": "2013-09-15",
+                "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+            },
+            {
+                "date": "2013-09-15",
+                "text": "Hybrid mana symbols, monocolored hybrid mana symbols, and Phyrexian mana symbols do count toward your devotion to their color(s)."
+            },
+            {
+                "date": "2013-09-15",
+                "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+            }
+        ],
+        "subtypes": [],
+        "supertypes": [
+            "Legendary"
+        ],
+        "text": "{T}: Add {C}.\n{2}, {T}: Choose a color. Add an amount of mana of that color equal to your devotion to that color. (Your devotion to a color is the number of mana symbols of that color in the mana costs of permanents you control.)",
+        "type": "Legendary Land",
+        "types": [
+            "Land"
+        ]
+    },
+    "Mountain": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [],
+        "convertedManaCost": 0.0,
+        "foreignData": [
+            {
+                "language": "German",
+                "name": "Gebirge",
+                "type": "Standardland — Gebirge"
+            },
+            {
+                "language": "Spanish",
+                "name": "Montaña",
+                "type": "Tierra básica — Montaña"
+            },
+            {
+                "language": "French",
+                "name": "Montagne",
+                "type": "Terrain de base : Montagne"
+            },
+            {
+                "language": "Italian",
+                "name": "Montagna",
+                "type": "Terra Base — Montagna"
+            },
+            {
+                "language": "Japanese",
+                "name": "山"
+            },
+            {
+                "language": "Portuguese (Brazil)",
+                "name": "Montanha",
+                "type": "Terreno Básico — Montanha"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "a3fb7228-e76b-4e96-a40e-20b5fed75685"
+        },
+        "layout": "normal",
+        "legalities": {
+            "alchemy": "Legal",
+            "brawl": "Legal",
+            "commander": "Legal",
+            "duel": "Legal",
+            "explorer": "Legal",
+            "gladiator": "Legal",
+            "historic": "Legal",
+            "historicbrawl": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "pauper": "Legal",
+            "paupercommander": "Legal",
+            "penny": "Legal",
+            "pioneer": "Legal",
+            "premodern": "Legal",
+            "standard": "Legal",
+            "vintage": "Legal"
+        },
+        "manaValue": 0.0,
+        "name": "Mountain",
+        "printings": [
+            "10E",
+            "2ED",
+            "2XM",
+            "30A",
+            "3ED",
+            "40K",
+            "4BB",
+            "4ED",
+            "5ED",
+            "6ED",
+            "7ED",
+            "8ED",
+            "9ED",
+            "AFR",
+            "AKH",
+            "AKR",
+            "ALA",
+            "ANA",
+            "ANB",
+            "ARC",
+            "ARN",
+            "ATH",
+            "AVR",
+            "BBD",
+            "BFZ",
+            "BRB",
+            "BRC",
+            "BRO",
+            "BTD",
+            "C13",
+            "C14",
+            "C15",
+            "C16",
+            "C17",
+            "C18",
+            "C19",
+            "CED",
+            "CEI",
+            "CHK",
+            "CLB",
+            "CM2",
+            "CMA",
+            "CMD",
+            "CMR",
+            "CST",
+            "DD1",
+            "DD2",
+            "DDE",
+            "DDG",
+            "DDH",
+            "DDI",
+            "DDJ",
+            "DDK",
+            "DDL",
+            "DDN",
+            "DDP",
+            "DDS",
+            "DDT",
+            "DDU",
+            "DKM",
+            "DMU",
+            "DOM",
+            "DPA",
+            "DTK",
+            "E01",
+            "ELD",
+            "EVG",
+            "FBB",
+            "FRF",
+            "G17",
+            "GK1",
+            "GK2",
+            "GN2",
+            "GN3",
+            "GNT",
+            "GRN",
+            "GS1",
+            "H09",
+            "HBG",
+            "HOP",
+            "HOU",
+            "ICE",
+            "IKO",
+            "INV",
+            "ISD",
+            "ITP",
+            "J14",
+            "JMP",
+            "JVC",
+            "KHM",
+            "KLD",
+            "KLR",
+            "KTK",
+            "LEA",
+            "LEB",
+            "LRW",
+            "M10",
+            "M11",
+            "M12",
+            "M13",
+            "M14",
+            "M15",
+            "M19",
+            "M20",
+            "M21",
+            "MBS",
+            "ME1",
+            "ME3",
+            "MH2",
+            "MID",
+            "MIR",
+            "MMQ",
+            "MRD",
+            "NEO",
+            "NPH",
+            "ODY",
+            "OLEP",
+            "ONS",
+            "ORI",
+            "P02",
+            "PAL00",
+            "PAL01",
+            "PAL03",
+            "PAL04",
+            "PAL05",
+            "PAL06",
+            "PAL99",
+            "PALP",
+            "PANA",
+            "PARL",
+            "PC2",
+            "PCA",
+            "PD2",
+            "PELP",
+            "PF19",
+            "PF20",
+            "PGPX",
+            "PGRU",
+            "PHED",
+            "PLIST",
+            "PMPS",
+            "PMPS06",
+            "PMPS07",
+            "PMPS08",
+            "PMPS09",
+            "PMPS10",
+            "PMPS11",
+            "POR",
+            "PPP1",
+            "PRM",
+            "PRW2",
+            "PRWK",
+            "PS11",
+            "PSAL",
+            "PSS2",
+            "PSS3",
+            "PTC",
+            "PTK",
+            "PZ2",
+            "RAV",
+            "RIX",
+            "RNA",
+            "ROE",
+            "RQS",
+            "RTR",
+            "S99",
+            "SHM",
+            "SLD",
+            "SNC",
+            "SOI",
+            "SOM",
+            "STX",
+            "SUM",
+            "TD0",
+            "THB",
+            "THS",
+            "TMP",
+            "TPR",
+            "TSP",
+            "UGL",
+            "UND",
+            "UNF",
+            "UNH",
+            "USG",
+            "UST",
+            "VOW",
+            "WAR",
+            "WC00",
+            "WC01",
+            "WC02",
+            "WC03",
+            "WC97",
+            "WC98",
+            "WC99",
+            "XANA",
+            "XLN",
+            "ZEN",
+            "ZNR"
+        ],
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/7d88c93eca6ad598",
+            "cardKingdomFoil": "https://mtgjson.com/links/74a88f147165c6e8",
+            "cardmarket": "https://mtgjson.com/links/e3d97103db64cb17",
+            "tcgplayer": "https://mtgjson.com/links/dfd57bbff59210d5"
+        },
+        "rulings": [],
+        "subtypes": [
+            "Mountain"
+        ],
+        "supertypes": [
+            "Basic"
+        ],
+        "text": "({T}: Add {R}.)",
+        "type": "Basic Land — Mountain",
+        "types": [
+            "Land"
+        ]
+    },
+    "Sarkhan, Fireblood": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 3.0,
+        "edhrecRank": 3524,
+        "foreignData": [
+            {
+                "language": "German",
+                "name": "Sarkhan Feuerblut",
+                "text": "+1: Du kannst eine Karte abwerfen. Falls du dies tust, ziehe eine Karte.\n+1: Erzeuge zwei Mana in einer beliebigen Kombination von Farben. Verwende dieses Mana nur, um Drache-Zaubersprüche zu wirken.\n−7: Erzeuge vier 5/5 rote Drache-Kreaturenspielsteine mit Flugfähigkeit.",
+                "type": "Legendärer Planeswalker — Sarkhan"
+            },
+            {
+                "language": "Spanish",
+                "name": "Sarkhan, sangrefuego",
+                "text": "+1: Puedes descartar una carta. Si lo haces, roba una carta.\n+1: Agrega dos manás de cualquier combinación de colores. Gasta este maná solo para lanzar hechizos de Dragón.\n−7: Crea cuatro fichas de criatura Dragón rojas 5/5 con la habilidad de volar.",
+                "type": "Planeswalker legendario — Sarkhan"
+            },
+            {
+                "language": "French",
+                "name": "Sarkhan, le sang de feu",
+                "text": "+1 : Vous pouvez vous défausser d'une carte. Si vous faites ainsi, piochez une carte.\n+1 : Ajoutez deux manas de la combinaison de mana coloré de votre choix. Ne dépensez ce mana que pour lancer des sorts de dragon.\n-7 : Créez quatre jetons de créature 5/5 rouge Dragon avec le vol.",
+                "type": "Planeswalker légendaire : Sarkhan"
+            },
+            {
+                "language": "Italian",
+                "name": "Sarkhan, Sangue Infuocato",
+                "text": "+1: Puoi scartare una carta. Se lo fai, pesca una carta.\n+1: Aggiungi due mana in qualsiasi combinazione di colori. Spendi questo mana solo per lanciare magie Drago.\n-7: Crea quattro pedine creatura Drago 5/5 rosse con volare.",
+                "type": "Planeswalker Leggendario — Sarkhan"
+            },
+            {
+                "language": "Japanese",
+                "name": "火の血脈、サルカン",
+                "text": "+1：あなたはカード１枚を捨ててもよい。そうしたなら、カードを１枚引く。\n+1：望む色の組み合わせのマナ２点を加える。このマナは、ドラゴン・呪文を唱えるためにのみ使用できる。\n-7：飛行を持つ赤の５/５のドラゴン・クリーチャー・トークンを４体生成する。",
+                "type": "伝説のプレインズウォーカー — サルカン"
+            },
+            {
+                "language": "Korean",
+                "name": "불의 피, 사르칸",
+                "text": "+1: 당신은 카드 한 장을 버릴 수 있다. 그렇게 한다면, 카드 한 장을 뽑는다.\n+1: 원하는 색의 조합으로 마나 두 개를 추가한다. 이 마나는 용 주문을 발동하는 데에만 사용할 수 있다.\n−7: 비행을 가진 5/5 적색 용 생물 토큰 네 개를 만든다.",
+                "type": "전설적 플레인즈워커 — 사르칸"
+            },
+            {
+                "language": "Portuguese (Brazil)",
+                "name": "Sarkhan, Sangue de Fogo",
+                "text": "+1: Você pode descartar um card. Se fizer isso, compre um card.\n+1: Adicione dois manas em qualquer combinação de cores. Gaste este mana somente para conjurar mágicas de Dragão.\n−7: Crie quatro fichas de criatura vermelha 5/5 do tipo Dragão com voar.",
+                "type": "Planeswalker Lendário — Sarkhan"
+            },
+            {
+                "language": "Russian",
+                "name": "Сархан, Огненная Кровь",
+                "text": "+1: вы можете сбросить карту. Если вы это делаете, возьмите карту.\n+1: добавьте две маны в любой комбинации цветов. Тратьте эту ману только на разыгрывание заклинаний Драконов.\n−7: создайте четыре фишки существа 5/5 красный Дракон с Полетом.",
+                "type": "Легендарный Planeswalker — Сархан"
+            },
+            {
+                "language": "Chinese Simplified",
+                "name": "炎血萨坎",
+                "text": "+1：你可以弃一张牌。若你如此作，则抓一张牌。\n+1：加两点法术力，其颜色组合由你选择。此法术力只能用来施放龙咒语。\n−7：派出四个5/5红色，具飞行异能的龙衍生生物。",
+                "type": "传奇鹏洛客 ～萨坎"
+            },
+            {
+                "language": "Chinese Traditional",
+                "name": "炎血薩坎",
+                "text": "+1：你可以棄一張牌。若你如此作，則抽一張牌。\n+1：加兩點魔法力，其顏色組合由你選擇。此魔法力只能用來施放龍咒語。\n-7：派出四個5/5紅色，具飛行異能的龍衍生生物。",
+                "type": "傳奇鵬洛客 ～薩坎"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "074cbe14-a0c8-4772-955a-b4052333d6ce"
+        },
+        "layout": "normal",
+        "leadershipSkills": {
+            "brawl": false,
+            "commander": false,
+            "oathbreaker": true
+        },
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "explorer": "Legal",
+            "gladiator": "Legal",
+            "historic": "Legal",
+            "historicbrawl": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "pioneer": "Legal",
+            "vintage": "Legal"
+        },
+        "loyalty": "3",
+        "manaCost": "{1}{R}{R}",
+        "manaValue": 3.0,
+        "name": "Sarkhan, Fireblood",
+        "printings": [
+            "M19",
+            "PM19"
+        ],
+        "purchaseUrls": {
+            "cardKingdomFoil": "https://mtgjson.com/links/4853516af49a22d2",
+            "tcgplayer": "https://mtgjson.com/links/b01272800dc26a85"
+        },
+        "rulings": [
+            {
+                "date": "2018-07-13",
+                "text": "Because it’s a loyalty ability, Sarkhan’s second ability isn’t a mana ability. It can be activated only any time you could cast a sorcery. It uses the stack and can be responded to."
+            },
+            {
+                "date": "2018-07-13",
+                "text": "A “Dragon spell” refers only to a spell that has the Dragon subtype, regardless of its name. For example, Dragon’s Hoard isn’t a Dragon spell."
+            }
+        ],
+        "subtypes": [
+            "Sarkhan"
+        ],
+        "supertypes": [
+            "Legendary"
+        ],
+        "text": "[+1]: You may discard a card. If you do, draw a card.\n[+1]: Add two mana in any combination of colors. Spend this mana only to cast Dragon spells.\n[−7]: Create four 5/5 red Dragon creature tokens with flying.",
+        "type": "Legendary Planeswalker — Sarkhan",
+        "types": [
+            "Planeswalker"
+        ]
+    },
+    "Sarkhan the Masterless": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 5.0,
+        "edhrecRank": 2737,
+        "foreignData": [
+            {
+                "language": "Japanese",
+                "name": "主無き者、サルカン",
+                "text": "クリーチャーが１体、あなたかあなたがコントロールしているプレインズウォーカーを攻撃するたび、あなたがコントロールしている各ドラゴンはそのクリーチャーに１点のダメージを与える。\n+1：ターン終了時まで、あなたがコントロールしている各プレインズウォーカーは赤の４/４のドラゴン・クリーチャーになり飛行を得る。\n-3：飛行を持つ赤の４/４のドラゴン・クリーチャー・トークンを１体生成する。",
+                "type": "伝説のプレインズウォーカー — サルカン"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "67dbc5dd-6d05-43e7-83f7-70e10eb54807"
+        },
+        "layout": "normal",
+        "leadershipSkills": {
+            "brawl": false,
+            "commander": false,
+            "oathbreaker": true
+        },
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "explorer": "Legal",
+            "gladiator": "Legal",
+            "historic": "Legal",
+            "historicbrawl": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "penny": "Legal",
+            "pioneer": "Legal",
+            "vintage": "Legal"
+        },
+        "loyalty": "5",
+        "manaCost": "{3}{R}{R}",
+        "manaValue": 5.0,
+        "name": "Sarkhan the Masterless",
+        "printings": [
+            "PRM",
+            "PWAR",
+            "SLD",
+            "WAR"
+        ],
+        "purchaseUrls": {},
+        "rulings": [
+            {
+                "date": "2019-05-03",
+                "text": "A planeswalker that becomes a creature due to Sarkhan’s first loyalty ability can’t attack unless you’ve controlled it continuously since your turn began."
+            },
+            {
+                "date": "2019-05-03",
+                "text": "Once Sarkhan’s first loyalty ability has resolved, each planeswalker you control (including Sarkhan) is no longer a planeswalker for the rest of the turn. They don’t lose any loyalty counters or abilities, and you can still activate their loyalty abilities if you haven’t done so yet this turn. They don’t lose loyalty if they’re dealt damage while they’re not planeswalkers."
+            }
+        ],
+        "subtypes": [
+            "Sarkhan"
+        ],
+        "supertypes": [
+            "Legendary"
+        ],
+        "text": "Whenever a creature attacks you or a planeswalker you control, each Dragon you control deals 1 damage to that creature.\n[+1]: Until end of turn, each planeswalker you control becomes a 4/4 red Dragon creature and gains flying.\n[−3]: Create a 4/4 red Dragon creature token with flying.",
+        "type": "Legendary Planeswalker — Sarkhan",
+        "types": [
+            "Planeswalker"
+        ]
+    }
+}
