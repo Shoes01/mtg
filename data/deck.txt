@@ -1,13 +1,12 @@
 4 Slumbering Dragon
 4 Dragon Whisperer
 4 Scourge of Valkas
-3 Leyline Tyrant
-2 Thunderbreak Regent
-4 Avaricious Dragon
-2 Verix Bladewing
-2 Gadrak, the Crown-Scourge
+4 Leyline Tyrant
+4 Verix Bladewing
+4 Shivan Devastator
 4 Dragon Tempest
+2 Quest for Pure Flame
 4 Nykthos, Shrine to Nyx
 20 Mountain
 3 Sarkhan, Fireblood
-4 Sarkhan the Masterless
+3 Chandra, Dressed to Kill

@@ -11,63 +11,63 @@
         "foreignData": [
             {
                 "language": "German",
-                "name": "Dösender Drache",
-                "text": "Fliegend\nDer Dösende Drache kann weder angreifen noch blocken, falls nicht fünf oder mehr +1/+1-Marken auf ihm liegen.\nImmer wenn eine Kreatur dich oder einen Planeswalker, den du kontrollierst, angreift, lege eine +1/+1-Marke auf den Dösenden Drachen.",
-                "type": "Kreatur — Drache"
+                "name": "D\u00f6sender Drache",
+                "text": "Fliegend\nDer D\u00f6sende Drache kann weder angreifen noch blocken, falls nicht f\u00fcnf oder mehr +1/+1-Marken auf ihm liegen.\nImmer wenn eine Kreatur dich oder einen Planeswalker, den du kontrollierst, angreift, lege eine +1/+1-Marke auf den D\u00f6senden Drachen.",
+                "type": "Kreatur \u2014 Drache"
             },
             {
                 "language": "Spanish",
-                "name": "Dragón adormecido",
-                "text": "Vuela.\nEl Dragón adormecido no puede atacar ni bloquear a menos que tenga cinco o más contadores +1/+1 sobre él.\nSiempre que una criatura te ataque a ti o a un planeswalker que controlas, pon un contador +1/+1 sobre el Dragón adormecido.",
-                "type": "Criatura — Dragón"
+                "name": "Drag\u00f3n adormecido",
+                "text": "Vuela.\nEl Drag\u00f3n adormecido no puede atacar ni bloquear a menos que tenga cinco o m\u00e1s contadores +1/+1 sobre \u00e9l.\nSiempre que una criatura te ataque a ti o a un planeswalker que controlas, pon un contador +1/+1 sobre el Drag\u00f3n adormecido.",
+                "type": "Criatura \u2014 Drag\u00f3n"
             },
             {
                 "language": "French",
                 "name": "Dragon endormi",
-                "text": "Vol\nLe Dragon endormi ne peut ni attaquer ni bloquer à moins qu'il n'ait au moins cinq marqueurs +1/+1 sur lui.\nÀ chaque fois qu'une créature vous attaque ou attaque un planeswalker que vous contrôlez, mettez un marqueur +1/+1 sur le Dragon endormi.",
-                "type": "Créature : dragon"
+                "text": "Vol\nLe Dragon endormi ne peut ni attaquer ni bloquer \u00e0 moins qu'il n'ait au moins cinq marqueurs +1/+1 sur lui.\n\u00c0 chaque fois qu'une cr\u00e9ature vous attaque ou attaque un planeswalker que vous contr\u00f4lez, mettez un marqueur +1/+1 sur le Dragon endormi.",
+                "type": "Cr\u00e9ature : dragon"
             },
             {
                 "language": "Italian",
                 "name": "Drago Assopito",
-                "text": "Volare\nIl Drago Assopito non può attaccare o bloccare a meno che non abbia cinque o più segnalini +1/+1.\nOgniqualvolta una creatura attacca te o un planeswalker che controlli, metti un segnalino +1/+1 sul Drago Assopito.",
-                "type": "Creatura — Drago"
+                "text": "Volare\nIl Drago Assopito non pu\u00f2 attaccare o bloccare a meno che non abbia cinque o pi\u00f9 segnalini +1/+1.\nOgniqualvolta una creatura attacca te o un planeswalker che controlli, metti un segnalino +1/+1 sul Drago Assopito.",
+                "type": "Creatura \u2014 Drago"
             },
             {
                 "language": "Japanese",
-                "name": "まどろむドラゴン",
-                "text": "飛行\nまどろむドラゴンは、それの上に５個以上の+１/＋１カウンターが置かれていないかぎり攻撃したりブロックしたりできない。\nいずれかのクリーチャーがあなたかあなたがコントロールするプレインズウォーカーを攻撃するたび、まどろむドラゴンの上に＋１/＋１カウンターを１個置く。",
-                "type": "クリーチャー — ドラゴン"
+                "name": "\u307e\u3069\u308d\u3080\u30c9\u30e9\u30b4\u30f3",
+                "text": "\u98db\u884c\n\u307e\u3069\u308d\u3080\u30c9\u30e9\u30b4\u30f3\u306f\u3001\u305d\u308c\u306e\u4e0a\u306b\uff15\u500b\u4ee5\u4e0a\u306e+\uff11/\uff0b\uff11\u30ab\u30a6\u30f3\u30bf\u30fc\u304c\u7f6e\u304b\u308c\u3066\u3044\u306a\u3044\u304b\u304e\u308a\u653b\u6483\u3057\u305f\u308a\u30d6\u30ed\u30c3\u30af\u3057\u305f\u308a\u3067\u304d\u306a\u3044\u3002\n\u3044\u305a\u308c\u304b\u306e\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\u304c\u3042\u306a\u305f\u304b\u3042\u306a\u305f\u304c\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u3059\u308b\u30d7\u30ec\u30a4\u30f3\u30ba\u30a6\u30a9\u30fc\u30ab\u30fc\u3092\u653b\u6483\u3059\u308b\u305f\u3073\u3001\u307e\u3069\u308d\u3080\u30c9\u30e9\u30b4\u30f3\u306e\u4e0a\u306b\uff0b\uff11/\uff0b\uff11\u30ab\u30a6\u30f3\u30bf\u30fc\u3092\uff11\u500b\u7f6e\u304f\u3002",
+                "type": "\u30af\u30ea\u30fc\u30c1\u30e3\u30fc \u2014 \u30c9\u30e9\u30b4\u30f3"
             },
             {
                 "language": "Korean",
-                "name": "잠자는 용",
-                "text": "비행\n잠자는 용은 +1/+1 카운터를 다섯 개 이상 가지고 있어야만 공격하거나 방어할 수 있다.\n생물이 당신 또는 당신이 조종하는 플레인즈워커를 공격할 때마다, 잠자는 용에 +1/+1 카운터 한 개를 올려놓는다.",
-                "type": "생물 — 용"
+                "name": "\uc7a0\uc790\ub294 \uc6a9",
+                "text": "\ube44\ud589\n\uc7a0\uc790\ub294 \uc6a9\uc740 +1/+1 \uce74\uc6b4\ud130\ub97c \ub2e4\uc12f \uac1c \uc774\uc0c1 \uac00\uc9c0\uace0 \uc788\uc5b4\uc57c\ub9cc \uacf5\uaca9\ud558\uac70\ub098 \ubc29\uc5b4\ud560 \uc218 \uc788\ub2e4.\n\uc0dd\ubb3c\uc774 \ub2f9\uc2e0 \ub610\ub294 \ub2f9\uc2e0\uc774 \uc870\uc885\ud558\ub294 \ud50c\ub808\uc778\uc988\uc6cc\ucee4\ub97c \uacf5\uaca9\ud560 \ub54c\ub9c8\ub2e4, \uc7a0\uc790\ub294 \uc6a9\uc5d0 +1/+1 \uce74\uc6b4\ud130 \ud55c \uac1c\ub97c \uc62c\ub824\ub193\ub294\ub2e4.",
+                "type": "\uc0dd\ubb3c \u2014 \uc6a9"
             },
             {
                 "language": "Portuguese (Brazil)",
-                "name": "Dragão Adormecido",
-                "text": "Voar\nDragão Adormecido não pode atacar ou bloquear a menos que tenha cinco ou mais marcadores +1/+1 sobre ele.\nToda vez que uma criatura atacar você ou um planeswalker que você controla, coloque um marcador +1/+1 sobre Dragão Adormecido.",
-                "type": "Criatura — Dragão"
+                "name": "Drag\u00e3o Adormecido",
+                "text": "Voar\nDrag\u00e3o Adormecido n\u00e3o pode atacar ou bloquear a menos que tenha cinco ou mais marcadores +1/+1 sobre ele.\nToda vez que uma criatura atacar voc\u00ea ou um planeswalker que voc\u00ea controla, coloque um marcador +1/+1 sobre Drag\u00e3o Adormecido.",
+                "type": "Criatura \u2014 Drag\u00e3o"
             },
             {
                 "language": "Russian",
-                "name": "Дремлющий Дракон",
-                "text": "Полет\nДремлющий Дракон не может атаковать или блокировать, если только на нем нет пяти или больше жетонов +1/+1.\nКаждый раз, когда существо атакует вас или planeswalker-а под вашим контролем, положите один жетон +1/+1 на Дремлющего Дракона.",
-                "type": "Существо — Дракон"
+                "name": "\u0414\u0440\u0435\u043c\u043b\u044e\u0449\u0438\u0439 \u0414\u0440\u0430\u043a\u043e\u043d",
+                "text": "\u041f\u043e\u043b\u0435\u0442\n\u0414\u0440\u0435\u043c\u043b\u044e\u0449\u0438\u0439 \u0414\u0440\u0430\u043a\u043e\u043d \u043d\u0435 \u043c\u043e\u0436\u0435\u0442 \u0430\u0442\u0430\u043a\u043e\u0432\u0430\u0442\u044c \u0438\u043b\u0438 \u0431\u043b\u043e\u043a\u0438\u0440\u043e\u0432\u0430\u0442\u044c, \u0435\u0441\u043b\u0438 \u0442\u043e\u043b\u044c\u043a\u043e \u043d\u0430 \u043d\u0435\u043c \u043d\u0435\u0442 \u043f\u044f\u0442\u0438 \u0438\u043b\u0438 \u0431\u043e\u043b\u044c\u0448\u0435 \u0436\u0435\u0442\u043e\u043d\u043e\u0432 +1/+1.\n\u041a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u0430\u0442\u0430\u043a\u0443\u0435\u0442 \u0432\u0430\u0441 \u0438\u043b\u0438 planeswalker-\u0430 \u043f\u043e\u0434 \u0432\u0430\u0448\u0438\u043c \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0435\u043c, \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435 \u043e\u0434\u0438\u043d \u0436\u0435\u0442\u043e\u043d +1/+1 \u043d\u0430 \u0414\u0440\u0435\u043c\u043b\u044e\u0449\u0435\u0433\u043e \u0414\u0440\u0430\u043a\u043e\u043d\u0430.",
+                "type": "\u0421\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u2014 \u0414\u0440\u0430\u043a\u043e\u043d"
             },
             {
                 "language": "Chinese Simplified",
-                "name": "静眠巨龙",
-                "text": "飞行\n除非静眠巨龙上有五个或更多+1/+1指示物，否则它不能进行攻击或阻挡。\n每当一个生物攻击你或由你操控的某个鹏洛客时，在静眠巨龙上放置一个+1/+1指示物。",
-                "type": "生物～龙"
+                "name": "\u9759\u7720\u5de8\u9f99",
+                "text": "\u98de\u884c\n\u9664\u975e\u9759\u7720\u5de8\u9f99\u4e0a\u6709\u4e94\u4e2a\u6216\u66f4\u591a+1/+1\u6307\u793a\u7269\uff0c\u5426\u5219\u5b83\u4e0d\u80fd\u8fdb\u884c\u653b\u51fb\u6216\u963b\u6321\u3002\n\u6bcf\u5f53\u4e00\u4e2a\u751f\u7269\u653b\u51fb\u4f60\u6216\u7531\u4f60\u64cd\u63a7\u7684\u67d0\u4e2a\u9e4f\u6d1b\u5ba2\u65f6\uff0c\u5728\u9759\u7720\u5de8\u9f99\u4e0a\u653e\u7f6e\u4e00\u4e2a+1/+1\u6307\u793a\u7269\u3002",
+                "type": "\u751f\u7269\uff5e\u9f99"
             },
             {
                 "language": "Chinese Traditional",
-                "name": "靜眠巨龍",
-                "text": "飛行\n除非靜眠巨龍上有五個或更多+1/+1指示物，否則它不能進行攻擊或阻擋。\n每當一個生物攻擊你或由你操控的某個鵬洛客時，在靜眠巨龍上放置一個+1/+1指示物。",
-                "type": "生物～龍"
+                "name": "\u975c\u7720\u5de8\u9f8d",
+                "text": "\u98db\u884c\n\u9664\u975e\u975c\u7720\u5de8\u9f8d\u4e0a\u6709\u4e94\u500b\u6216\u66f4\u591a+1/+1\u6307\u793a\u7269\uff0c\u5426\u5247\u5b83\u4e0d\u80fd\u9032\u884c\u653b\u64ca\u6216\u963b\u64cb\u3002\n\u6bcf\u7576\u4e00\u500b\u751f\u7269\u653b\u64ca\u4f60\u6216\u7531\u4f60\u64cd\u63a7\u7684\u67d0\u500b\u9d6c\u6d1b\u5ba2\u6642\uff0c\u5728\u975c\u7720\u5de8\u9f8d\u4e0a\u653e\u7f6e\u4e00\u500b+1/+1\u6307\u793a\u7269\u3002",
+                "type": "\u751f\u7269\uff5e\u9f8d"
             }
         ],
         "identifiers": {
@@ -101,15 +101,15 @@
         "rulings": [
             {
                 "date": "2012-07-01",
-                "text": "Slumbering Dragon’s second ability counts all +1/+1 counters on it, not just the ones added by its third ability."
+                "text": "Slumbering Dragon\u2019s second ability counts all +1/+1 counters on it, not just the ones added by its third ability."
             },
             {
                 "date": "2012-07-01",
-                "text": "The +1/+1 counter is put on Slumbering Dragon before blockers are declared. This may allow Slumbering Dragon to “wake up” and block the creature that attacked and caused its ability to trigger."
+                "text": "The +1/+1 counter is put on Slumbering Dragon before blockers are declared. This may allow Slumbering Dragon to \u201cwake up\u201d and block the creature that attacked and caused its ability to trigger."
             },
             {
                 "date": "2012-07-01",
-                "text": "Slumbering Dragon’s third ability will trigger once for each creature that attacks you or a planeswalker you control."
+                "text": "Slumbering Dragon\u2019s third ability will trigger once for each creature that attacks you or a planeswalker you control."
             }
         ],
         "subtypes": [
@@ -118,7 +118,7 @@
         "supertypes": [],
         "text": "Flying\nSlumbering Dragon can't attack or block unless it has five or more +1/+1 counters on it.\nWhenever a creature attacks you or a planeswalker you control, put a +1/+1 counter on Slumbering Dragon.",
         "toughness": "3",
-        "type": "Creature — Dragon",
+        "type": "Creature \u2014 Dragon",
         "types": [
             "Creature"
         ]
@@ -135,63 +135,63 @@
         "foreignData": [
             {
                 "language": "German",
-                "name": "Drachenflüsterin",
-                "text": "{R}: Die Drachenflüsterin erhält Flugfähigkeit bis zum Ende des Zuges.\n{1}{R}: Die Drachenflüsterin erhält +1/+0 bis zum Ende des Zuges.\nGewaltig — {4}{R}{R}: Bringe einen 4/4 roten Drache-Kreaturenspielstein mit Flugfähigkeit ins Spiel. Aktiviere diese Fähigkeit nur, falls die Kreaturen, die du kontrollierst, eine Gesamtstärke von 8 oder mehr haben.",
-                "type": "Kreatur — Mensch, Schamane"
+                "name": "Drachenfl\u00fcsterin",
+                "text": "{R}: Die Drachenfl\u00fcsterin erh\u00e4lt Flugf\u00e4higkeit bis zum Ende des Zuges.\n{1}{R}: Die Drachenfl\u00fcsterin erh\u00e4lt +1/+0 bis zum Ende des Zuges.\nGewaltig \u2014 {4}{R}{R}: Bringe einen 4/4 roten Drache-Kreaturenspielstein mit Flugf\u00e4higkeit ins Spiel. Aktiviere diese F\u00e4higkeit nur, falls die Kreaturen, die du kontrollierst, eine Gesamtst\u00e4rke von 8 oder mehr haben.",
+                "type": "Kreatur \u2014 Mensch, Schamane"
             },
             {
                 "language": "Spanish",
                 "name": "Susurradragones",
-                "text": "{R}: La Susurradragones gana la habilidad de volar hasta el final del turno.\n{1}{R}: La Susurradragones obtiene +1/+0 hasta el final del turno.\nFormidable — {4}{R}{R}: Pon en el campo de batalla una ficha de criatura Dragón roja 4/4 con la habilidad de volar. Activa esta habilidad solo si las criaturas que controlas tienen una fuerza total de 8 o más.",
-                "type": "Criatura — Chamán humano"
+                "text": "{R}: La Susurradragones gana la habilidad de volar hasta el final del turno.\n{1}{R}: La Susurradragones obtiene +1/+0 hasta el final del turno.\nFormidable \u2014 {4}{R}{R}: Pon en el campo de batalla una ficha de criatura Drag\u00f3n roja 4/4 con la habilidad de volar. Activa esta habilidad solo si las criaturas que controlas tienen una fuerza total de 8 o m\u00e1s.",
+                "type": "Criatura \u2014 Cham\u00e1n humano"
             },
             {
                 "language": "French",
                 "name": "Chuchoteuse aux dragons",
-                "text": "{R} : La Chuchoteuse aux dragons acquiert le vol jusqu'à la fin du tour.\n{1}{R} : La Chuchoteuse aux dragons gagne +1/+0 jusqu'à la fin du tour.\nRedoutable — {4}{R}{R} : Mettez sur le champ de bataille un jeton de créature 4/4 rouge Dragon avec le vol. N'activez cette capacité que si les créatures que vous contrôlez ont une force totale supérieure ou égale à 8.",
-                "type": "Créature : humain et shamane"
+                "text": "{R} : La Chuchoteuse aux dragons acquiert le vol jusqu'\u00e0 la fin du tour.\n{1}{R} : La Chuchoteuse aux dragons gagne +1/+0 jusqu'\u00e0 la fin du tour.\nRedoutable \u2014 {4}{R}{R} : Mettez sur le champ de bataille un jeton de cr\u00e9ature 4/4 rouge Dragon avec le vol. N'activez cette capacit\u00e9 que si les cr\u00e9atures que vous contr\u00f4lez ont une force totale sup\u00e9rieure ou \u00e9gale \u00e0 8.",
+                "type": "Cr\u00e9ature : humain et shamane"
             },
             {
                 "language": "Italian",
                 "name": "Sussurratrice Draconica",
-                "text": "{R}: La Sussurratrice Draconica ha volare fino alla fine del turno.\n{1}{R}: La Sussurratrice Draconica prende +1/+0 fino alla fine del turno.\nFormidabile — {4}{R}{R}: Metti sul campo di battaglia una pedina creatura Drago 4/4 rossa con volare. Attiva questa abilità solo se le creature che controlli hanno una forza totale pari o superiore a 8.",
-                "type": "Creatura — Sciamano Umano"
+                "text": "{R}: La Sussurratrice Draconica ha volare fino alla fine del turno.\n{1}{R}: La Sussurratrice Draconica prende +1/+0 fino alla fine del turno.\nFormidabile \u2014 {4}{R}{R}: Metti sul campo di battaglia una pedina creatura Drago 4/4 rossa con volare. Attiva questa abilit\u00e0 solo se le creature che controlli hanno una forza totale pari o superiore a 8.",
+                "type": "Creatura \u2014 Sciamano Umano"
             },
             {
                 "language": "Japanese",
-                "name": "龍を操る者",
-                "text": "{R}：ターン終了時まで、龍を操る者は飛行を得る。\n{1}{R}：ターン終了時まで、龍を操る者は＋１/＋０の修整を受ける。\n圧倒 ― {4}{R}{R}：飛行を持つ赤の４/４のドラゴン・クリーチャー・トークンを１体戦場に出す。この能力は、あなたがコントロールするクリーチャーのパワーの合計が８以上であるときにのみ起動できる。",
-                "type": "クリーチャー — 人間・シャーマン"
+                "name": "\u9f8d\u3092\u64cd\u308b\u8005",
+                "text": "{R}\uff1a\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u9f8d\u3092\u64cd\u308b\u8005\u306f\u98db\u884c\u3092\u5f97\u308b\u3002\n{1}{R}\uff1a\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u9f8d\u3092\u64cd\u308b\u8005\u306f\uff0b\uff11/\uff0b\uff10\u306e\u4fee\u6574\u3092\u53d7\u3051\u308b\u3002\n\u5727\u5012 \u2015 {4}{R}{R}\uff1a\u98db\u884c\u3092\u6301\u3064\u8d64\u306e\uff14/\uff14\u306e\u30c9\u30e9\u30b4\u30f3\u30fb\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\u30fb\u30c8\u30fc\u30af\u30f3\u3092\uff11\u4f53\u6226\u5834\u306b\u51fa\u3059\u3002\u3053\u306e\u80fd\u529b\u306f\u3001\u3042\u306a\u305f\u304c\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u3059\u308b\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\u306e\u30d1\u30ef\u30fc\u306e\u5408\u8a08\u304c\uff18\u4ee5\u4e0a\u3067\u3042\u308b\u3068\u304d\u306b\u306e\u307f\u8d77\u52d5\u3067\u304d\u308b\u3002",
+                "type": "\u30af\u30ea\u30fc\u30c1\u30e3\u30fc \u2014 \u4eba\u9593\u30fb\u30b7\u30e3\u30fc\u30de\u30f3"
             },
             {
                 "language": "Korean",
-                "name": "속삭이는 용언술사",
-                "text": "{R}: 속삭이는 용언술사는 턴종료까지 비행을 얻는다.\n{1}{R}: 속삭이는 용언술사는 턴종료까지 +1/+0을 받는다.\n강대 — {4}{R}{R}: 비행을 가진 4/4 적색 용 생물 토큰 한 개를 전장에 놓는다. 당신이 조종하는 생물들의 공격력 총합이 8 이상인 경우에만 이 능력을 활성화한다.",
-                "type": "생물 — 인간 주술사"
+                "name": "\uc18d\uc0ad\uc774\ub294 \uc6a9\uc5b8\uc220\uc0ac",
+                "text": "{R}: \uc18d\uc0ad\uc774\ub294 \uc6a9\uc5b8\uc220\uc0ac\ub294 \ud134\uc885\ub8cc\uae4c\uc9c0 \ube44\ud589\uc744 \uc5bb\ub294\ub2e4.\n{1}{R}: \uc18d\uc0ad\uc774\ub294 \uc6a9\uc5b8\uc220\uc0ac\ub294 \ud134\uc885\ub8cc\uae4c\uc9c0 +1/+0\uc744 \ubc1b\ub294\ub2e4.\n\uac15\ub300 \u2014 {4}{R}{R}: \ube44\ud589\uc744 \uac00\uc9c4 4/4 \uc801\uc0c9 \uc6a9 \uc0dd\ubb3c \ud1a0\ud070 \ud55c \uac1c\ub97c \uc804\uc7a5\uc5d0 \ub193\ub294\ub2e4. \ub2f9\uc2e0\uc774 \uc870\uc885\ud558\ub294 \uc0dd\ubb3c\ub4e4\uc758 \uacf5\uaca9\ub825 \ucd1d\ud569\uc774 8 \uc774\uc0c1\uc778 \uacbd\uc6b0\uc5d0\ub9cc \uc774 \ub2a5\ub825\uc744 \ud65c\uc131\ud654\ud55c\ub2e4.",
+                "type": "\uc0dd\ubb3c \u2014 \uc778\uac04 \uc8fc\uc220\uc0ac"
             },
             {
                 "language": "Portuguese (Brazil)",
-                "name": "Encantadora de Dragões",
-                "text": "{R}: Encantadora de Dragões ganha voar até o final do turno.\n{1}{R}: Encantadora de Dragões recebe +1/+0 até o final do turno.\nFormidável — {4}{R}{R}: Coloque no campo de batalha uma ficha de criatura vermelha 4/4 do tipo Dragão com voar. Ative esta habilidade somente se as criaturas que você controla tiverem um total de poder igual ou superior a 8.",
-                "type": "Criatura — Humano Xamã"
+                "name": "Encantadora de Drag\u00f5es",
+                "text": "{R}: Encantadora de Drag\u00f5es ganha voar at\u00e9 o final do turno.\n{1}{R}: Encantadora de Drag\u00f5es recebe +1/+0 at\u00e9 o final do turno.\nFormid\u00e1vel \u2014 {4}{R}{R}: Coloque no campo de batalha uma ficha de criatura vermelha 4/4 do tipo Drag\u00e3o com voar. Ative esta habilidade somente se as criaturas que voc\u00ea controla tiverem um total de poder igual ou superior a 8.",
+                "type": "Criatura \u2014 Humano Xam\u00e3"
             },
             {
                 "language": "Russian",
-                "name": "Слышащая Драконов",
-                "text": "{R}: Слышащая Драконов получает Полет до конца хода.\n{1}{R}: Слышащая Драконов получает +1/+0 до конца хода.\nВнушительность — {4}{R}{R}: положите на поле битвы одну фишку существа 4/4 красный Дракон с Полетом. Активируйте эту способность, только если сумма значений силы существ под вашим контролем равна 8 или больше.",
-                "type": "Существо — Человек Шаман"
+                "name": "\u0421\u043b\u044b\u0448\u0430\u0449\u0430\u044f \u0414\u0440\u0430\u043a\u043e\u043d\u043e\u0432",
+                "text": "{R}: \u0421\u043b\u044b\u0448\u0430\u0449\u0430\u044f \u0414\u0440\u0430\u043a\u043e\u043d\u043e\u0432 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 \u041f\u043e\u043b\u0435\u0442 \u0434\u043e \u043a\u043e\u043d\u0446\u0430 \u0445\u043e\u0434\u0430.\n{1}{R}: \u0421\u043b\u044b\u0448\u0430\u0449\u0430\u044f \u0414\u0440\u0430\u043a\u043e\u043d\u043e\u0432 \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442 +1/+0 \u0434\u043e \u043a\u043e\u043d\u0446\u0430 \u0445\u043e\u0434\u0430.\n\u0412\u043d\u0443\u0448\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0441\u0442\u044c \u2014 {4}{R}{R}: \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u0435 \u043d\u0430 \u043f\u043e\u043b\u0435 \u0431\u0438\u0442\u0432\u044b \u043e\u0434\u043d\u0443 \u0444\u0438\u0448\u043a\u0443 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430 4/4 \u043a\u0440\u0430\u0441\u043d\u044b\u0439 \u0414\u0440\u0430\u043a\u043e\u043d \u0441 \u041f\u043e\u043b\u0435\u0442\u043e\u043c. \u0410\u043a\u0442\u0438\u0432\u0438\u0440\u0443\u0439\u0442\u0435 \u044d\u0442\u0443 \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c, \u0442\u043e\u043b\u044c\u043a\u043e \u0435\u0441\u043b\u0438 \u0441\u0443\u043c\u043c\u0430 \u0437\u043d\u0430\u0447\u0435\u043d\u0438\u0439 \u0441\u0438\u043b\u044b \u0441\u0443\u0449\u0435\u0441\u0442\u0432 \u043f\u043e\u0434 \u0432\u0430\u0448\u0438\u043c \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0435\u043c \u0440\u0430\u0432\u043d\u0430 8 \u0438\u043b\u0438 \u0431\u043e\u043b\u044c\u0448\u0435.",
+                "type": "\u0421\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u2014 \u0427\u0435\u043b\u043e\u0432\u0435\u043a \u0428\u0430\u043c\u0430\u043d"
             },
             {
                 "language": "Chinese Simplified",
-                "name": "巨龙传谕",
-                "text": "{R}：巨龙传谕获得飞行异能直到回合结束。\n{1}{R}：巨龙传谕得+1/+0直到回合结束。\n强横～{4}{R}{R}：将一个4/4红色，具飞行异能的龙衍生生物放进战场。只能于由你操控之生物的力量总和等于或大于8时起动此异能。",
-                "type": "生物～人类／祭师"
+                "name": "\u5de8\u9f99\u4f20\u8c15",
+                "text": "{R}\uff1a\u5de8\u9f99\u4f20\u8c15\u83b7\u5f97\u98de\u884c\u5f02\u80fd\u76f4\u5230\u56de\u5408\u7ed3\u675f\u3002\n{1}{R}\uff1a\u5de8\u9f99\u4f20\u8c15\u5f97+1/+0\u76f4\u5230\u56de\u5408\u7ed3\u675f\u3002\n\u5f3a\u6a2a\uff5e{4}{R}{R}\uff1a\u5c06\u4e00\u4e2a4/4\u7ea2\u8272\uff0c\u5177\u98de\u884c\u5f02\u80fd\u7684\u9f99\u884d\u751f\u751f\u7269\u653e\u8fdb\u6218\u573a\u3002\u53ea\u80fd\u4e8e\u7531\u4f60\u64cd\u63a7\u4e4b\u751f\u7269\u7684\u529b\u91cf\u603b\u548c\u7b49\u4e8e\u6216\u5927\u4e8e8\u65f6\u8d77\u52a8\u6b64\u5f02\u80fd\u3002",
+                "type": "\u751f\u7269\uff5e\u4eba\u7c7b\uff0f\u796d\u5e08"
             },
             {
                 "language": "Chinese Traditional",
-                "name": "巨龍傳諭",
-                "text": "{R}：巨龍傳諭獲得飛行異能直到回合結束。\n{1}{R}：巨龍傳諭得+1/+0直到回合結束。\n強橫～{4}{R}{R}：將一個4/4紅色，具飛行異能的龍衍生生物放進戰場。只能於由你操控之生物的力量總和等於或大於8時起動此異能。",
-                "type": "生物～人類／祭師"
+                "name": "\u5de8\u9f8d\u50b3\u8aed",
+                "text": "{R}\uff1a\u5de8\u9f8d\u50b3\u8aed\u7372\u5f97\u98db\u884c\u7570\u80fd\u76f4\u5230\u56de\u5408\u7d50\u675f\u3002\n{1}{R}\uff1a\u5de8\u9f8d\u50b3\u8aed\u5f97+1/+0\u76f4\u5230\u56de\u5408\u7d50\u675f\u3002\n\u5f37\u6a6b\uff5e{4}{R}{R}\uff1a\u5c07\u4e00\u500b4/4\u7d05\u8272\uff0c\u5177\u98db\u884c\u7570\u80fd\u7684\u9f8d\u884d\u751f\u751f\u7269\u653e\u9032\u6230\u5834\u3002\u53ea\u80fd\u65bc\u7531\u4f60\u64cd\u63a7\u4e4b\u751f\u7269\u7684\u529b\u91cf\u7e3d\u548c\u7b49\u65bc\u6216\u5927\u65bc8\u6642\u8d77\u52d5\u6b64\u7570\u80fd\u3002",
+                "type": "\u751f\u7269\uff5e\u4eba\u985e\uff0f\u796d\u5e2b"
             }
         ],
         "identifiers": {
@@ -230,11 +230,11 @@
             },
             {
                 "date": "2015-02-25",
-                "text": "Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn’t matter what happens to the total power of creatures you control."
+                "text": "Some formidable abilities are activated abilities that require creatures you control to have total power 8 or greater. Once you activate these abilities, it doesn\u2019t matter what happens to the total power of creatures you control."
             },
             {
                 "date": "2015-02-25",
-                "text": "Other formidable abilities are triggered abilities with an “intervening ‘if’” clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect."
+                "text": "Other formidable abilities are triggered abilities with an \u201cintervening \u2018if\u2019\u201d clause. Such abilities check the total power of creatures you control twice: once at the appropriate time to see if the ability will trigger, and again as the ability tries to resolve. If, at that time, the total power of creatures you control is no longer 8 or greater, the ability will have no effect."
             }
         ],
         "subtypes": [
@@ -242,9 +242,9 @@
             "Shaman"
         ],
         "supertypes": [],
-        "text": "{R}: Dragon Whisperer gains flying until end of turn.\n{1}{R}: Dragon Whisperer gets +1/+0 until end of turn.\nFormidable — {4}{R}{R}: Create a 4/4 red Dragon creature token with flying. Activate only if creatures you control have total power 8 or greater.",
+        "text": "{R}: Dragon Whisperer gains flying until end of turn.\n{1}{R}: Dragon Whisperer gets +1/+0 until end of turn.\nFormidable \u2014 {4}{R}{R}: Create a 4/4 red Dragon creature token with flying. Activate only if creatures you control have total power 8 or greater.",
         "toughness": "2",
-        "type": "Creature — Human Shaman",
+        "type": "Creature \u2014 Human Shaman",
         "types": [
             "Creature"
         ]
@@ -261,15 +261,15 @@
         "foreignData": [
             {
                 "language": "Japanese",
-                "name": "ヴァルカスの災い魔",
-                "text": "飛行\nヴァルカスの災い魔か他のドラゴンが１体あなたのコントロール下で戦場に出るたび、クリーチャー１体かプレイヤー１人を対象とする。その戦場に出たクリーチャーは、それにＸ点のダメージを与える。Ｘはあなたがコントロールしているドラゴンの総数に等しい。\n{R}：ターン終了時まで、ヴァルカスの災い魔は＋１/＋０の修整を受ける。",
-                "type": "クリーチャー — ドラゴン"
+                "name": "\u30f4\u30a1\u30eb\u30ab\u30b9\u306e\u707d\u3044\u9b54",
+                "text": "\u98db\u884c\n\u30f4\u30a1\u30eb\u30ab\u30b9\u306e\u707d\u3044\u9b54\u304b\u4ed6\u306e\u30c9\u30e9\u30b4\u30f3\u304c\uff11\u4f53\u3042\u306a\u305f\u306e\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u4e0b\u3067\u6226\u5834\u306b\u51fa\u308b\u305f\u3073\u3001\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\uff11\u4f53\u304b\u30d7\u30ec\u30a4\u30e4\u30fc\uff11\u4eba\u3092\u5bfe\u8c61\u3068\u3059\u308b\u3002\u305d\u306e\u6226\u5834\u306b\u51fa\u305f\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\u306f\u3001\u305d\u308c\u306b\uff38\u70b9\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002\uff38\u306f\u3042\u306a\u305f\u304c\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u3057\u3066\u3044\u308b\u30c9\u30e9\u30b4\u30f3\u306e\u7dcf\u6570\u306b\u7b49\u3057\u3044\u3002\n{R}\uff1a\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u30f4\u30a1\u30eb\u30ab\u30b9\u306e\u707d\u3044\u9b54\u306f\uff0b\uff11/\uff0b\uff10\u306e\u4fee\u6574\u3092\u53d7\u3051\u308b\u3002",
+                "type": "\u30af\u30ea\u30fc\u30c1\u30e3\u30fc \u2014 \u30c9\u30e9\u30b4\u30f3"
             },
             {
                 "language": "Chinese Simplified",
-                "name": "伐卡兹祸害",
-                "text": "飞行\n每当伐卡兹祸害或另一个龙在你的操控下进战场时，它对目标生物或牌手造成X点伤害，X为由你操控的龙数量。\n{R}：伐卡兹祸害得+1/+0直到回合结束。",
-                "type": "生物～龙"
+                "name": "\u4f10\u5361\u5179\u7978\u5bb3",
+                "text": "\u98de\u884c\n\u6bcf\u5f53\u4f10\u5361\u5179\u7978\u5bb3\u6216\u53e6\u4e00\u4e2a\u9f99\u5728\u4f60\u7684\u64cd\u63a7\u4e0b\u8fdb\u6218\u573a\u65f6\uff0c\u5b83\u5bf9\u76ee\u6807\u751f\u7269\u6216\u724c\u624b\u9020\u6210X\u70b9\u4f24\u5bb3\uff0cX\u4e3a\u7531\u4f60\u64cd\u63a7\u7684\u9f99\u6570\u91cf\u3002\n{R}\uff1a\u4f10\u5361\u5179\u7978\u5bb3\u5f97+1/+0\u76f4\u5230\u56de\u5408\u7ed3\u675f\u3002",
+                "type": "\u751f\u7269\uff5e\u9f99"
             }
         ],
         "identifiers": {
@@ -318,7 +318,7 @@
         "supertypes": [],
         "text": "Flying\nWhenever Scourge of Valkas or another Dragon enters the battlefield under your control, it deals X damage to any target, where X is the number of Dragons you control.\n{R}: Scourge of Valkas gets +1/+0 until end of turn.",
         "toughness": "4",
-        "type": "Creature — Dragon",
+        "type": "Creature \u2014 Dragon",
         "types": [
             "Creature"
         ]
@@ -336,20 +336,20 @@
             {
                 "language": "German",
                 "name": "Tyrann der Ley-Linien",
-                "text": "Fliegend\nDu behältst unverbrauchtes rotes Mana, sowie Segmente und Phasen enden.\nWenn der Tyrann der Ley-Linien stirbt, kannst du eine beliebige Menge {R} bezahlen. Wenn du dies tust, fügt er einem Ziel deiner Wahl entsprechend viele Schadenspunkte zu.",
-                "type": "Kreatur — Drache"
+                "text": "Fliegend\nDu beh\u00e4ltst unverbrauchtes rotes Mana, sowie Segmente und Phasen enden.\nWenn der Tyrann der Ley-Linien stirbt, kannst du eine beliebige Menge {R} bezahlen. Wenn du dies tust, f\u00fcgt er einem Ziel deiner Wahl entsprechend viele Schadenspunkte zu.",
+                "type": "Kreatur \u2014 Drache"
             },
             {
                 "language": "French",
                 "name": "Tyran des lignes ley",
-                "text": "Vol\nVous ne perdez pas le mana rouge non dépensé au moment où les étapes et les phases se terminent.\nQuand le Tyran des lignes ley meurt, vous pouvez payer la quantité de {R} de votre choix. Quand vous faites ainsi, il inflige autant de blessures à n'importe quelle cible.",
-                "type": "Créature : dragon"
+                "text": "Vol\nVous ne perdez pas le mana rouge non d\u00e9pens\u00e9 au moment o\u00f9 les \u00e9tapes et les phases se terminent.\nQuand le Tyran des lignes ley meurt, vous pouvez payer la quantit\u00e9 de {R} de votre choix. Quand vous faites ainsi, il inflige autant de blessures \u00e0 n'importe quelle cible.",
+                "type": "Cr\u00e9ature : dragon"
             },
             {
                 "language": "Japanese",
-                "name": "力線の暴君",
-                "text": "飛行\nあなたの未消費の赤マナは、ステップやフェイズの終了に際して無くならない。\n力線の暴君が死亡したとき、あなたは望む数の{R}を支払ってもよい。そうしたとき、クリーチャー１体かプレインズウォーカー１体かプレイヤー１人を対象とする。これはそれに、その量に等しい点数のダメージを与える。",
-                "type": "クリーチャー — ドラゴン"
+                "name": "\u529b\u7dda\u306e\u66b4\u541b",
+                "text": "\u98db\u884c\n\u3042\u306a\u305f\u306e\u672a\u6d88\u8cbb\u306e\u8d64\u30de\u30ca\u306f\u3001\u30b9\u30c6\u30c3\u30d7\u3084\u30d5\u30a7\u30a4\u30ba\u306e\u7d42\u4e86\u306b\u969b\u3057\u3066\u7121\u304f\u306a\u3089\u306a\u3044\u3002\n\u529b\u7dda\u306e\u66b4\u541b\u304c\u6b7b\u4ea1\u3057\u305f\u3068\u304d\u3001\u3042\u306a\u305f\u306f\u671b\u3080\u6570\u306e{R}\u3092\u652f\u6255\u3063\u3066\u3082\u3088\u3044\u3002\u305d\u3046\u3057\u305f\u3068\u304d\u3001\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\uff11\u4f53\u304b\u30d7\u30ec\u30a4\u30f3\u30ba\u30a6\u30a9\u30fc\u30ab\u30fc\uff11\u4f53\u304b\u30d7\u30ec\u30a4\u30e4\u30fc\uff11\u4eba\u3092\u5bfe\u8c61\u3068\u3059\u308b\u3002\u3053\u308c\u306f\u305d\u308c\u306b\u3001\u305d\u306e\u91cf\u306b\u7b49\u3057\u3044\u70b9\u6570\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002",
+                "type": "\u30af\u30ea\u30fc\u30c1\u30e3\u30fc \u2014 \u30c9\u30e9\u30b4\u30f3"
             }
         ],
         "identifiers": {
@@ -389,7 +389,7 @@
         "rulings": [
             {
                 "date": "2020-09-25",
-                "text": "If a red mana you add to your mana pool has certain restrictions or riders associated with it (for example, if it was produced by Base Camp), they’ll apply to that mana no matter when you spend it."
+                "text": "If a red mana you add to your mana pool has certain restrictions or riders associated with it (for example, if it was produced by Base Camp), they\u2019ll apply to that mana no matter when you spend it."
             },
             {
                 "date": "2020-09-25",
@@ -401,7 +401,7 @@
             },
             {
                 "date": "2020-09-25",
-                "text": "Leyline Tyrant’s last ability goes on the stack without a target. While that ability is resolving, you may pay any amount of red mana, including from the unspent mana you have. If you do, a second ability triggers and you pick one target to be dealt that much damage. This is different from abilities that say “If you do . . .” in that players may cast spells and activate abilities after mana is paid but before the damage is dealt."
+                "text": "Leyline Tyrant\u2019s last ability goes on the stack without a target. While that ability is resolving, you may pay any amount of red mana, including from the unspent mana you have. If you do, a second ability triggers and you pick one target to be dealt that much damage. This is different from abilities that say \u201cIf you do . . .\u201d in that players may cast spells and activate abilities after mana is paid but before the damage is dealt."
             }
         ],
         "subtypes": [
@@ -410,262 +410,7 @@
         "supertypes": [],
         "text": "Flying\nYou don't lose unspent red mana as steps and phases end.\nWhen Leyline Tyrant dies, you may pay any amount of {R}. When you do, it deals that much damage to any target.",
         "toughness": "4",
-        "type": "Creature — Dragon",
-        "types": [
-            "Creature"
-        ]
-    },
-    "Thunderbreak Regent": {
-        "colorIdentity": [
-            "R"
-        ],
-        "colors": [
-            "R"
-        ],
-        "convertedManaCost": 4.0,
-        "edhrecRank": 2299,
-        "foreignData": [
-            {
-                "flavorText": "Es kann ein fataler Fehler sein, die Aufmerksamkeit eines Drachen auf sich zu ziehen.",
-                "language": "German",
-                "name": "Donnerbruch-Regentin",
-                "text": "Fliegend\nImmer wenn ein Drache, den du kontrollierst, das Ziel eines Zauberspruchs oder einer Fähigkeit wird, den bzw. die ein Gegner kontrolliert, fügt die Donnerbruch-Regentin diesem Spieler 3 Schadenspunkte zu.",
-                "type": "Kreatur — Drache"
-            },
-            {
-                "flavorText": "Atraer la atención de un dragón puede ser el último error que cometas.",
-                "language": "Spanish",
-                "name": "Regente tempestad desatada",
-                "text": "Vuela.\nSiempre que un Dragón que controlas sea objetivo de un hechizo o habilidad que controla un oponente, la Regente tempestad desatada hace 3 puntos de daño a ese jugador.",
-                "type": "Criatura — Dragón"
-            },
-            {
-                "flavorText": "Attirer l'attention d'un dragon sera probablement votre dernière erreur.",
-                "language": "French",
-                "name": "Régente brisetonnerre",
-                "text": "Vol\nÀ chaque fois qu'un dragon que vous contrôlez devient la cible d'un sort ou d'une capacité qu'un adversaire contrôle, la Régente brisetonnerre inflige 3 blessures à ce joueur.",
-                "type": "Créature : dragon"
-            },
-            {
-                "flavorText": "Attirare l'attenzione di un drago potrebbe essere l'ultimo errore che commetti.",
-                "language": "Italian",
-                "name": "Reggente Squarciatuono",
-                "text": "Volare\nOgniqualvolta un Drago che controlli diventa bersaglio di una magia o abilità controllata da un avversario, la Reggente Squarciatuono infligge 3 danni a quel giocatore.",
-                "type": "Creatura — Drago"
-            },
-            {
-                "flavorText": "龍の注意を引くことは、最期の過ちとなりかねない。",
-                "language": "Japanese",
-                "name": "雷破の執政",
-                "text": "飛行\nあなたがコントロールするドラゴン１体が対戦相手がコントロールする呪文や能力の対象になるたび、雷破の執政はそのプレイヤーに３点のダメージを与える。",
-                "type": "クリーチャー — ドラゴン"
-            },
-            {
-                "flavorText": "용의 주의를 끄는 행동은 인생의 마지막 실수가 될 것이다.",
-                "language": "Korean",
-                "name": "하늘을 찢는 천둥의 섭정",
-                "text": "비행\n당신이 조종하는 용이 상대가 조종하는 주문이나 능력의 목표가 될 때마다, 하늘을 찢는 천둥의 섭정은 그 플레이어에게 피해 3점을 입힌다.",
-                "type": "생물 — 용"
-            },
-            {
-                "flavorText": "Atrair a atenção de um dragão pode ser o último erro que você vai cometer.",
-                "language": "Portuguese (Brazil)",
-                "name": "Regente do Ataque Fulminante",
-                "text": "Voar\nToda vez que um Dragão que você controla se torna alvo de uma mágica ou habilidade que um oponente controla, Regente do Ataque Fulminante causa 3 pontos de dano àquele jogador.",
-                "type": "Criatura — Dragão"
-            },
-            {
-                "flavorText": "Если ты обратишь на себя внимание дракона, это может стать твоей последней ошибкой.",
-                "language": "Russian",
-                "name": "Регент Грянувшего Грома",
-                "text": "Полет\nКаждый раз, когда Дракон под вашим контролем становится целью заклинания или способности под контролем оппонента, Регент Грянувшего Грома наносит 3 повреждения тому игроку.",
-                "type": "Существо — Дракон"
-            },
-            {
-                "flavorText": "引起巨龙的注意可能是你最不该犯的错误。",
-                "language": "Chinese Simplified",
-                "name": "破霆龙侯",
-                "text": "飞行\n每当一个由你操控的龙成为由对手操控之咒语或异能的目标时，破霆龙侯对该牌手造成3点伤害。",
-                "type": "生物～龙"
-            },
-            {
-                "flavorText": "引起巨龍的注意可能是你最不該犯的錯誤。",
-                "language": "Chinese Traditional",
-                "name": "破霆龍侯",
-                "text": "飛行\n每當一個由你操控的龍成為由對手操控之咒語或異能的目標時，破霆龍侯對該玩家造成3點傷害。",
-                "type": "生物～龍"
-            }
-        ],
-        "identifiers": {
-            "scryfallOracleId": "bb04f927-0348-4a14-9e74-381f18083f6a"
-        },
-        "keywords": [
-            "Flying"
-        ],
-        "layout": "normal",
-        "legalities": {
-            "commander": "Legal",
-            "duel": "Legal",
-            "explorer": "Legal",
-            "gladiator": "Legal",
-            "historic": "Legal",
-            "historicbrawl": "Legal",
-            "legacy": "Legal",
-            "modern": "Legal",
-            "penny": "Legal",
-            "pioneer": "Legal",
-            "vintage": "Legal"
-        },
-        "manaCost": "{2}{R}{R}",
-        "manaValue": 4.0,
-        "name": "Thunderbreak Regent",
-        "power": "4",
-        "printings": [
-            "AFC",
-            "DTK",
-            "J21",
-            "PDTK",
-            "PRM"
-        ],
-        "purchaseUrls": {
-            "cardKingdom": "https://mtgjson.com/links/7b4247ce17cf202a",
-            "tcgplayer": "https://mtgjson.com/links/5be35604221d632e"
-        },
-        "rulings": [
-            {
-                "date": "2015-02-25",
-                "text": "Thunderbreak Regent's ability will resolve before the spell or ability that caused it to trigger."
-            }
-        ],
-        "subtypes": [
-            "Dragon"
-        ],
-        "supertypes": [],
-        "text": "Flying\nWhenever a Dragon you control becomes the target of a spell or ability an opponent controls, Thunderbreak Regent deals 3 damage to that player.",
-        "toughness": "4",
-        "type": "Creature — Dragon",
-        "types": [
-            "Creature"
-        ]
-    },
-    "Avaricious Dragon": {
-        "colorIdentity": [
-            "R"
-        ],
-        "colors": [
-            "R"
-        ],
-        "convertedManaCost": 4.0,
-        "edhrecRank": 5645,
-        "foreignData": [
-            {
-                "flavorText": "Auf Gier folgt Verschwendung.",
-                "language": "German",
-                "name": "Raffgieriger Drache",
-                "text": "FliegendZiehe zu Beginn deines Ziehsegments eine zusätzliche Karte.Wirf zu Beginn deines Endsegments alle Karten aus deiner Hand ab.",
-                "type": "Kreatur — Drache"
-            },
-            {
-                "flavorText": "Al deseo le sucede el derroche.",
-                "language": "Spanish",
-                "name": "Dragón avaricioso",
-                "text": "Vuela.Al comienzo de tu paso de robar, roba una carta adicional.Al comienzo de tu paso final, descarta tu mano.",
-                "type": "Criatura — Dragón"
-            },
-            {
-                "flavorText": "Le gaspillage fait suite à la cupidité.",
-                "language": "French",
-                "name": "Dragon avare",
-                "text": "VolAu début de votre étape de pioche, piochez une carte supplémentaire.Au début de votre étape de fin, défaussez-vous de votre main.",
-                "type": "Créature : dragon"
-            },
-            {
-                "flavorText": "Lo sperpero è una conseguenza dell'ingordigia.",
-                "language": "Italian",
-                "name": "Drago Ingordo",
-                "text": "VolareAll'inizio della tua acquisizione, pesca una carta addizionale.All'inizio della tua sottofase finale, scarta la tua mano.",
-                "type": "Creatura — Drago"
-            },
-            {
-                "flavorText": "欲望に続くのは浪費である。",
-                "language": "Japanese",
-                "name": "強欲なドラゴン",
-                "text": "飛行あなたのドロー・ステップの開始時に、カードを追加で１枚引く。あなたの終了ステップの開始時に、あなたの手札を捨てる。",
-                "type": "クリーチャー — ドラゴン"
-            },
-            {
-                "flavorText": "뭐든 낭비해 버리면 나중에 절실하게 필요해진다.",
-                "language": "Korean",
-                "name": "탐욕스러운 용",
-                "text": "비행당신의 뽑기단 시작에, 카드 한 장을 추가로 뽑는다.당신의 종료단 시작에, 당신의 손을 버린다.",
-                "type": "생물 — 용"
-            },
-            {
-                "flavorText": "Quem compra o supérfluo vende o necessário.",
-                "language": "Portuguese (Brazil)",
-                "name": "Dragão Avarento",
-                "text": "VoarNo início da sua etapa de compra, compre um card adicional.No início da sua etapa final, descarte a sua mão.",
-                "type": "Criatura — Dragão"
-            },
-            {
-                "flavorText": "За жадностью следует расплата.",
-                "language": "Russian",
-                "name": "Алчный Дракон",
-                "text": "ПолетВ начале вашего шага взятия карты возьмите дополнительную карту.В начале вашего заключительного шага сбросьте вашу руку.",
-                "type": "Существо — Дракон"
-            },
-            {
-                "flavorText": "欲求在前，浪费在后。",
-                "language": "Chinese Simplified",
-                "name": "贪戾巨龙",
-                "text": "飞行在你的抓牌步骤开始时，额外抓一张牌。在你的结束步骤开始时，弃掉你的手牌。",
-                "type": "生物～龙"
-            },
-            {
-                "flavorText": "欲求在前，浪費在後。",
-                "language": "Chinese Traditional",
-                "name": "貪戾巨龍",
-                "text": "飛行在你的抽牌步驟開始時，額外抽一張牌。在你的結束步驟開始時，棄掉你的手牌。",
-                "type": "生物～龍"
-            }
-        ],
-        "identifiers": {
-            "scryfallOracleId": "9be9d534-470d-463a-ba2f-9817a6723692"
-        },
-        "keywords": [
-            "Flying"
-        ],
-        "layout": "normal",
-        "legalities": {
-            "commander": "Legal",
-            "duel": "Legal",
-            "legacy": "Legal",
-            "modern": "Legal",
-            "penny": "Legal",
-            "pioneer": "Legal",
-            "vintage": "Legal"
-        },
-        "manaCost": "{2}{R}{R}",
-        "manaValue": 4.0,
-        "name": "Avaricious Dragon",
-        "power": "4",
-        "printings": [
-            "ORI"
-        ],
-        "purchaseUrls": {
-            "cardKingdom": "https://mtgjson.com/links/cccef7dd405f940a",
-            "cardKingdomFoil": "https://mtgjson.com/links/34bf21c22f937910",
-            "cardmarket": "https://mtgjson.com/links/7beeff3097b7a980",
-            "tcgplayer": "https://mtgjson.com/links/4099b04dcf043d2b"
-        },
-        "rulings": [],
-        "subtypes": [
-            "Dragon"
-        ],
-        "supertypes": [],
-        "text": "Flying\nAt the beginning of your draw step, draw an additional card.\nAt the beginning of your end step, discard your hand.",
-        "toughness": "4",
-        "type": "Creature — Dragon",
+        "type": "Creature \u2014 Dragon",
         "types": [
             "Creature"
         ]
@@ -683,62 +428,62 @@
             {
                 "language": "German",
                 "name": "Verix Bladewing",
-                "text": "Bonus {3} (Du kannst zusätzlich {3} bezahlen, sowie du diesen Zauberspruch wirkst.)\nFliegend\nWenn Verix Bladewing ins Spiel kommt und falls ihre Bonuskosten bezahlt wurden, erzeuge einen legendären 4/4 roten Drache-Kreaturenspielstein mit Flugfähigkeit namens Karox Bladewing.",
-                "type": "Legendäre Kreatur — Drache"
+                "text": "Bonus {3} (Du kannst zus\u00e4tzlich {3} bezahlen, sowie du diesen Zauberspruch wirkst.)\nFliegend\nWenn Verix Bladewing ins Spiel kommt und falls ihre Bonuskosten bezahlt wurden, erzeuge einen legend\u00e4ren 4/4 roten Drache-Kreaturenspielstein mit Flugf\u00e4higkeit namens Karox Bladewing.",
+                "type": "Legend\u00e4re Kreatur \u2014 Drache"
             },
             {
                 "language": "Spanish",
-                "name": "Vérix Alacortante",
-                "text": "Estímulo {3}. (Puedes pagar {3} adicionales al lanzar este hechizo.)\nVuela.\nCuando Vérix Alacortante entre al campo de batalla, si fue estimulada, crea a Károx Alacortante, una ficha de criatura legendaria Dragón roja 4/4 con la habilidad de volar.",
-                "type": "Criatura legendaria — Dragón"
+                "name": "V\u00e9rix Alacortante",
+                "text": "Est\u00edmulo {3}. (Puedes pagar {3} adicionales al lanzar este hechizo.)\nVuela.\nCuando V\u00e9rix Alacortante entre al campo de batalla, si fue estimulada, crea a K\u00e1rox Alacortante, una ficha de criatura legendaria Drag\u00f3n roja 4/4 con la habilidad de volar.",
+                "type": "Criatura legendaria \u2014 Drag\u00f3n"
             },
             {
                 "language": "French",
                 "name": "Verix Ailelame",
-                "text": "Kick {3} (Vous pouvez payer {3} supplémentaires au moment où vous lancez ce sort.)\nVol\nQuand Verix Ailelame arrive sur le champ de bataille, s'il a été kické, créez Karox Ailelame, un jeton de créature légendaire 4/4 rouge Dragon avec le vol.",
-                "type": "Créature légendaire : dragon"
+                "text": "Kick {3} (Vous pouvez payer {3} suppl\u00e9mentaires au moment o\u00f9 vous lancez ce sort.)\nVol\nQuand Verix Ailelame arrive sur le champ de bataille, s'il a \u00e9t\u00e9 kick\u00e9, cr\u00e9ez Karox Ailelame, un jeton de cr\u00e9ature l\u00e9gendaire 4/4 rouge Dragon avec le vol.",
+                "type": "Cr\u00e9ature l\u00e9gendaire : dragon"
             },
             {
                 "language": "Italian",
                 "name": "Verix Alaspada",
-                "text": "Potenziamento {3} (Puoi pagare {3} addizionale mentre lanci questa magia.)\nVolare\nQuando Verix Alaspada entra nel campo di battaglia, se è stata potenziata, crea Karox Alaspada, una pedina creatura leggendaria Drago 4/4 rossa con volare.",
-                "type": "Creatura Leggendaria — Drago"
+                "text": "Potenziamento {3} (Puoi pagare {3} addizionale mentre lanci questa magia.)\nVolare\nQuando Verix Alaspada entra nel campo di battaglia, se \u00e8 stata potenziata, crea Karox Alaspada, una pedina creatura leggendaria Drago 4/4 rossa con volare.",
+                "type": "Creatura Leggendaria \u2014 Drago"
             },
             {
                 "language": "Japanese",
-                "name": "刃の翼ヴェリックス",
-                "text": "キッカー{3}（あなたはこの呪文を唱えるに際し、追加で{3}を支払ってもよい。）\n飛行\n刃の翼ヴェリックスが戦場に出たとき、これがキッカーされていた場合、「刃の翼カロックス」という名前で飛行を持つ赤の４/４の伝説のドラゴン・クリーチャー・トークンを１体生成する。",
-                "type": "伝説のクリーチャー — ドラゴン"
+                "name": "\u5203\u306e\u7ffc\u30f4\u30a7\u30ea\u30c3\u30af\u30b9",
+                "text": "\u30ad\u30c3\u30ab\u30fc{3}\uff08\u3042\u306a\u305f\u306f\u3053\u306e\u546a\u6587\u3092\u5531\u3048\u308b\u306b\u969b\u3057\u3001\u8ffd\u52a0\u3067{3}\u3092\u652f\u6255\u3063\u3066\u3082\u3088\u3044\u3002\uff09\n\u98db\u884c\n\u5203\u306e\u7ffc\u30f4\u30a7\u30ea\u30c3\u30af\u30b9\u304c\u6226\u5834\u306b\u51fa\u305f\u3068\u304d\u3001\u3053\u308c\u304c\u30ad\u30c3\u30ab\u30fc\u3055\u308c\u3066\u3044\u305f\u5834\u5408\u3001\u300c\u5203\u306e\u7ffc\u30ab\u30ed\u30c3\u30af\u30b9\u300d\u3068\u3044\u3046\u540d\u524d\u3067\u98db\u884c\u3092\u6301\u3064\u8d64\u306e\uff14/\uff14\u306e\u4f1d\u8aac\u306e\u30c9\u30e9\u30b4\u30f3\u30fb\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\u30fb\u30c8\u30fc\u30af\u30f3\u3092\uff11\u4f53\u751f\u6210\u3059\u308b\u3002",
+                "type": "\u4f1d\u8aac\u306e\u30af\u30ea\u30fc\u30c1\u30e3\u30fc \u2014 \u30c9\u30e9\u30b4\u30f3"
             },
             {
                 "language": "Korean",
-                "name": "칼날날개 베릭스",
-                "text": "키커 {3} (당신은 이 주문을 발동하면서 추가로 {3}을 지불할 수 있다.)\n비행\n칼날날개 베릭스가 전장에 들어올 때, 키커 비용이 지불되었다면, 비행을 가진 전설적 4/4 적색 용 생물 토큰인 칼날날개 카록스 한 개를 만든다.",
-                "type": "전설적 생물 — 용"
+                "name": "\uce7c\ub0a0\ub0a0\uac1c \ubca0\ub9ad\uc2a4",
+                "text": "\ud0a4\ucee4 {3} (\ub2f9\uc2e0\uc740 \uc774 \uc8fc\ubb38\uc744 \ubc1c\ub3d9\ud558\uba74\uc11c \ucd94\uac00\ub85c {3}\uc744 \uc9c0\ubd88\ud560 \uc218 \uc788\ub2e4.)\n\ube44\ud589\n\uce7c\ub0a0\ub0a0\uac1c \ubca0\ub9ad\uc2a4\uac00 \uc804\uc7a5\uc5d0 \ub4e4\uc5b4\uc62c \ub54c, \ud0a4\ucee4 \ube44\uc6a9\uc774 \uc9c0\ubd88\ub418\uc5c8\ub2e4\uba74, \ube44\ud589\uc744 \uac00\uc9c4 \uc804\uc124\uc801 4/4 \uc801\uc0c9 \uc6a9 \uc0dd\ubb3c \ud1a0\ud070\uc778 \uce7c\ub0a0\ub0a0\uac1c \uce74\ub85d\uc2a4 \ud55c \uac1c\ub97c \ub9cc\ub4e0\ub2e4.",
+                "type": "\uc804\uc124\uc801 \uc0dd\ubb3c \u2014 \uc6a9"
             },
             {
                 "language": "Portuguese (Brazil)",
                 "name": "Verix Asas Laminadas",
-                "text": "Reforçar {3} (Você pode pagar um custo adicional de {3} ao conjurar esta mágica.)\nVoar\nQuando Verix Asas Laminadas entrar no campo de batalha, se tiver sido reforçado, crie Karox Asas Laminadas, uma ficha de criatura vermelha lendária 4/4 do tipo Dragão com voar.",
-                "type": "Criatura Lendária — Dragão"
+                "text": "Refor\u00e7ar {3} (Voc\u00ea pode pagar um custo adicional de {3} ao conjurar esta m\u00e1gica.)\nVoar\nQuando Verix Asas Laminadas entrar no campo de batalha, se tiver sido refor\u00e7ado, crie Karox Asas Laminadas, uma ficha de criatura vermelha lend\u00e1ria 4/4 do tipo Drag\u00e3o com voar.",
+                "type": "Criatura Lend\u00e1ria \u2014 Drag\u00e3o"
             },
             {
                 "language": "Russian",
-                "name": "Саблекрылая Верикс",
-                "text": "Усилитель {3} (При разыгрывании этого заклинания вы можете дополнительно заплатить {3}.)\nПолет\nКогда Саблекрылая Верикс выходит на поле битвы, если она получила Усилитель, создайте Саблекрылого Карокса, фишку легендарного существа 4/4 красный Дракон с Полетом.",
-                "type": "Легендарное Существо — Дракон"
+                "name": "\u0421\u0430\u0431\u043b\u0435\u043a\u0440\u044b\u043b\u0430\u044f \u0412\u0435\u0440\u0438\u043a\u0441",
+                "text": "\u0423\u0441\u0438\u043b\u0438\u0442\u0435\u043b\u044c {3} (\u041f\u0440\u0438 \u0440\u0430\u0437\u044b\u0433\u0440\u044b\u0432\u0430\u043d\u0438\u0438 \u044d\u0442\u043e\u0433\u043e \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0434\u043e\u043f\u043e\u043b\u043d\u0438\u0442\u0435\u043b\u044c\u043d\u043e \u0437\u0430\u043f\u043b\u0430\u0442\u0438\u0442\u044c {3}.)\n\u041f\u043e\u043b\u0435\u0442\n\u041a\u043e\u0433\u0434\u0430 \u0421\u0430\u0431\u043b\u0435\u043a\u0440\u044b\u043b\u0430\u044f \u0412\u0435\u0440\u0438\u043a\u0441 \u0432\u044b\u0445\u043e\u0434\u0438\u0442 \u043d\u0430 \u043f\u043e\u043b\u0435 \u0431\u0438\u0442\u0432\u044b, \u0435\u0441\u043b\u0438 \u043e\u043d\u0430 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u0430 \u0423\u0441\u0438\u043b\u0438\u0442\u0435\u043b\u044c, \u0441\u043e\u0437\u0434\u0430\u0439\u0442\u0435 \u0421\u0430\u0431\u043b\u0435\u043a\u0440\u044b\u043b\u043e\u0433\u043e \u041a\u0430\u0440\u043e\u043a\u0441\u0430, \u0444\u0438\u0448\u043a\u0443 \u043b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u043e\u0433\u043e \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430 4/4 \u043a\u0440\u0430\u0441\u043d\u044b\u0439 \u0414\u0440\u0430\u043a\u043e\u043d \u0441 \u041f\u043e\u043b\u0435\u0442\u043e\u043c.",
+                "type": "\u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u043e\u0435 \u0421\u0443\u0449\u0435\u0441\u0442\u0432\u043e \u2014 \u0414\u0440\u0430\u043a\u043e\u043d"
             },
             {
                 "language": "Chinese Simplified",
-                "name": "锋翼维黎兹",
-                "text": "增幅{3}（你施放此咒语时可以额外支付{3}。）\n飞行\n当锋翼维黎兹进战场时，若它已增幅，则派出传奇衍生生物锋翼卡洛兹，其为4/4红色，具飞行异能的龙。",
-                "type": "传奇生物 ～龙"
+                "name": "\u950b\u7ffc\u7ef4\u9ece\u5179",
+                "text": "\u589e\u5e45{3}\uff08\u4f60\u65bd\u653e\u6b64\u5492\u8bed\u65f6\u53ef\u4ee5\u989d\u5916\u652f\u4ed8{3}\u3002\uff09\n\u98de\u884c\n\u5f53\u950b\u7ffc\u7ef4\u9ece\u5179\u8fdb\u6218\u573a\u65f6\uff0c\u82e5\u5b83\u5df2\u589e\u5e45\uff0c\u5219\u6d3e\u51fa\u4f20\u5947\u884d\u751f\u751f\u7269\u950b\u7ffc\u5361\u6d1b\u5179\uff0c\u5176\u4e3a4/4\u7ea2\u8272\uff0c\u5177\u98de\u884c\u5f02\u80fd\u7684\u9f99\u3002",
+                "type": "\u4f20\u5947\u751f\u7269 \uff5e\u9f99"
             },
             {
                 "language": "Chinese Traditional",
-                "name": "鋒翼維黎茲",
-                "text": "增幅{3}（你施放此咒語時可以額外支付{3}。）\n飛行\n當鋒翼維黎茲進戰場時，若它已增幅，則派出傳奇衍生生物鋒翼卡洛茲，其為4/4紅色，具飛行異能的龍。",
-                "type": "傳奇生物 ～龍"
+                "name": "\u92d2\u7ffc\u7dad\u9ece\u8332",
+                "text": "\u589e\u5e45{3}\uff08\u4f60\u65bd\u653e\u6b64\u5492\u8a9e\u6642\u53ef\u4ee5\u984d\u5916\u652f\u4ed8{3}\u3002\uff09\n\u98db\u884c\n\u7576\u92d2\u7ffc\u7dad\u9ece\u8332\u9032\u6230\u5834\u6642\uff0c\u82e5\u5b83\u5df2\u589e\u5e45\uff0c\u5247\u6d3e\u51fa\u50b3\u5947\u884d\u751f\u751f\u7269\u92d2\u7ffc\u5361\u6d1b\u8332\uff0c\u5176\u70ba4/4\u7d05\u8272\uff0c\u5177\u98db\u884c\u7570\u80fd\u7684\u9f8d\u3002",
+                "type": "\u50b3\u5947\u751f\u7269 \uff5e\u9f8d"
             }
         ],
         "identifiers": {
@@ -782,7 +527,7 @@
         "rulings": [
             {
                 "date": "2018-04-27",
-                "text": "Verix Bladewing features a new template for creating legendary tokens. It’s functionally identical to the text “create a legendary 4/4 red Dragon creature token with flying named Karox Bladewing.”"
+                "text": "Verix Bladewing features a new template for creating legendary tokens. It\u2019s functionally identical to the text \u201ccreate a legendary 4/4 red Dragon creature token with flying named Karox Bladewing.\u201d"
             }
         ],
         "subtypes": [
@@ -793,92 +538,95 @@
         ],
         "text": "Kicker {3} (You may pay an additional {3} as you cast this spell.)\nFlying\nWhen Verix Bladewing enters the battlefield, if it was kicked, create Karox Bladewing, a legendary 4/4 red Dragon creature token with flying.",
         "toughness": "4",
-        "type": "Legendary Creature — Dragon",
+        "type": "Legendary Creature \u2014 Dragon",
         "types": [
             "Creature"
         ]
     },
-    "Gadrak, the Crown-Scourge": {
+    "Shivan Devastator": {
         "colorIdentity": [
             "R"
         ],
         "colors": [
             "R"
         ],
-        "convertedManaCost": 3.0,
-        "edhrecRank": 1455,
+        "convertedManaCost": 1.0,
+        "edhrecRank": 6770,
         "foreignData": [
             {
+                "language": "German",
+                "name": "Shivanischer Zerst\u00f6rer",
+                "text": "Fliegend, Eile\nDer Shivanische Zerst\u00f6rer kommt mit X +1/+1-Marken ins Spiel.",
+                "type": "Kreatur \u2014 Drache, Hydra"
+            },
+            {
                 "language": "French",
-                "name": "Gadrak, le fléau des couronnes",
-                "text": "Vol\nGadrak, le fléau des couronnes ne peut pas attaquer à moins que vous ne contrôliez au moins quatre artefacts.\nAu début de votre étape de fin, créez un jeton Trésor pour chaque créature non-jeton qui est morte ce tour-ci.",
-                "type": "Créature légendaire : dragon"
+                "name": "D\u00e9vastateur shiv\u00e2n",
+                "text": "Vol, c\u00e9l\u00e9rit\u00e9\nLe D\u00e9vastateur shiv\u00e2n arrive sur le champ de bataille avec X marqueurs +1/+1 sur lui.",
+                "type": "Cr\u00e9ature : dragon et hydre"
             },
             {
                 "language": "Japanese",
-                "name": "冠滅ぼしのガドラク",
-                "text": "飛行\nあなたがアーティファクトを４つ以上コントロールしていないかぎり、冠滅ぼしのガドラクでは攻撃できない。\nあなたの終了ステップの開始時に、このターンに死亡した、トークンでないクリーチャー１体につき、宝物・トークンを１つ生成する。",
-                "type": "伝説のクリーチャー — ドラゴン"
+                "name": "\u30b7\u30f4\u306e\u58ca\u6ec5\u8005",
+                "text": "\u98db\u884c\u3001\u901f\u653b\n\u30b7\u30f4\u306e\u58ca\u6ec5\u8005\u306f\u3001\uff0b\uff11/\uff0b\uff11\u30ab\u30a6\u30f3\u30bf\u30fc\uff38\u500b\u304c\u7f6e\u304b\u308c\u305f\u72b6\u614b\u3067\u6226\u5834\u306b\u51fa\u308b\u3002",
+                "type": "\u30af\u30ea\u30fc\u30c1\u30e3\u30fc \u2014 \u30c9\u30e9\u30b4\u30f3\u30fb\u30cf\u30a4\u30c9\u30e9"
+            },
+            {
+                "language": "Chinese Simplified",
+                "name": "\u897f\u74e6\u9738\u9f99",
+                "text": "\u98de\u884c\uff0c\u654f\u6377\n\u897f\u74e6\u9738\u9f99\u8fdb\u6218\u573a\u65f6\u4e0a\u9762\u6709X\u4e2a+1/+1\u6307\u793a\u7269\u3002",
+                "type": "\u751f\u7269 \uff5e\u9f99\uff0f\u591a\u5934\u9f99"
             }
         ],
         "identifiers": {
-            "scryfallOracleId": "42d7ec93-0943-43e2-9b65-b7edc3349410"
+            "scryfallOracleId": "b7daa74c-6142-4107-9355-be98af6ccf13"
         },
         "keywords": [
-            "Flying"
+            "Flying",
+            "Haste"
         ],
         "layout": "normal",
-        "leadershipSkills": {
-            "brawl": false,
-            "commander": true,
-            "oathbreaker": false
-        },
         "legalities": {
+            "alchemy": "Legal",
+            "brawl": "Legal",
             "commander": "Legal",
             "duel": "Legal",
             "explorer": "Legal",
+            "future": "Legal",
             "gladiator": "Legal",
             "historic": "Legal",
             "historicbrawl": "Legal",
             "legacy": "Legal",
             "modern": "Legal",
-            "penny": "Legal",
             "pioneer": "Legal",
+            "standard": "Legal",
             "vintage": "Legal"
         },
-        "manaCost": "{2}{R}",
-        "manaValue": 3.0,
-        "name": "Gadrak, the Crown-Scourge",
-        "power": "5",
+        "manaCost": "{X}{R}",
+        "manaValue": 1.0,
+        "name": "Shivan Devastator",
+        "power": "0",
         "printings": [
-            "M21",
-            "PM21",
+            "DMU",
+            "GDY",
+            "PDMU",
             "PRM"
         ],
         "purchaseUrls": {
-            "cardKingdom": "https://mtgjson.com/links/d3a6d6b25726f4af",
-            "cardKingdomFoil": "https://mtgjson.com/links/099a9146ae639029",
-            "tcgplayer": "https://mtgjson.com/links/ce085402281a495d"
+            "cardKingdom": "https://mtgjson.com/links/a532ecf5516b4601",
+            "cardKingdomFoil": "https://mtgjson.com/links/2a6474887e0297a5",
+            "cardmarket": "https://mtgjson.com/links/972f82fa4576d4cd",
+            "tcgplayer": "https://mtgjson.com/links/20a9b91f2ad1546d"
         },
-        "rulings": [
-            {
-                "date": "2020-06-23",
-                "text": "Once Gadrak has attacked, it will remain an attacking creature even if you no longer control four or more artifacts."
-            },
-            {
-                "date": "2020-06-23",
-                "text": "Gadrak's last ability counts creatures that died during the entire turn, even ones that died before Gadrak entered the battlefield."
-            }
-        ],
+        "rulings": [],
         "subtypes": [
-            "Dragon"
+            "Dragon",
+            "Hydra"
         ],
-        "supertypes": [
-            "Legendary"
-        ],
-        "text": "Flying\nGadrak, the Crown-Scourge can't attack unless you control four or more artifacts.\nAt the beginning of your end step, create a Treasure token for each nontoken creature that died this turn. (It's an artifact with \"{T}, Sacrifice this artifact: Add one mana of any color.\")",
-        "toughness": "4",
-        "type": "Legendary Creature — Dragon",
+        "supertypes": [],
+        "text": "Flying, haste\nShivan Devastator enters the battlefield with X +1/+1 counters on it.",
+        "toughness": "0",
+        "type": "Creature \u2014 Dragon Hydra",
         "types": [
             "Creature"
         ]
@@ -895,15 +643,15 @@
         "foreignData": [
             {
                 "language": "Japanese",
-                "name": "龍の大嵐",
-                "text": "飛行を持つクリーチャーが１体あなたのコントロール下で戦場に出るたび、ターン終了時まで、それは速攻を得る。\nドラゴンが１体あなたのコントロール下で戦場に出るたび、クリーチャー１体かプレイヤー１人を対象とする。そのドラゴンは、それにＸ点のダメージを与える。Ｘはあなたがコントロールしているドラゴンの総数に等しい。",
-                "type": "エンチャント"
+                "name": "\u9f8d\u306e\u5927\u5d50",
+                "text": "\u98db\u884c\u3092\u6301\u3064\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\u304c\uff11\u4f53\u3042\u306a\u305f\u306e\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u4e0b\u3067\u6226\u5834\u306b\u51fa\u308b\u305f\u3073\u3001\u30bf\u30fc\u30f3\u7d42\u4e86\u6642\u307e\u3067\u3001\u305d\u308c\u306f\u901f\u653b\u3092\u5f97\u308b\u3002\n\u30c9\u30e9\u30b4\u30f3\u304c\uff11\u4f53\u3042\u306a\u305f\u306e\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u4e0b\u3067\u6226\u5834\u306b\u51fa\u308b\u305f\u3073\u3001\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\uff11\u4f53\u304b\u30d7\u30ec\u30a4\u30e4\u30fc\uff11\u4eba\u3092\u5bfe\u8c61\u3068\u3059\u308b\u3002\u305d\u306e\u30c9\u30e9\u30b4\u30f3\u306f\u3001\u305d\u308c\u306b\uff38\u70b9\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002\uff38\u306f\u3042\u306a\u305f\u304c\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u3057\u3066\u3044\u308b\u30c9\u30e9\u30b4\u30f3\u306e\u7dcf\u6570\u306b\u7b49\u3057\u3044\u3002",
+                "type": "\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8"
             },
             {
                 "language": "Chinese Simplified",
-                "name": "龙袭风暴",
-                "text": "每当一个具飞行异能的生物在你的操控下进战场时，它获得敏捷异能直到回合结束。\n每当一个龙在你的操控下进战场时，它对目标生物或牌手造成X点伤害，X为由你操控之龙的数量。",
-                "type": "结界"
+                "name": "\u9f99\u88ad\u98ce\u66b4",
+                "text": "\u6bcf\u5f53\u4e00\u4e2a\u5177\u98de\u884c\u5f02\u80fd\u7684\u751f\u7269\u5728\u4f60\u7684\u64cd\u63a7\u4e0b\u8fdb\u6218\u573a\u65f6\uff0c\u5b83\u83b7\u5f97\u654f\u6377\u5f02\u80fd\u76f4\u5230\u56de\u5408\u7ed3\u675f\u3002\n\u6bcf\u5f53\u4e00\u4e2a\u9f99\u5728\u4f60\u7684\u64cd\u63a7\u4e0b\u8fdb\u6218\u573a\u65f6\uff0c\u5b83\u5bf9\u76ee\u6807\u751f\u7269\u6216\u724c\u624b\u9020\u6210X\u70b9\u4f24\u5bb3\uff0cX\u4e3a\u7531\u4f60\u64cd\u63a7\u4e4b\u9f99\u7684\u6570\u91cf\u3002",
+                "type": "\u7ed3\u754c"
             }
         ],
         "identifiers": {
@@ -941,16 +689,153 @@
             },
             {
                 "date": "2017-11-17",
-                "text": "If a Dragon entering the battlefield causes Dragon Tempest’s second ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage."
+                "text": "If a Dragon entering the battlefield causes Dragon Tempest\u2019s second ability to trigger but leaves the battlefield before that ability resolves, that Dragon still deals damage."
             },
             {
                 "date": "2017-11-17",
-                "text": "The two abilities aren’t mutually exclusive. If a Dragon with flying (which is most of them) enters the battlefield under your control, both abilities will trigger."
+                "text": "The two abilities aren\u2019t mutually exclusive. If a Dragon with flying (which is most of them) enters the battlefield under your control, both abilities will trigger."
             }
         ],
         "subtypes": [],
         "supertypes": [],
         "text": "Whenever a creature with flying enters the battlefield under your control, it gains haste until end of turn.\nWhenever a Dragon enters the battlefield under your control, it deals X damage to any target, where X is the number of Dragons you control.",
+        "type": "Enchantment",
+        "types": [
+            "Enchantment"
+        ]
+    },
+    "Quest for Pure Flame": {
+        "colorIdentity": [
+            "R"
+        ],
+        "colors": [
+            "R"
+        ],
+        "convertedManaCost": 1.0,
+        "edhrecRank": 6730,
+        "foreignData": [
+            {
+                "language": "German",
+                "name": "Suche nach der Reinen Flamme",
+                "text": "Immer wenn eine Quelle, die du kontrollierst, einem Gegner Schaden zuf\u00fcgt, kannst du eine Quest-Marke auf die Suche nach der Reinen Flamme legen.\nEntferne vier Quest-Marken von der Suche nach der Reinen Flamme und opfere sie: Falls eine Quelle, die du kontrollierst, in diesem Zug einer Kreatur oder einem Spieler Schadenspunkte zuf\u00fcgen w\u00fcrde, f\u00fcgt sie dieser Kreatur oder diesem Spieler stattdessen doppelt so viele Schadenspunkte zu.",
+                "type": "Verzauberung"
+            },
+            {
+                "language": "Spanish",
+                "name": "B\u00fasqueda de la llama pura",
+                "text": "Siempre que una fuente que controles haga da\u00f1o a un oponente, puedes poner un contador de b\u00fasqueda sobre la B\u00fasqueda de la llama pura.\nRemover cuatro contadores de b\u00fasqueda de la B\u00fasqueda de la llama pura y sacrificarla: Si alguna fuente que controlas fuera a hacer da\u00f1o a una criatura o jugador este turno, en vez de eso, hace el doble del da\u00f1o a esa criatura o jugador.",
+                "type": "Encantamiento"
+            },
+            {
+                "language": "French",
+                "name": "Qu\u00eate de la Pure Flamme",
+                "text": "\u00c0 chaque fois qu'une source que vous contr\u00f4lez inflige des blessures \u00e0 un adversaire, vous pouvez mettre un marqueur \u00ab qu\u00eate \u00bb sur la Qu\u00eate de la Pure Flamme.\nRetirez quatre marqueurs \u00ab qu\u00eate \u00bb de la Qu\u00eate de la Pure Flamme et sacrifiez-la : Si n'importe quelle source que vous contr\u00f4lez devait infliger des blessures \u00e0 une cr\u00e9ature ou un joueur ce tour-ci, elle inflige le double de ces blessures \u00e0 cette cr\u00e9ature ou \u00e0 ce joueur \u00e0 la place.",
+                "type": "Enchantement"
+            },
+            {
+                "language": "Italian",
+                "name": "In Cerca della Fiamma Pura",
+                "text": "Ogniqualvolta una fonte che controlli infligge danno a un avversario, puoi mettere un segnalino ricerca su In Cerca della Fiamma Pura.\nRimuovi quattro segnalini ricerca da In Cerca della Fiamma Pura e sacrificala: Se una fonte che controlli sta per infliggere danno a una creatura o a un giocatore in questo turno, infligge invece il doppio dei danni a quella creatura o a quel giocatore.",
+                "type": "Incantesimo"
+            },
+            {
+                "language": "Japanese",
+                "name": "\u7d14\u306a\u308b\u708e\u306e\u63a2\u7d22",
+                "text": "\u3042\u306a\u305f\u304c\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u3059\u308b\u3044\u305a\u308c\u304b\u306e\u767a\u751f\u6e90\u304c\u3044\u305a\u308c\u304b\u306e\u5bfe\u6226\u76f8\u624b\u306b\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u305f\u3073\u3001\u3042\u306a\u305f\u306f\u7d14\u306a\u308b\u708e\u306e\u63a2\u7d22\u306e\u4e0a\u306b\u63a2\u7d22\u30ab\u30a6\u30f3\u30bf\u30fc\u3092\uff11\u500b\u7f6e\u3044\u3066\u3082\u3088\u3044\u3002\n\u7d14\u306a\u308b\u708e\u306e\u63a2\u7d22\u3092\u3001\u305d\u306e\u4e0a\u304b\u3089\u63a2\u7d22\u30ab\u30a6\u30f3\u30bf\u30fc\u3092\uff14\u500b\u53d6\u308a\u9664\u3044\u3066\u751f\u3051\u8d04\u306b\u6367\u3052\u308b\uff1a\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3042\u306a\u305f\u304c\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u3059\u308b\u3044\u305a\u308c\u304b\u306e\u767a\u751f\u6e90\u304c\u3044\u305a\u308c\u304b\u306e\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\u304b\u30d7\u30ec\u30a4\u30e4\u30fc\u306b\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u5834\u5408\u3001\u4ee3\u308f\u308a\u306b\u305d\u308c\u306f\u305d\u306e\uff12\u500d\u306e\u70b9\u6570\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u305d\u306e\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\u3084\u30d7\u30ec\u30a4\u30e4\u30fc\u306b\u4e0e\u3048\u308b\u3002",
+                "type": "\u30a8\u30f3\u30c1\u30e3\u30f3\u30c8"
+            },
+            {
+                "language": "Portuguese (Brazil)",
+                "name": "Busca pela Chama Pura",
+                "text": "Toda vez que uma fonte que voc\u00ea controla causa dano a um oponente, voc\u00ea pode colocar um marcador de busca em Busca pela Chama Pura.\nRemova quatro marcadores de busca de Busca pela Chama Pura e sacrifique-o: Se qualquer fonte que voc\u00ea controla for causar dano a uma criatura ou a um jogador neste turno, em vez disso, ela causar\u00e1 o dobro daquela quantidade de dano \u00e0quela criatura ou jogador.",
+                "type": "Encantamento"
+            },
+            {
+                "language": "Russian",
+                "name": "\u041f\u043e\u0438\u0441\u043a\u0438 \u0427\u0438\u0441\u0442\u043e\u0433\u043e \u041f\u043b\u0430\u043c\u0435\u043d\u0438",
+                "text": "\u041a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u043f\u043e\u0434 \u0432\u0430\u0448\u0438\u043c \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0435\u043c \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u044f \u043e\u043f\u043f\u043e\u043d\u0435\u043d\u0442\u0443, \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u043f\u043e\u043b\u043e\u0436\u0438\u0442\u044c \u0436\u0435\u0442\u043e\u043d \u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0438\u0439 \u043d\u0430 \u041f\u043e\u0438\u0441\u043a\u0438 \u0427\u0438\u0441\u0442\u043e\u0433\u043e \u041f\u043b\u0430\u043c\u0435\u043d\u0438.\n\u0423\u0434\u0430\u043b\u0438\u0442\u0435 \u0447\u0435\u0442\u044b\u0440\u0435 \u0436\u0435\u0442\u043e\u043d\u0430 \u0441\u0442\u0440\u0430\u043d\u0441\u0442\u0432\u0438\u0439 \u0441 \u041f\u043e\u0438\u0441\u043a\u043e\u0432 \u0427\u0438\u0441\u0442\u043e\u0433\u043e \u041f\u043b\u0430\u043c\u0435\u043d\u0438 \u0438 \u043f\u043e\u0436\u0435\u0440\u0442\u0432\u0443\u0439\u0442\u0435 \u041f\u043e\u0438\u0441\u043a\u0438 \u0427\u0438\u0441\u0442\u043e\u0433\u043e \u041f\u043b\u0430\u043c\u0435\u043d\u0438: \u0435\u0441\u043b\u0438 \u043a\u0430\u043a\u043e\u0439-\u043b\u0438\u0431\u043e \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u043f\u043e\u0434 \u0432\u0430\u0448\u0438\u043c \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0435\u043c \u0434\u043e\u043b\u0436\u0435\u043d \u043d\u0430\u043d\u0435\u0441\u0442\u0438 \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u044f \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443 \u0438\u043b\u0438 \u0438\u0433\u0440\u043e\u043a\u0443 \u0432 \u044d\u0442\u043e\u043c \u0445\u043e\u0434\u0443, \u043e\u043d \u043d\u0430\u043d\u043e\u0441\u0438\u0442 \u044d\u0442\u0438 \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u044f \u0442\u043e\u043c\u0443 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0443 \u0438\u043b\u0438 \u0438\u0433\u0440\u043e\u043a\u0443 \u0432 \u0434\u0432\u043e\u0439\u043d\u043e\u043c \u0440\u0430\u0437\u043c\u0435\u0440\u0435 \u0432\u043c\u0435\u0441\u0442\u043e \u044d\u0442\u043e\u0433\u043e.",
+                "type": "\u0427\u0430\u0440\u044b"
+            },
+            {
+                "language": "Chinese Simplified",
+                "name": "\u63a2\u7d22\u51c0\u706b",
+                "text": "\u6bcf\u5f53\u7531\u4f60\u64cd\u63a7\u7684\u4e00\u4e2a\u6765\u6e90\u5411\u4efb\u4e00\u5bf9\u624b\u9020\u6210\u4f24\u5bb3\u65f6\uff0c\u4f60\u53ef\u4ee5\u5728\u63a2\u7d22\u51c0\u706b\u4e0a\u653e\u7f6e\u4e00\u4e2a\u63a2\u7d22\u6307\u793a\u7269\u3002\n\u4ece\u63a2\u7d22\u51c0\u706b\u4e0a\u79fb\u53bb\u56db\u4e2a\u63a2\u7d22\u6307\u793a\u7269\u5e76\u727a\u7272\u5b83\uff1a\u5982\u679c\u672c\u56de\u5408\u4e2d\u67d0\u6765\u6e90\u5c06\u5bf9\u4efb\u4e00\u751f\u7269\u6216\u724c\u624b\u9020\u6210\u4f24\u5bb3\uff0c\u5219\u6539\u4e3a\u5b83\u5bf9\u8be5\u751f\u7269\u6216\u724c\u624b\u9020\u6210\u4e24\u500d\u7684\u4f24\u5bb3\u3002",
+                "type": "\u7ed3\u754c"
+            }
+        ],
+        "identifiers": {
+            "scryfallOracleId": "71220cc2-5f3d-4c97-ae66-05b1b79adef1"
+        },
+        "layout": "normal",
+        "legalities": {
+            "commander": "Legal",
+            "duel": "Legal",
+            "legacy": "Legal",
+            "modern": "Legal",
+            "penny": "Legal",
+            "vintage": "Legal"
+        },
+        "manaCost": "{R}",
+        "manaValue": 1.0,
+        "name": "Quest for Pure Flame",
+        "printings": [
+            "ZEN"
+        ],
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/8e54b213dfb0b2b2",
+            "cardKingdomFoil": "https://mtgjson.com/links/23ba79aa1bd04098",
+            "cardmarket": "https://mtgjson.com/links/032fd464f0b53ea3",
+            "tcgplayer": "https://mtgjson.com/links/feaf04f0b6a5c778"
+        },
+        "rulings": [
+            {
+                "date": "2009-10-01",
+                "text": "The second ability affects all sources you control that would deal damage to a permanent or player at any point in the rest of the turn."
+            },
+            {
+                "date": "2009-10-01",
+                "text": "Both of Quest for Pure Flame\u2019s abilities interact with any kind of damage, not just combat damage."
+            },
+            {
+                "date": "2009-10-01",
+                "text": "The source of combat damage is the creature that dealt it."
+            },
+            {
+                "date": "2009-10-01",
+                "text": "If a spell causes damage to be dealt, that spell will always identify the source of the damage. In most cases, the source is the spell itself. For example, Lightning Bolt says \u201cLightning Bolt deals 3 damage to any target.\u201d"
+            },
+            {
+                "date": "2009-10-01",
+                "text": "If an ability causes damage to be dealt, that ability will always identify the source of the damage. The ability itself is never the source. However, the source of the ability is often the source of the damage. For example, Prodigal Pyromancer\u2019s ability says \u201cProdigal Pyromancer deals 1 damage to any target.\u201d"
+            },
+            {
+                "date": "2009-10-01",
+                "text": "If the source of the damage is a permanent, Quest for Pure Flame checks whether you control that permanent at the time that damage is dealt. If the permanent has left the battlefield by then, its last known information is used. If the source of the damage is a spell, whether you control it is obvious. If the source of the damage is a card in some other zone (such as a cycled Jund Sojourners), Quest for Pure Flame checks whether you\u2019re the card\u2019s owner, rather than whether you\u2019re its controller."
+            },
+            {
+                "date": "2009-10-01",
+                "text": "When the first ability resolves, you may put just one quest counter on Quest for Pure Flame. It doesn\u2019t matter how much damage the source dealt."
+            },
+            {
+                "date": "2009-10-01",
+                "text": "The first ability will trigger multiple times if multiple sources you control deal damage to a single opponent at once, or if a single source you control deals damage to multiple opponents at once."
+            },
+            {
+                "date": "2009-10-01",
+                "text": "If multiple effects modify how damage will be dealt, the player who would be dealt damage or the controller of the creature that would be dealt damage chooses the order to apply the effects. For example, Mending Hands says, \u201cPrevent the next 4 damage that would be dealt to any target.\u201d Suppose a spell controlled by a player who has activated Quest for Pure Fire\u2019s second ability would deal 5 damage to a player who has cast Mending Hands targeting themselves. The player who would be dealt damage can either (a) prevent 4 damage first and then let Quest for Pure Fire\u2019s effect double the remaining 1 damage, taking 2 damage, or (b) double the damage to 10 and then prevent 4 damage, taking 6 damage."
+            },
+            {
+                "date": "2009-10-01",
+                "text": "If a spell or ability divides damage among multiple recipients (such as Arrow Volley Trap does), the damage is divided before Quest for Pure Fire\u2019s effect doubles it. The same is true for combat damage."
+            },
+            {
+                "date": "2009-10-01",
+                "text": "If you activate the second ability of more than one Quest for Pure Flame in the same turn, the effects are cumulative. Two such effects will cause damage from sources you control to be multiplied by four; three such effects will cause damage from sources you control to be multiplied by eight."
+            }
+        ],
+        "subtypes": [],
+        "supertypes": [],
+        "text": "Whenever a source you control deals damage to an opponent, you may put a quest counter on Quest for Pure Flame.\nRemove four quest counters from Quest for Pure Flame and sacrifice it: If any source you control would deal damage to a permanent or player this turn, it deals double that damage to that permanent or player instead.",
         "type": "Enchantment",
         "types": [
             "Enchantment"
@@ -965,62 +850,62 @@
             {
                 "language": "German",
                 "name": "Nykthos, Schrein von Nyx",
-                "text": "{T}: Erhöhe deinen Manavorrat um {1}.\n{2}, {T}: Bestimme eine Farbe. Erhöhe deinen Manavorrat um so viel Mana dieser Farbe, wie deine Hingabe zu dieser Farbe beträgt. (Jedes Manasymbol in den Manakosten von bleibenden Karten, die du kontrollierst, erhöht deine Hingabe zu der entsprechenden Farbe um eins.)",
-                "type": "Legendäres Land"
+                "text": "{T}: Erh\u00f6he deinen Manavorrat um {1}.\n{2}, {T}: Bestimme eine Farbe. Erh\u00f6he deinen Manavorrat um so viel Mana dieser Farbe, wie deine Hingabe zu dieser Farbe betr\u00e4gt. (Jedes Manasymbol in den Manakosten von bleibenden Karten, die du kontrollierst, erh\u00f6ht deine Hingabe zu der entsprechenden Farbe um eins.)",
+                "type": "Legend\u00e4res Land"
             },
             {
                 "language": "Spanish",
                 "name": "Nyktos, altar de Nyx",
-                "text": "{T}: Agrega {1} a tu reserva de maná.\n{2}, {T}: Elige un color. Agrega a tu reserva de maná una cantidad de maná de ese color igual a tu devoción a ese color. (Tu devoción a un color es la cantidad de símbolos de maná de ese color en los costes de maná de los permanentes que controlas.)",
+                "text": "{T}: Agrega {1} a tu reserva de man\u00e1.\n{2}, {T}: Elige un color. Agrega a tu reserva de man\u00e1 una cantidad de man\u00e1 de ese color igual a tu devoci\u00f3n a ese color. (Tu devoci\u00f3n a un color es la cantidad de s\u00edmbolos de man\u00e1 de ese color en los costes de man\u00e1 de los permanentes que controlas.)",
                 "type": "Tierra legendaria"
             },
             {
                 "language": "French",
                 "name": "Nykthos, reliquaire de Nyx",
-                "text": "{T} : Ajoutez {1} à votre réserve.\n{2}, {T}: Choisissez une couleur. Ajoutez à votre réserve une quantité de mana de cette couleur égale à votre dévotion à cette couleur. (Votre dévotion à une couleur est le nombre de symboles de mana de cette couleur dans les coûts de mana des permanents que vous contrôlez.)",
-                "type": "Terrain légendaire"
+                "text": "{T} : Ajoutez {1} \u00e0 votre r\u00e9serve.\n{2}, {T}: Choisissez une couleur. Ajoutez \u00e0 votre r\u00e9serve une quantit\u00e9 de mana de cette couleur \u00e9gale \u00e0 votre d\u00e9votion \u00e0 cette couleur. (Votre d\u00e9votion \u00e0 une couleur est le nombre de symboles de mana de cette couleur dans les co\u00fbts de mana des permanents que vous contr\u00f4lez.)",
+                "type": "Terrain l\u00e9gendaire"
             },
             {
                 "language": "Italian",
                 "name": "Nyktos, Santuario di Nyx",
-                "text": "{T}: Aggiungi {1} alla tua riserva di mana.\n{2}, {T}: Scegli un colore. Aggiungi alla tua riserva di mana un ammontare di mana di quel colore pari alla tua devozione a quel colore. (La tua devozione a un colore è il numero di simboli di mana di quel colore nel costo di mana dei permanenti che controlli.)",
+                "text": "{T}: Aggiungi {1} alla tua riserva di mana.\n{2}, {T}: Scegli un colore. Aggiungi alla tua riserva di mana un ammontare di mana di quel colore pari alla tua devozione a quel colore. (La tua devozione a un colore \u00e8 il numero di simboli di mana di quel colore nel costo di mana dei permanenti che controlli.)",
                 "type": "Terra Leggendaria"
             },
             {
                 "language": "Japanese",
-                "name": "ニクスの祭殿、ニクソス",
-                "text": "{T}：あなたのマナ・プールに{1}を加える。\n{2}, {T}：色を１つ選ぶ。あなたのマナ・プールに、あなたのその色への信心に等しい点数の、その色のマナを加える。（あなたの色への信心は、あなたがコントロールするパーマネントのマナ・コスト内に含まれるその色のマナ・シンボルの数である。）",
-                "type": "伝説の土地"
+                "name": "\u30cb\u30af\u30b9\u306e\u796d\u6bbf\u3001\u30cb\u30af\u30bd\u30b9",
+                "text": "{T}\uff1a\u3042\u306a\u305f\u306e\u30de\u30ca\u30fb\u30d7\u30fc\u30eb\u306b{1}\u3092\u52a0\u3048\u308b\u3002\n{2}, {T}\uff1a\u8272\u3092\uff11\u3064\u9078\u3076\u3002\u3042\u306a\u305f\u306e\u30de\u30ca\u30fb\u30d7\u30fc\u30eb\u306b\u3001\u3042\u306a\u305f\u306e\u305d\u306e\u8272\u3078\u306e\u4fe1\u5fc3\u306b\u7b49\u3057\u3044\u70b9\u6570\u306e\u3001\u305d\u306e\u8272\u306e\u30de\u30ca\u3092\u52a0\u3048\u308b\u3002\uff08\u3042\u306a\u305f\u306e\u8272\u3078\u306e\u4fe1\u5fc3\u306f\u3001\u3042\u306a\u305f\u304c\u30b3\u30f3\u30c8\u30ed\u30fc\u30eb\u3059\u308b\u30d1\u30fc\u30de\u30cd\u30f3\u30c8\u306e\u30de\u30ca\u30fb\u30b3\u30b9\u30c8\u5185\u306b\u542b\u307e\u308c\u308b\u305d\u306e\u8272\u306e\u30de\u30ca\u30fb\u30b7\u30f3\u30dc\u30eb\u306e\u6570\u3067\u3042\u308b\u3002\uff09",
+                "type": "\u4f1d\u8aac\u306e\u571f\u5730"
             },
             {
                 "language": "Korean",
-                "name": "닉스의 신전 닉소스",
-                "text": "{T}: {1}를 당신의 마나풀에 담는다.\n{2}, {T}: 색 하나를 선택한다. 당신의 마나풀에 당신이 선택한 색의 마나를 그 색에 대한 신앙심만큼 담는다. (어떤 색에 대한 당신의 신앙심은 당신이 조종하는 지속물에 나온 그 색의 마나 기호 하나당 1씩 증가한다.)",
-                "type": "전설적 대지"
+                "name": "\ub2c9\uc2a4\uc758 \uc2e0\uc804 \ub2c9\uc18c\uc2a4",
+                "text": "{T}: {1}\ub97c \ub2f9\uc2e0\uc758 \ub9c8\ub098\ud480\uc5d0 \ub2f4\ub294\ub2e4.\n{2}, {T}: \uc0c9 \ud558\ub098\ub97c \uc120\ud0dd\ud55c\ub2e4. \ub2f9\uc2e0\uc758 \ub9c8\ub098\ud480\uc5d0 \ub2f9\uc2e0\uc774 \uc120\ud0dd\ud55c \uc0c9\uc758 \ub9c8\ub098\ub97c \uadf8 \uc0c9\uc5d0 \ub300\ud55c \uc2e0\uc559\uc2ec\ub9cc\ud07c \ub2f4\ub294\ub2e4. (\uc5b4\ub5a4 \uc0c9\uc5d0 \ub300\ud55c \ub2f9\uc2e0\uc758 \uc2e0\uc559\uc2ec\uc740 \ub2f9\uc2e0\uc774 \uc870\uc885\ud558\ub294 \uc9c0\uc18d\ubb3c\uc5d0 \ub098\uc628 \uadf8 \uc0c9\uc758 \ub9c8\ub098 \uae30\ud638 \ud558\ub098\ub2f9 1\uc529 \uc99d\uac00\ud55c\ub2e4.)",
+                "type": "\uc804\uc124\uc801 \ub300\uc9c0"
             },
             {
                 "language": "Portuguese (Brazil)",
-                "name": "Nyktos, Santuário de Nyx",
-                "text": "{T}: Adicione {1} à sua reserva de mana.\n{2}, {T}: Escolha uma cor. Adicione à sua reserva de mana uma quantidade de mana daquela cor igual à sua devoção àquela cor. (Sua devoção àquela cor é o número de símbolos de mana daquela cor nos custos de mana das permanentes que você controla.)",
-                "type": "Terreno Lendário"
+                "name": "Nyktos, Santu\u00e1rio de Nyx",
+                "text": "{T}: Adicione {1} \u00e0 sua reserva de mana.\n{2}, {T}: Escolha uma cor. Adicione \u00e0 sua reserva de mana uma quantidade de mana daquela cor igual \u00e0 sua devo\u00e7\u00e3o \u00e0quela cor. (Sua devo\u00e7\u00e3o \u00e0quela cor \u00e9 o n\u00famero de s\u00edmbolos de mana daquela cor nos custos de mana das permanentes que voc\u00ea controla.)",
+                "type": "Terreno Lend\u00e1rio"
             },
             {
                 "language": "Russian",
-                "name": "Никтос, Святилище Никса",
-                "text": "{T}: добавьте {1} в ваше хранилище маны.\n{2}, {T}: выберите цвет. Добавьте в ваше хранилище маны количество маны того цвета, равное вашей Преданности тому цвету. (Ваша Преданность цвету равна общему количеству символов маны этого цвета в мана-стоимости перманентов под вашим контролем.)",
-                "type": "Легендарная Земля"
+                "name": "\u041d\u0438\u043a\u0442\u043e\u0441, \u0421\u0432\u044f\u0442\u0438\u043b\u0438\u0449\u0435 \u041d\u0438\u043a\u0441\u0430",
+                "text": "{T}: \u0434\u043e\u0431\u0430\u0432\u044c\u0442\u0435 {1} \u0432 \u0432\u0430\u0448\u0435 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u043c\u0430\u043d\u044b.\n{2}, {T}: \u0432\u044b\u0431\u0435\u0440\u0438\u0442\u0435 \u0446\u0432\u0435\u0442. \u0414\u043e\u0431\u0430\u0432\u044c\u0442\u0435 \u0432 \u0432\u0430\u0448\u0435 \u0445\u0440\u0430\u043d\u0438\u043b\u0438\u0449\u0435 \u043c\u0430\u043d\u044b \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u043c\u0430\u043d\u044b \u0442\u043e\u0433\u043e \u0446\u0432\u0435\u0442\u0430, \u0440\u0430\u0432\u043d\u043e\u0435 \u0432\u0430\u0448\u0435\u0439 \u041f\u0440\u0435\u0434\u0430\u043d\u043d\u043e\u0441\u0442\u0438 \u0442\u043e\u043c\u0443 \u0446\u0432\u0435\u0442\u0443. (\u0412\u0430\u0448\u0430 \u041f\u0440\u0435\u0434\u0430\u043d\u043d\u043e\u0441\u0442\u044c \u0446\u0432\u0435\u0442\u0443 \u0440\u0430\u0432\u043d\u0430 \u043e\u0431\u0449\u0435\u043c\u0443 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u0443 \u0441\u0438\u043c\u0432\u043e\u043b\u043e\u0432 \u043c\u0430\u043d\u044b \u044d\u0442\u043e\u0433\u043e \u0446\u0432\u0435\u0442\u0430 \u0432 \u043c\u0430\u043d\u0430-\u0441\u0442\u043e\u0438\u043c\u043e\u0441\u0442\u0438 \u043f\u0435\u0440\u043c\u0430\u043d\u0435\u043d\u0442\u043e\u0432 \u043f\u043e\u0434 \u0432\u0430\u0448\u0438\u043c \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0435\u043c.)",
+                "type": "\u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u0430\u044f \u0417\u0435\u043c\u043b\u044f"
             },
             {
                 "language": "Chinese Simplified",
-                "name": "夜天神殿尼索斯",
-                "text": "{T}：加{1}到你的法术力池中。\n{2}，{T}：选择一种颜色。加若干该色法术力到你的法术力池中，其数量等同于你的该色献力。（你的某色献力，便是由你操控的所有永久物之法术力费用中，该色法术力符号的总数量。）",
-                "type": "传奇地"
+                "name": "\u591c\u5929\u795e\u6bbf\u5c3c\u7d22\u65af",
+                "text": "{T}\uff1a\u52a0{1}\u5230\u4f60\u7684\u6cd5\u672f\u529b\u6c60\u4e2d\u3002\n{2}\uff0c{T}\uff1a\u9009\u62e9\u4e00\u79cd\u989c\u8272\u3002\u52a0\u82e5\u5e72\u8be5\u8272\u6cd5\u672f\u529b\u5230\u4f60\u7684\u6cd5\u672f\u529b\u6c60\u4e2d\uff0c\u5176\u6570\u91cf\u7b49\u540c\u4e8e\u4f60\u7684\u8be5\u8272\u732e\u529b\u3002\uff08\u4f60\u7684\u67d0\u8272\u732e\u529b\uff0c\u4fbf\u662f\u7531\u4f60\u64cd\u63a7\u7684\u6240\u6709\u6c38\u4e45\u7269\u4e4b\u6cd5\u672f\u529b\u8d39\u7528\u4e2d\uff0c\u8be5\u8272\u6cd5\u672f\u529b\u7b26\u53f7\u7684\u603b\u6570\u91cf\u3002\uff09",
+                "type": "\u4f20\u5947\u5730"
             },
             {
                 "language": "Chinese Traditional",
-                "name": "夜天神殿尼索斯",
-                "text": "{T}：加{1}到你的魔法力池中。\n{2}，{T}：選擇一種顏色。加若干該色魔法力到你的魔法力池中，其數量等同於你的該色獻力。（你的某色獻力，便是由你操控的所有永久物之魔法力費用中，該色魔法力符號的總數量。）",
-                "type": "傳奇地"
+                "name": "\u591c\u5929\u795e\u6bbf\u5c3c\u7d22\u65af",
+                "text": "{T}\uff1a\u52a0{1}\u5230\u4f60\u7684\u9b54\u6cd5\u529b\u6c60\u4e2d\u3002\n{2}\uff0c{T}\uff1a\u9078\u64c7\u4e00\u7a2e\u984f\u8272\u3002\u52a0\u82e5\u5e72\u8a72\u8272\u9b54\u6cd5\u529b\u5230\u4f60\u7684\u9b54\u6cd5\u529b\u6c60\u4e2d\uff0c\u5176\u6578\u91cf\u7b49\u540c\u65bc\u4f60\u7684\u8a72\u8272\u737b\u529b\u3002\uff08\u4f60\u7684\u67d0\u8272\u737b\u529b\uff0c\u4fbf\u662f\u7531\u4f60\u64cd\u63a7\u7684\u6240\u6709\u6c38\u4e45\u7269\u4e4b\u9b54\u6cd5\u529b\u8cbb\u7528\u4e2d\uff0c\u8a72\u8272\u9b54\u6cd5\u529b\u7b26\u865f\u7684\u7e3d\u6578\u91cf\u3002\uff09",
+                "type": "\u50b3\u5947\u5730"
             }
         ],
         "identifiers": {
@@ -1051,15 +936,15 @@
         "rulings": [
             {
                 "date": "2013-09-15",
-                "text": "The second ability is a mana ability. It doesn’t use the stack and can’t be responded to."
+                "text": "The second ability is a mana ability. It doesn\u2019t use the stack and can\u2019t be responded to."
             },
             {
                 "date": "2013-09-15",
-                "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don’t count toward your devotion to any color."
+                "text": "Numeric mana symbols ({0}, {1}, and so on) in mana costs of permanents you control don\u2019t count toward your devotion to any color."
             },
             {
                 "date": "2013-09-15",
-                "text": "Mana symbols in the text boxes of permanents you control don’t count toward your devotion to any color."
+                "text": "Mana symbols in the text boxes of permanents you control don\u2019t count toward your devotion to any color."
             },
             {
                 "date": "2013-09-15",
@@ -1067,7 +952,7 @@
             },
             {
                 "date": "2013-09-15",
-                "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it’s still on the battlefield at that time."
+                "text": "If an activated ability or triggered ability has an effect that depends on your devotion to a color, you count the number of mana symbols of that color among the mana costs of permanents you control as the ability resolves. The permanent with that ability will be counted if it\u2019s still on the battlefield at that time."
             }
         ],
         "subtypes": [],
@@ -1090,12 +975,12 @@
             {
                 "language": "German",
                 "name": "Gebirge",
-                "type": "Standardland — Gebirge"
+                "type": "Standardland \u2014 Gebirge"
             },
             {
                 "language": "Spanish",
-                "name": "Montaña",
-                "type": "Tierra básica — Montaña"
+                "name": "Monta\u00f1a",
+                "type": "Tierra b\u00e1sica \u2014 Monta\u00f1a"
             },
             {
                 "language": "French",
@@ -1105,16 +990,16 @@
             {
                 "language": "Italian",
                 "name": "Montagna",
-                "type": "Terra Base — Montagna"
+                "type": "Terra Base \u2014 Montagna"
             },
             {
                 "language": "Japanese",
-                "name": "山"
+                "name": "\u5c71"
             },
             {
                 "language": "Portuguese (Brazil)",
                 "name": "Montanha",
-                "type": "Terreno Básico — Montanha"
+                "type": "Terreno B\u00e1sico \u2014 Montanha"
             }
         ],
         "identifiers": {
@@ -1356,7 +1241,7 @@
             "Basic"
         ],
         "text": "({T}: Add {R}.)",
-        "type": "Basic Land — Mountain",
+        "type": "Basic Land \u2014 Mountain",
         "types": [
             "Land"
         ]
@@ -1374,62 +1259,62 @@
             {
                 "language": "German",
                 "name": "Sarkhan Feuerblut",
-                "text": "+1: Du kannst eine Karte abwerfen. Falls du dies tust, ziehe eine Karte.\n+1: Erzeuge zwei Mana in einer beliebigen Kombination von Farben. Verwende dieses Mana nur, um Drache-Zaubersprüche zu wirken.\n−7: Erzeuge vier 5/5 rote Drache-Kreaturenspielsteine mit Flugfähigkeit.",
-                "type": "Legendärer Planeswalker — Sarkhan"
+                "text": "+1: Du kannst eine Karte abwerfen. Falls du dies tust, ziehe eine Karte.\n+1: Erzeuge zwei Mana in einer beliebigen Kombination von Farben. Verwende dieses Mana nur, um Drache-Zauberspr\u00fcche zu wirken.\n\u22127: Erzeuge vier 5/5 rote Drache-Kreaturenspielsteine mit Flugf\u00e4higkeit.",
+                "type": "Legend\u00e4rer Planeswalker \u2014 Sarkhan"
             },
             {
                 "language": "Spanish",
                 "name": "Sarkhan, sangrefuego",
-                "text": "+1: Puedes descartar una carta. Si lo haces, roba una carta.\n+1: Agrega dos manás de cualquier combinación de colores. Gasta este maná solo para lanzar hechizos de Dragón.\n−7: Crea cuatro fichas de criatura Dragón rojas 5/5 con la habilidad de volar.",
-                "type": "Planeswalker legendario — Sarkhan"
+                "text": "+1: Puedes descartar una carta. Si lo haces, roba una carta.\n+1: Agrega dos man\u00e1s de cualquier combinaci\u00f3n de colores. Gasta este man\u00e1 solo para lanzar hechizos de Drag\u00f3n.\n\u22127: Crea cuatro fichas de criatura Drag\u00f3n rojas 5/5 con la habilidad de volar.",
+                "type": "Planeswalker legendario \u2014 Sarkhan"
             },
             {
                 "language": "French",
                 "name": "Sarkhan, le sang de feu",
-                "text": "+1 : Vous pouvez vous défausser d'une carte. Si vous faites ainsi, piochez une carte.\n+1 : Ajoutez deux manas de la combinaison de mana coloré de votre choix. Ne dépensez ce mana que pour lancer des sorts de dragon.\n-7 : Créez quatre jetons de créature 5/5 rouge Dragon avec le vol.",
-                "type": "Planeswalker légendaire : Sarkhan"
+                "text": "+1 : Vous pouvez vous d\u00e9fausser d'une carte. Si vous faites ainsi, piochez une carte.\n+1 : Ajoutez deux manas de la combinaison de mana color\u00e9 de votre choix. Ne d\u00e9pensez ce mana que pour lancer des sorts de dragon.\n-7 : Cr\u00e9ez quatre jetons de cr\u00e9ature 5/5 rouge Dragon avec le vol.",
+                "type": "Planeswalker l\u00e9gendaire : Sarkhan"
             },
             {
                 "language": "Italian",
                 "name": "Sarkhan, Sangue Infuocato",
                 "text": "+1: Puoi scartare una carta. Se lo fai, pesca una carta.\n+1: Aggiungi due mana in qualsiasi combinazione di colori. Spendi questo mana solo per lanciare magie Drago.\n-7: Crea quattro pedine creatura Drago 5/5 rosse con volare.",
-                "type": "Planeswalker Leggendario — Sarkhan"
+                "type": "Planeswalker Leggendario \u2014 Sarkhan"
             },
             {
                 "language": "Japanese",
-                "name": "火の血脈、サルカン",
-                "text": "+1：あなたはカード１枚を捨ててもよい。そうしたなら、カードを１枚引く。\n+1：望む色の組み合わせのマナ２点を加える。このマナは、ドラゴン・呪文を唱えるためにのみ使用できる。\n-7：飛行を持つ赤の５/５のドラゴン・クリーチャー・トークンを４体生成する。",
-                "type": "伝説のプレインズウォーカー — サルカン"
+                "name": "\u706b\u306e\u8840\u8108\u3001\u30b5\u30eb\u30ab\u30f3",
+                "text": "+1\uff1a\u3042\u306a\u305f\u306f\u30ab\u30fc\u30c9\uff11\u679a\u3092\u6368\u3066\u3066\u3082\u3088\u3044\u3002\u305d\u3046\u3057\u305f\u306a\u3089\u3001\u30ab\u30fc\u30c9\u3092\uff11\u679a\u5f15\u304f\u3002\n+1\uff1a\u671b\u3080\u8272\u306e\u7d44\u307f\u5408\u308f\u305b\u306e\u30de\u30ca\uff12\u70b9\u3092\u52a0\u3048\u308b\u3002\u3053\u306e\u30de\u30ca\u306f\u3001\u30c9\u30e9\u30b4\u30f3\u30fb\u546a\u6587\u3092\u5531\u3048\u308b\u305f\u3081\u306b\u306e\u307f\u4f7f\u7528\u3067\u304d\u308b\u3002\n-7\uff1a\u98db\u884c\u3092\u6301\u3064\u8d64\u306e\uff15/\uff15\u306e\u30c9\u30e9\u30b4\u30f3\u30fb\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\u30fb\u30c8\u30fc\u30af\u30f3\u3092\uff14\u4f53\u751f\u6210\u3059\u308b\u3002",
+                "type": "\u4f1d\u8aac\u306e\u30d7\u30ec\u30a4\u30f3\u30ba\u30a6\u30a9\u30fc\u30ab\u30fc \u2014 \u30b5\u30eb\u30ab\u30f3"
             },
             {
                 "language": "Korean",
-                "name": "불의 피, 사르칸",
-                "text": "+1: 당신은 카드 한 장을 버릴 수 있다. 그렇게 한다면, 카드 한 장을 뽑는다.\n+1: 원하는 색의 조합으로 마나 두 개를 추가한다. 이 마나는 용 주문을 발동하는 데에만 사용할 수 있다.\n−7: 비행을 가진 5/5 적색 용 생물 토큰 네 개를 만든다.",
-                "type": "전설적 플레인즈워커 — 사르칸"
+                "name": "\ubd88\uc758 \ud53c, \uc0ac\ub974\uce78",
+                "text": "+1: \ub2f9\uc2e0\uc740 \uce74\ub4dc \ud55c \uc7a5\uc744 \ubc84\ub9b4 \uc218 \uc788\ub2e4. \uadf8\ub807\uac8c \ud55c\ub2e4\uba74, \uce74\ub4dc \ud55c \uc7a5\uc744 \ubf51\ub294\ub2e4.\n+1: \uc6d0\ud558\ub294 \uc0c9\uc758 \uc870\ud569\uc73c\ub85c \ub9c8\ub098 \ub450 \uac1c\ub97c \ucd94\uac00\ud55c\ub2e4. \uc774 \ub9c8\ub098\ub294 \uc6a9 \uc8fc\ubb38\uc744 \ubc1c\ub3d9\ud558\ub294 \ub370\uc5d0\ub9cc \uc0ac\uc6a9\ud560 \uc218 \uc788\ub2e4.\n\u22127: \ube44\ud589\uc744 \uac00\uc9c4 5/5 \uc801\uc0c9 \uc6a9 \uc0dd\ubb3c \ud1a0\ud070 \ub124 \uac1c\ub97c \ub9cc\ub4e0\ub2e4.",
+                "type": "\uc804\uc124\uc801 \ud50c\ub808\uc778\uc988\uc6cc\ucee4 \u2014 \uc0ac\ub974\uce78"
             },
             {
                 "language": "Portuguese (Brazil)",
                 "name": "Sarkhan, Sangue de Fogo",
-                "text": "+1: Você pode descartar um card. Se fizer isso, compre um card.\n+1: Adicione dois manas em qualquer combinação de cores. Gaste este mana somente para conjurar mágicas de Dragão.\n−7: Crie quatro fichas de criatura vermelha 5/5 do tipo Dragão com voar.",
-                "type": "Planeswalker Lendário — Sarkhan"
+                "text": "+1: Voc\u00ea pode descartar um card. Se fizer isso, compre um card.\n+1: Adicione dois manas em qualquer combina\u00e7\u00e3o de cores. Gaste este mana somente para conjurar m\u00e1gicas de Drag\u00e3o.\n\u22127: Crie quatro fichas de criatura vermelha 5/5 do tipo Drag\u00e3o com voar.",
+                "type": "Planeswalker Lend\u00e1rio \u2014 Sarkhan"
             },
             {
                 "language": "Russian",
-                "name": "Сархан, Огненная Кровь",
-                "text": "+1: вы можете сбросить карту. Если вы это делаете, возьмите карту.\n+1: добавьте две маны в любой комбинации цветов. Тратьте эту ману только на разыгрывание заклинаний Драконов.\n−7: создайте четыре фишки существа 5/5 красный Дракон с Полетом.",
-                "type": "Легендарный Planeswalker — Сархан"
+                "name": "\u0421\u0430\u0440\u0445\u0430\u043d, \u041e\u0433\u043d\u0435\u043d\u043d\u0430\u044f \u041a\u0440\u043e\u0432\u044c",
+                "text": "+1: \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0441\u0431\u0440\u043e\u0441\u0438\u0442\u044c \u043a\u0430\u0440\u0442\u0443. \u0415\u0441\u043b\u0438 \u0432\u044b \u044d\u0442\u043e \u0434\u0435\u043b\u0430\u0435\u0442\u0435, \u0432\u043e\u0437\u044c\u043c\u0438\u0442\u0435 \u043a\u0430\u0440\u0442\u0443.\n+1: \u0434\u043e\u0431\u0430\u0432\u044c\u0442\u0435 \u0434\u0432\u0435 \u043c\u0430\u043d\u044b \u0432 \u043b\u044e\u0431\u043e\u0439 \u043a\u043e\u043c\u0431\u0438\u043d\u0430\u0446\u0438\u0438 \u0446\u0432\u0435\u0442\u043e\u0432. \u0422\u0440\u0430\u0442\u044c\u0442\u0435 \u044d\u0442\u0443 \u043c\u0430\u043d\u0443 \u0442\u043e\u043b\u044c\u043a\u043e \u043d\u0430 \u0440\u0430\u0437\u044b\u0433\u0440\u044b\u0432\u0430\u043d\u0438\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0439 \u0414\u0440\u0430\u043a\u043e\u043d\u043e\u0432.\n\u22127: \u0441\u043e\u0437\u0434\u0430\u0439\u0442\u0435 \u0447\u0435\u0442\u044b\u0440\u0435 \u0444\u0438\u0448\u043a\u0438 \u0441\u0443\u0449\u0435\u0441\u0442\u0432\u0430 5/5 \u043a\u0440\u0430\u0441\u043d\u044b\u0439 \u0414\u0440\u0430\u043a\u043e\u043d \u0441 \u041f\u043e\u043b\u0435\u0442\u043e\u043c.",
+                "type": "\u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u044b\u0439 Planeswalker \u2014 \u0421\u0430\u0440\u0445\u0430\u043d"
             },
             {
                 "language": "Chinese Simplified",
-                "name": "炎血萨坎",
-                "text": "+1：你可以弃一张牌。若你如此作，则抓一张牌。\n+1：加两点法术力，其颜色组合由你选择。此法术力只能用来施放龙咒语。\n−7：派出四个5/5红色，具飞行异能的龙衍生生物。",
-                "type": "传奇鹏洛客 ～萨坎"
+                "name": "\u708e\u8840\u8428\u574e",
+                "text": "+1\uff1a\u4f60\u53ef\u4ee5\u5f03\u4e00\u5f20\u724c\u3002\u82e5\u4f60\u5982\u6b64\u4f5c\uff0c\u5219\u6293\u4e00\u5f20\u724c\u3002\n+1\uff1a\u52a0\u4e24\u70b9\u6cd5\u672f\u529b\uff0c\u5176\u989c\u8272\u7ec4\u5408\u7531\u4f60\u9009\u62e9\u3002\u6b64\u6cd5\u672f\u529b\u53ea\u80fd\u7528\u6765\u65bd\u653e\u9f99\u5492\u8bed\u3002\n\u22127\uff1a\u6d3e\u51fa\u56db\u4e2a5/5\u7ea2\u8272\uff0c\u5177\u98de\u884c\u5f02\u80fd\u7684\u9f99\u884d\u751f\u751f\u7269\u3002",
+                "type": "\u4f20\u5947\u9e4f\u6d1b\u5ba2 \uff5e\u8428\u574e"
             },
             {
                 "language": "Chinese Traditional",
-                "name": "炎血薩坎",
-                "text": "+1：你可以棄一張牌。若你如此作，則抽一張牌。\n+1：加兩點魔法力，其顏色組合由你選擇。此魔法力只能用來施放龍咒語。\n-7：派出四個5/5紅色，具飛行異能的龍衍生生物。",
-                "type": "傳奇鵬洛客 ～薩坎"
+                "name": "\u708e\u8840\u85a9\u574e",
+                "text": "+1\uff1a\u4f60\u53ef\u4ee5\u68c4\u4e00\u5f35\u724c\u3002\u82e5\u4f60\u5982\u6b64\u4f5c\uff0c\u5247\u62bd\u4e00\u5f35\u724c\u3002\n+1\uff1a\u52a0\u5169\u9ede\u9b54\u6cd5\u529b\uff0c\u5176\u984f\u8272\u7d44\u5408\u7531\u4f60\u9078\u64c7\u3002\u6b64\u9b54\u6cd5\u529b\u53ea\u80fd\u7528\u4f86\u65bd\u653e\u9f8d\u5492\u8a9e\u3002\n-7\uff1a\u6d3e\u51fa\u56db\u500b5/5\u7d05\u8272\uff0c\u5177\u98db\u884c\u7570\u80fd\u7684\u9f8d\u884d\u751f\u751f\u7269\u3002",
+                "type": "\u50b3\u5947\u9d6c\u6d1b\u5ba2 \uff5e\u85a9\u574e"
             }
         ],
         "identifiers": {
@@ -1468,11 +1353,11 @@
         "rulings": [
             {
                 "date": "2018-07-13",
-                "text": "Because it’s a loyalty ability, Sarkhan’s second ability isn’t a mana ability. It can be activated only any time you could cast a sorcery. It uses the stack and can be responded to."
+                "text": "Because it\u2019s a loyalty ability, Sarkhan\u2019s second ability isn\u2019t a mana ability. It can be activated only any time you could cast a sorcery. It uses the stack and can be responded to."
             },
             {
                 "date": "2018-07-13",
-                "text": "A “Dragon spell” refers only to a spell that has the Dragon subtype, regardless of its name. For example, Dragon’s Hoard isn’t a Dragon spell."
+                "text": "A \u201cDragon spell\u201d refers only to a spell that has the Dragon subtype, regardless of its name. For example, Dragon\u2019s Hoard isn\u2019t a Dragon spell."
             }
         ],
         "subtypes": [
@@ -1481,80 +1366,154 @@
         "supertypes": [
             "Legendary"
         ],
-        "text": "[+1]: You may discard a card. If you do, draw a card.\n[+1]: Add two mana in any combination of colors. Spend this mana only to cast Dragon spells.\n[−7]: Create four 5/5 red Dragon creature tokens with flying.",
-        "type": "Legendary Planeswalker — Sarkhan",
+        "text": "[+1]: You may discard a card. If you do, draw a card.\n[+1]: Add two mana in any combination of colors. Spend this mana only to cast Dragon spells.\n[\u22127]: Create four 5/5 red Dragon creature tokens with flying.",
+        "type": "Legendary Planeswalker \u2014 Sarkhan",
         "types": [
             "Planeswalker"
         ]
     },
-    "Sarkhan the Masterless": {
+    "Chandra, Dressed to Kill": {
         "colorIdentity": [
             "R"
         ],
         "colors": [
             "R"
         ],
-        "convertedManaCost": 5.0,
-        "edhrecRank": 2737,
+        "convertedManaCost": 3.0,
+        "edhrecRank": 5240,
         "foreignData": [
             {
+                "language": "German",
+                "name": "Chandra, todschick",
+                "text": "+1: Erzeuge {R}. Chandra, todschick, f\u00fcgt bis zu einem Spieler oder Planeswalker deiner Wahl 1 Schadenspunkt zu.\n+1: Schicke die oberste Karte deiner Bibliothek ins Exil. Falls sie rot ist, kannst du sie in diesem Zug wirken.\n\u22127: Schicke die obersten f\u00fcnf Karten deiner Bibliothek ins Exil. Bis zum Ende des Zuges kannst du davon rote Zauberspr\u00fcche wirken. Du erh\u00e4ltst ein Emblem mit \u201eImmer wenn du einen roten Zauberspruch wirkst, f\u00fcgt dieses Emblem einem Ziel deiner Wahl X Schadenspunkte zu, wobei X gleich der Menge Mana ist, die ausgegeben wurde, um den Zauberspruch zu wirken.\"",
+                "type": "Legend\u00e4rer Planeswalker \u2014 Chandra"
+            },
+            {
+                "language": "Spanish",
+                "name": "Chandra, vestida para matar",
+                "text": "+1: Agrega {R}. Chandra, vestida para matar hace 1 punto de da\u00f1o a hasta un jugador o planeswalker objetivo.\n+1: Exilia la primera carta de tu biblioteca. Si es roja, puedes lanzarla este turno.\n\u22127: Exilia las cinco primeras cartas de tu biblioteca. Puedes lanzar hechizos rojos de entre ellas este turno. Obtienes un emblema con \"Siempre que lances un hechizo rojo, este emblema hace X puntos de da\u00f1o a cualquier objetivo, donde X es la cantidad de man\u00e1 usado para lanzar ese hechizo\".",
+                "type": "Planeswalker legendario \u2014 Chandra"
+            },
+            {
+                "language": "French",
+                "name": "Chandra, tout feu tout flamme",
+                "text": "+1: Ajoutez {R}. Chandra, tout feu tout flamme inflige 1 blessure \u00e0 jusqu'\u00e0 une cible, joueur ou planeswalker.\n+1: Exilez la carte du dessus de votre biblioth\u00e8que. Si elle est rouge, vous pouvez la lancer ce tour-ci.\n-7: Exilez les cinq cartes du dessus de votre biblioth\u00e8que. Parmi elles, vous pouvez lancer des sorts rouges ce tour-ci. Vous gagnez un embl\u00e8me avec \u00ab \u00c0 chaque fois que vous lancez un sort rouge, cet embl\u00e8me inflige X blessures \u00e0 n'importe quelle cible, X \u00e9tant la quantit\u00e9 de mana d\u00e9pens\u00e9e pour lancer ce sort. \u00bb",
+                "type": "Planeswalker l\u00e9gendaire : Chandra"
+            },
+            {
+                "language": "Italian",
+                "name": "Chandra dall'Eleganza Letale",
+                "text": "+1: Aggiungi {R}. Scegli fino a un giocatore o a un planeswalker bersaglio. Chandra dall'Eleganza Letale infligge 1 danno a quel giocatore o planeswalker.\n+1: Esilia la prima carta del tuo grimorio. Se \u00e8 rossa, puoi lanciarla in questo turno.\n\u22127: Esilia le prime cinque carte del tuo grimorio. Puoi lanciare magie rosse scelte tra esse in questo turno. Ottieni un emblema con \"Ogniqualvolta lanci una magia rossa, questo emblema infligge X danni a un qualsiasi bersaglio, dove X \u00e8 pari al mana speso per lanciare quella magia\".",
+                "type": "Planeswalker Leggendario \u2014 Chandra"
+            },
+            {
                 "language": "Japanese",
-                "name": "主無き者、サルカン",
-                "text": "クリーチャーが１体、あなたかあなたがコントロールしているプレインズウォーカーを攻撃するたび、あなたがコントロールしている各ドラゴンはそのクリーチャーに１点のダメージを与える。\n+1：ターン終了時まで、あなたがコントロールしている各プレインズウォーカーは赤の４/４のドラゴン・クリーチャーになり飛行を得る。\n-3：飛行を持つ赤の４/４のドラゴン・クリーチャー・トークンを１体生成する。",
-                "type": "伝説のプレインズウォーカー — サルカン"
+                "name": "\u52dd\u8ca0\u670d\u7e8f\u3044\u3001\u30c1\u30e3\u30f3\u30c9\u30e9",
+                "text": "+1\uff1a{R}\u3092\u52a0\u3048\u308b\u3002\u30d7\u30ec\u30a4\u30e4\u30fc\u3084\u30d7\u30ec\u30a4\u30f3\u30ba\u30a6\u30a9\u30fc\u30ab\u30fc\u306e\u3046\u3061\u6700\u5927\uff11\u3064\u3092\u5bfe\u8c61\u3068\u3059\u308b\u3002\u52dd\u8ca0\u670d\u7e8f\u3044\u3001\u30c1\u30e3\u30f3\u30c9\u30e9\u306f\u305d\u308c\u306b\uff11\u70b9\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002\n+1\uff1a\u3042\u306a\u305f\u306e\u30e9\u30a4\u30d6\u30e9\u30ea\u30fc\u306e\u4e00\u756a\u4e0a\u306b\u3042\u308b\u30ab\u30fc\u30c9\uff11\u679a\u3092\u8ffd\u653e\u3059\u308b\u3002\u305d\u308c\u304c\u8d64\u3067\u3042\u308b\u306a\u3089\u3001\u3042\u306a\u305f\u306f\u305d\u308c\u3092\u5531\u3048\u3066\u3082\u3088\u3044\u3002\n\u22127\uff1a\u3042\u306a\u305f\u306e\u30e9\u30a4\u30d6\u30e9\u30ea\u30fc\u306e\u4e00\u756a\u4e0a\u306b\u3042\u308b\u30ab\u30fc\u30c9\uff15\u679a\u3092\u8ffd\u653e\u3059\u308b\u3002\u3053\u306e\u30bf\u30fc\u30f3\u3001\u3042\u306a\u305f\u306f\u305d\u306e\u4e2d\u304b\u3089\u671b\u3080\u6570\u306e\u8d64\u306e\u546a\u6587\u3092\u5531\u3048\u3066\u3082\u3088\u3044\u3002\u3042\u306a\u305f\u306f\u300c\u3042\u306a\u305f\u304c\u8d64\u306e\u546a\u6587\u3092\u5531\u3048\u308b\u305f\u3073\u3001\u30af\u30ea\u30fc\u30c1\u30e3\u30fc\u3084\u30d7\u30ec\u30a4\u30f3\u30ba\u30a6\u30a9\u30fc\u30ab\u30fc\u3084\u30d7\u30ec\u30a4\u30e4\u30fc\u306e\u3046\u3061\uff11\u3064\u3092\u5bfe\u8c61\u3068\u3059\u308b\u3002\u3053\u306e\u7d0b\u7ae0\u306f\u305d\u308c\u306b\uff38\u70b9\u306e\u30c0\u30e1\u30fc\u30b8\u3092\u4e0e\u3048\u308b\u3002\uff38\u306f\u305d\u306e\u546a\u6587\u3092\u5531\u3048\u308b\u305f\u3081\u306b\u652f\u6255\u3063\u305f\u30de\u30ca\u306e\u70b9\u6570\u306b\u7b49\u3057\u3044\u3002\u300d\u3092\u6301\u3064\u7d0b\u7ae0\u3092\u5f97\u308b\u3002",
+                "type": "\u4f1d\u8aac\u306e\u30d7\u30ec\u30a4\u30f3\u30ba\u30a6\u30a9\u30fc\u30ab\u30fc \u2014 \u30c1\u30e3\u30f3\u30c9\u30e9"
+            },
+            {
+                "language": "Korean",
+                "name": "\uc8fd\uc774\ub294 \ucc28\ub9bc\uc0c8\ub97c \ud55c \ucc2c\ub4dc\ub77c",
+                "text": "+1: {R}\ub97c \ucd94\uac00\ud55c\ub2e4. \ud50c\ub808\uc774\uc5b4 \ub610\ub294 \ud50c\ub808\uc778\uc988\uc6cc\ucee4\ub97c \ucd5c\ub300 \ud55c \uac1c\uae4c\uc9c0 \ubaa9\ud45c\ub85c \uc815\ud55c\ub2e4. \uc8fd\uc774\ub294 \ucc28\ub9bc\uc0c8\ub97c \ud55c \ucc2c\ub4dc\ub77c\ub294 \uadf8 \ubaa9\ud45c\uc5d0\uac8c \ud53c\ud574 1\uc810\uc744 \uc785\ud78c\ub2e4.\n+1: \ub2f9\uc2e0\uc758 \uc11c\uace0 \ub9e8 \uc704 \uce74\ub4dc\ub97c \ucd94\ubc29\ud55c\ub2e4. \uadf8 \uce74\ub4dc\uac00 \uc801\uc0c9\uc774\ub77c\uba74, \ub2f9\uc2e0\uc740 \uc774 \ud134\uc5d0 \uadf8 \uce74\ub4dc\ub97c \ubc1c\ub3d9\ud560 \uc218 \uc788\ub2e4.\n\u22127: \ub2f9\uc2e0\uc758 \uc11c\uace0 \ub9e8 \uc704 \uce74\ub4dc \ub2e4\uc12f \uc7a5\uc744 \ucd94\ubc29\ud55c\ub2e4. \ub2f9\uc2e0\uc740 \uc774 \ud134\uc5d0 \uadf8 \uce74\ub4dc\ub4e4 \uc911\uc5d0\uc11c \uc801\uc0c9 \uc8fc\ubb38\ub4e4\uc744 \ubc1c\ub3d9\ud560 \uc218 \uc788\ub2e4. \ub2f9\uc2e0\uc740 \"\ub2f9\uc2e0\uc774 \uc801\uc0c9 \uc8fc\ubb38\uc744 \ubc1c\ub3d9\ud560 \ub54c\ub9c8\ub2e4, \uc6d0\ud558\ub294 \ubaa9\ud45c\ub97c \uc815\ud55c\ub2e4. \uc774 \ud718\uc7a5\uc740 \uadf8 \ubaa9\ud45c\uc5d0\uac8c \ud53c\ud574 X\uc810\uc744 \uc785\ud78c\ub2e4. X\ub294 \ub2f9\uc2e0\uc774 \uadf8 \uc8fc\ubb38\uc744 \ubc1c\ub3d9\ud558\uae30 \uc704\ud574 \uc9c0\ubd88\ud55c \ub9c8\ub098\uc758 \uc591\uc774\ub2e4.\"\ub97c \uac00\uc9c4 \ud718\uc7a5\uc744 \uc5bb\ub294\ub2e4.",
+                "type": "\uc804\uc124\uc801 \ud50c\ub808\uc778\uc988\uc6cc\ucee4 \u2014 \ucc2c\ub4dc\ub77c"
+            },
+            {
+                "language": "Portuguese (Brazil)",
+                "name": "Chandra, Vestida para Matar",
+                "text": "+1: Adicione {R}. Chandra, Vestida para Matar, causa 1 ponto de dano a at\u00e9 um jogador ou planeswalker alvo.\n+1: Exile o card do topo de seu grim\u00f3rio. Se ele for vermelho, voc\u00ea pode conjur\u00e1-lo neste turno.\n\u22127: Exile os cinco cards do topo de seu grim\u00f3rio. Voc\u00ea pode conjurar m\u00e1gicas vermelhas dentre eles neste turno. Voc\u00ea recebe um emblema com \"Toda vez que voc\u00ea conjura uma m\u00e1gica vermelha, este emblema causa X pontos de dano a qualquer alvo, sendo X a quantidade de mana gasta para conjurar aquela m\u00e1gica\".",
+                "type": "Planeswalker Lend\u00e1rio \u2014 Chandra"
+            },
+            {
+                "language": "Russian",
+                "name": "\u0427\u0430\u043d\u0434\u0440\u0430, \u0421\u0440\u0430\u0436\u0430\u044e\u0449\u0430\u044f \u041d\u0430\u043f\u043e\u0432\u0430\u043b",
+                "text": "+1: \u0434\u043e\u0431\u0430\u0432\u044c\u0442\u0435 {R}. \u0427\u0430\u043d\u0434\u0440\u0430, \u0421\u0440\u0430\u0436\u0430\u044e\u0449\u0430\u044f \u041d\u0430\u043f\u043e\u0432\u0430\u043b \u043d\u0430\u043d\u043e\u0441\u0438\u0442 1 \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0435 \u043d\u0435 \u0431\u043e\u043b\u0435\u0435 \u0447\u0435\u043c \u043e\u0434\u043d\u043e\u043c\u0443 \u0446\u0435\u043b\u0435\u0432\u043e\u043c\u0443 \u0438\u0433\u0440\u043e\u043a\u0443 \u0438\u043b\u0438 planeswalker'\u0443.\n+1: \u0438\u0437\u0433\u043e\u043d\u0438\u0442\u0435 \u0432\u0435\u0440\u0445\u043d\u044e\u044e \u043a\u0430\u0440\u0442\u0443 \u0432\u0430\u0448\u0435\u0439 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438. \u0415\u0441\u043b\u0438 \u043e\u043d\u0430 \u043a\u0440\u0430\u0441\u043d\u0430\u044f, \u0442\u043e \u0432\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0440\u0430\u0437\u044b\u0433\u0440\u0430\u0442\u044c \u0435\u0435 \u0432 \u044d\u0442\u043e\u043c \u0445\u043e\u0434\u0443.\n\u20147: \u0438\u0437\u0433\u043e\u043d\u0438\u0442\u0435 \u043f\u044f\u0442\u044c \u0432\u0435\u0440\u0445\u043d\u0438\u0445 \u043a\u0430\u0440\u0442 \u0432\u0430\u0448\u0435\u0439 \u0431\u0438\u0431\u043b\u0438\u043e\u0442\u0435\u043a\u0438. \u0412\u044b \u043c\u043e\u0436\u0435\u0442\u0435 \u0440\u0430\u0437\u044b\u0433\u0440\u0430\u0442\u044c \u043d\u0430\u0445\u043e\u0434\u044f\u0449\u0438\u0435\u0441\u044f \u0441\u0440\u0435\u0434\u0438 \u043d\u0438\u0445 \u043a\u0440\u0430\u0441\u043d\u044b\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f \u0432 \u044d\u0442\u043e\u043c \u0445\u043e\u0434\u0443. \u0412\u044b \u043f\u043e\u043b\u0443\u0447\u0430\u0435\u0442\u0435 \u044d\u043c\u0431\u043b\u0435\u043c\u0443 \u0441\u043e \u0441\u043f\u043e\u0441\u043e\u0431\u043d\u043e\u0441\u0442\u044c\u044e \u00ab\u041a\u0430\u0436\u0434\u044b\u0439 \u0440\u0430\u0437, \u043a\u043e\u0433\u0434\u0430 \u0432\u044b \u0440\u0430\u0437\u044b\u0433\u0440\u044b\u0432\u0430\u0435\u0442\u0435 \u043a\u0440\u0430\u0441\u043d\u043e\u0435 \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u0435, \u044d\u0442\u0430 \u044d\u043c\u0431\u043b\u0435\u043c\u0430 \u043d\u0430\u043d\u043e\u0441\u0438\u0442 X \u043f\u043e\u0432\u0440\u0435\u0436\u0434\u0435\u043d\u0438\u0439 \u043b\u044e\u0431\u043e\u0439 \u0446\u0435\u043b\u0438, \u0433\u0434\u0435 X \u2014 \u043a\u043e\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u043c\u0430\u043d\u044b, \u043f\u043e\u0442\u0440\u0430\u0447\u0435\u043d\u043d\u043e\u0439 \u043d\u0430 \u0440\u0430\u0437\u044b\u0433\u0440\u044b\u0432\u0430\u043d\u0438\u0435 \u0442\u043e\u0433\u043e \u0437\u0430\u043a\u043b\u0438\u043d\u0430\u043d\u0438\u044f\u00bb.",
+                "type": "\u041b\u0435\u0433\u0435\u043d\u0434\u0430\u0440\u043d\u044b\u0439 Planeswalker \u2014 \u0427\u0430\u043d\u0434\u0440\u0430"
+            },
+            {
+                "language": "Chinese Simplified",
+                "name": "\u76db\u88c5\u831c\u5353",
+                "text": "+1\uff1a\u52a0{R}\u3002\u76db\u88c5\u831c\u5353\u5bf9\u81f3\u591a\u4e00\u4f4d\u76ee\u6807\u724c\u624b\u6216\u9e4f\u6d1b\u5ba2\u9020\u62101\u70b9\u4f24\u5bb3\u3002\n+1\uff1a\u653e\u9010\u4f60\u7684\u724c\u5e93\u9876\u724c\u3002\u5982\u679c\u5b83\u662f\u7ea2\u8272\uff0c\u5219\u672c\u56de\u5408\u4e2d\uff0c\u4f60\u53ef\u4ee5\u65bd\u653e\u5b83\u3002\n\u22127\uff1a\u653e\u9010\u4f60\u724c\u5e93\u9876\u7684\u4e94\u5f20\u724c\u3002\u672c\u56de\u5408\u4e2d\uff0c\u4f60\u53ef\u4ee5\u4ece\u5176\u4e2d\u65bd\u653e\u7ea2\u8272\u5492\u8bed\u3002\u4f60\u83b7\u5f97\u5177\u6709\u4ee5\u4e0b\u5f02\u80fd\u7684\u5fbd\u8bb0\uff5e\u300c\u6bcf\u5f53\u4f60\u65bd\u653e\u7ea2\u8272\u5492\u8bed\u65f6\uff0c\u6b64\u5fbd\u8bb0\u5bf9\u4efb\u610f\u4e00\u4e2a\u76ee\u6807\u9020\u6210X\u70b9\u4f24\u5bb3\uff0cX\u4e3a\u65bd\u653e\u8be5\u5492\u8bed\u65f6\u6240\u652f\u4ed8\u7684\u6cd5\u672f\u529b\u6570\u91cf\u3002\u300d",
+                "type": "\u4f20\u5947\u9e4f\u6d1b\u5ba2 \uff5e\u831c\u5353"
+            },
+            {
+                "language": "Chinese Traditional",
+                "name": "\u76db\u88dd\u831c\u5353",
+                "text": "+1\uff1a\u52a0{R}\u3002\u76db\u88dd\u831c\u5353\u5c0d\u81f3\u591a\u4e00\u4f4d\u76ee\u6a19\u73a9\u5bb6\u6216\u9d6c\u6d1b\u5ba2\u9020\u62101\u9ede\u50b7\u5bb3\u3002\n+1\uff1a\u653e\u9010\u4f60\u7684\u724c\u5eab\u9802\u724c\u3002\u5982\u679c\u5b83\u662f\u7d05\u8272\uff0c\u5247\u672c\u56de\u5408\u4e2d\uff0c\u4f60\u53ef\u4ee5\u65bd\u653e\u5b83\u3002\n\u22127\uff1a\u653e\u9010\u4f60\u724c\u5eab\u9802\u7684\u4e94\u5f35\u724c\u3002\u672c\u56de\u5408\u4e2d\uff0c\u4f60\u53ef\u4ee5\u5f9e\u5176\u4e2d\u65bd\u653e\u7d05\u8272\u5492\u8a9e\u3002\u4f60\u7372\u5f97\u5177\u6709\u4ee5\u4e0b\u7570\u80fd\u7684\u5fbd\u8a18\uff5e\u300c\u6bcf\u7576\u4f60\u65bd\u653e\u7d05\u8272\u5492\u8a9e\u6642\uff0c\u6b64\u5fbd\u8a18\u5c0d\u4efb\u610f\u4e00\u500b\u76ee\u6a19\u9020\u6210X\u9ede\u50b7\u5bb3\uff0cX\u70ba\u65bd\u653e\u8a72\u5492\u8a9e\u6642\u6240\u652f\u4ed8\u7684\u9b54\u6cd5\u529b\u6578\u91cf\u3002\u300d",
+                "type": "\u50b3\u5947\u9d6c\u6d1b\u5ba2 \uff5e\u831c\u5353"
             }
         ],
         "identifiers": {
-            "scryfallOracleId": "67dbc5dd-6d05-43e7-83f7-70e10eb54807"
+            "scryfallOracleId": "4686f776-2055-470c-bd99-7c4bb32902c0"
         },
         "layout": "normal",
         "leadershipSkills": {
-            "brawl": false,
+            "brawl": true,
             "commander": false,
             "oathbreaker": true
         },
         "legalities": {
+            "alchemy": "Legal",
+            "brawl": "Legal",
             "commander": "Legal",
             "duel": "Legal",
             "explorer": "Legal",
+            "future": "Legal",
             "gladiator": "Legal",
             "historic": "Legal",
             "historicbrawl": "Legal",
             "legacy": "Legal",
             "modern": "Legal",
-            "penny": "Legal",
             "pioneer": "Legal",
+            "standard": "Legal",
             "vintage": "Legal"
         },
-        "loyalty": "5",
-        "manaCost": "{3}{R}{R}",
-        "manaValue": 5.0,
-        "name": "Sarkhan the Masterless",
+        "loyalty": "3",
+        "manaCost": "{1}{R}{R}",
+        "manaValue": 3.0,
+        "name": "Chandra, Dressed to Kill",
         "printings": [
+            "DBL",
             "PRM",
-            "PWAR",
-            "SLD",
-            "WAR"
+            "PVOW",
+            "VOW"
         ],
-        "purchaseUrls": {},
+        "purchaseUrls": {
+            "cardKingdom": "https://mtgjson.com/links/147954e923978f16",
+            "cardKingdomFoil": "https://mtgjson.com/links/6691fe541eb54074",
+            "cardmarket": "https://mtgjson.com/links/d0bde091a244cf2d",
+            "tcgplayer": "https://mtgjson.com/links/6dcbca85564cab2b"
+        },
         "rulings": [
             {
-                "date": "2019-05-03",
-                "text": "A planeswalker that becomes a creature due to Sarkhan’s first loyalty ability can’t attack unless you’ve controlled it continuously since your turn began."
+                "date": "2021-11-19",
+                "text": "Chandra's first ability uses the stack and can be responded to, even if no targets were chosen. It doesn't count as a mana ability."
             },
             {
-                "date": "2019-05-03",
-                "text": "Once Sarkhan’s first loyalty ability has resolved, each planeswalker you control (including Sarkhan) is no longer a planeswalker for the rest of the turn. They don’t lose any loyalty counters or abilities, and you can still activate their loyalty abilities if you haven’t done so yet this turn. They don’t lose loyalty if they’re dealt damage while they’re not planeswalkers."
+                "date": "2021-11-19",
+                "text": "Chandra's second ability checks the characteristics of the card you exiled to see if it's red. If the spell that card becomes somehow isn't red, you may still cast it. For example, Rowan, Scholar of Sparks, the front face of a modal double-faced card, is red. Will, Scholar of Frost, the back face of the same card, is blue. In exile, that card is red, so you may cast either face if you exile it with this ability."
+            },
+            {
+                "date": "2021-11-19",
+                "text": "Chandra's last ability, by contrast, only allows you to cast spells that are red when you cast them, no matter what the card in exile is. If Rowan, Scholar of Sparks is exiled by this ability, you won't be able to cast Will, Scholar of Frost this way because it would be a blue spell."
+            },
+            {
+                "date": "2021-11-19",
+                "text": "You must pay all costs for spells cast via Chandra's last two abilities. For the middle ability, you must also follow all timing restrictions."
+            },
+            {
+                "date": "2021-11-19",
+                "text": "The emblem's triggered ability looks for the actual amount of mana spent to cast the spell. If an effect caused you to pay more or less mana for that spell as you cast it, that will be taken into account when determining the value of X. If an effect would counter that spell unless you pay some amount of mana, that mana doesn't count as mana spent to cast it."
             }
         ],
         "subtypes": [
-            "Sarkhan"
+            "Chandra"
         ],
         "supertypes": [
             "Legendary"
         ],
-        "text": "Whenever a creature attacks you or a planeswalker you control, each Dragon you control deals 1 damage to that creature.\n[+1]: Until end of turn, each planeswalker you control becomes a 4/4 red Dragon creature and gains flying.\n[−3]: Create a 4/4 red Dragon creature token with flying.",
-        "type": "Legendary Planeswalker — Sarkhan",
+        "text": "[+1]: Add {R}. Chandra, Dressed to Kill deals 1 damage to up to one target player or planeswalker.\n[+1]: Exile the top card of your library. If it's red, you may cast it this turn.\n[\u22127]: Exile the top five cards of your library. You may cast red spells from among them this turn. You get an emblem with \"Whenever you cast a red spell, this emblem deals X damage to any target, where X is the amount of mana spent to cast that spell.\"",
+        "type": "Legendary Planeswalker \u2014 Chandra",
         "types": [
             "Planeswalker"
         ]

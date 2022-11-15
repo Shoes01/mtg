@@ -50,7 +50,7 @@ deck = Deck(cards)
 iterator = 0
 sim_results = []
 
-while iterator < 1000:
+while iterator < 100:
     iterator += 1
     print(f"Starting simulation #{iterator}.")
     deck.new_hand()
@@ -65,46 +65,5 @@ while iterator < 1000:
 
     sim_results.append(deck.trigger_count)
 
-print(f"The average damage dealt by dragons in 10 turns is {sum(sim_results)/len(sim_results)}.")
-
-
-# Old sim.
-
-"""
-sim_it = 0
-sim_results = []
-
-while sim_it < 0:
-    sim_it += 1
-    success = False
-
-    deck.new_hand()
-
-    relevant_info = {
-        "types": [],
-        "convertedManaCost": [],
-        "name": [],
-    }
-
-    # Store relevant info in a dict.
-    for card in deck.hand:
-        for key in relevant_info.keys():
-            relevant_info[key].append(card[key])
-        
-
-    #pp.pprint(relevant_info)
-
-    # Successful opening hand: 
-    ## 2-4 lands, 1 CMC, 2 CMC, 3or4 CMC.    
-    if (relevant_info["types"].count(["Land",]) >= 2 and relevant_info["types"].count(["Land",]) <= 4) \
-        and ("Dragon Tempest" in relevant_info["name"]) \
-        and (relevant_info["convertedManaCost"].count(3.0) >= 1 or relevant_info["convertedManaCost"].count(4.0) >= 1):
-        success = True
-    
-    sim_results.append(success)
-
-#success_rate = sum(sim_results)/len(sim_results)
-
-#print(f"The success rate is {success_rate * 100}%.")
-
-"""
+print(f"The average damage dealt by dragons in X turns is {sum(sim_results)/len(sim_results):.2f}.")
+print(f"The % of games that dealt more than 20 damage is {len([i for i in sim_results if i >= 20.0])/len(sim_results):.2f}")

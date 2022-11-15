@@ -1,5 +1,4 @@
 # TODO: 
-# Update decklist (why was I getting JSON errors?)
 # Cast triggers before dragons
 # Use mana from PWs
 ### YAY, but need to apply the legend rule. AKA: don't cast a legend card if there is only on the battlefield already.
@@ -87,7 +86,7 @@ class Deck:
         else:
             self.draw()
         self._play_land()
-        self._tap_lands()
+        self._generate_mana()
         self._cast_cards()
         self._end_turn()
 
@@ -116,7 +115,7 @@ class Deck:
                 print("No land played!")
 
 
-    def _tap_lands(self):
+    def _generate_mana(self):
         for card in self.battlefield:
             if "Land" in card["types"]:
                 if card["name"] == "Mountain": 
@@ -192,7 +191,7 @@ class Deck:
                 self._cast_cards()
         
         if not casted:
-            print("Unable to cast anything this turn.")
+            print("Unable to cast anything.")
 
 
     def _end_turn(self):

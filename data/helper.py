@@ -36,6 +36,6 @@ with open("data/Deck.json", "w") as f:
         #full_list.append({CARD: ALL_CARDS[CARD][0]})
         full_list[CARD] = ALL_CARDS[CARD][0]
     
-    json.dump(full_list, f, ensure_ascii=False, indent=4)
+    json.dump(full_list, f, ensure_ascii=True, indent=4)
 
 print("Done.")
