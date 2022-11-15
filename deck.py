@@ -87,7 +87,7 @@ class Deck:
             self.draw()
         self._play_land()
         self._generate_mana()
-        self._cast_cards()
+        self.cast_cards_NEW()
         self._end_turn()
 
 
@@ -125,16 +125,21 @@ class Deck:
             
             elif card["name"] == "Sarkhan, Fireblood":
                 self.mana_pool["Dragon"] += 2
+            
+            elif card["name"] == "Chandra, Dressed to Kill":
+                self.mana_pool["R"] += 1
         
-        print(f"Mana pool current has {self.mana_pool['R']} red mana and {self.mana_pool['C']} colorless mana.")
+        print(f"Mana pool current has {self.mana_pool['R']} R, {self.mana_pool['C']} C and {self.mana_pool['Dragon']} Dragon.")
     
 
     def _cast_cards(self):
-        casted = False
+        # TODO: Remove paying for mana from this part.
+        casted = False # Used to print 
         for card in self.hand:
-            # Get mana cost.
-            if card["convertedManaCost"] == 0.0: continue # Skip lands.
+            # Skip lands.
+            if card["convertedManaCost"] == 0.0: continue
 
+            # Get mana cost of card.
             C_cost = 0
             R_cost = 0
             for _cost in card["manaCost"].split("{"):
@@ -166,7 +171,7 @@ class Deck:
                     else:
                         self.mana_pool["C"] - C_cost
 
-                    print(f"Mana pool current has {self.mana_pool['R']} red mana and {self.mana_pool['C']} colorless mana.")
+                    print(f"Mana pool current has {self.mana_pool['R']} R, {self.mana_pool['C']} C and {self.mana_pool['Dragon']} Dragon.")
 
                     # Try to cast more cards.
                     self._cast_cards()
@@ -185,7 +190,7 @@ class Deck:
                 else:
                     self.mana_pool["C"] - C_cost
             
-                print(f"Mana pool current has {self.mana_pool['R']} red mana and {self.mana_pool['C']} colorless mana.")
+                print(f"Mana pool current has {self.mana_pool['R']} R, {self.mana_pool['C']} C and {self.mana_pool['Dragon']} Dragon.")
 
                 # Try to cast more cards.
                 self._cast_cards()
@@ -207,3 +212,160 @@ class Deck:
         for card in cards:
             names.append(card["name"])
         return names
+
+
+    def can_afford_card(self, card, R_cost, C_cost):
+        if "Land" in card["types"]: return False # Can't cast lands. They are played earlier.
+        if card["convertedManaCost"] == 0.0: return True
+
+        is_dragon = "Dragon" in card["subtypes"]
+
+        # Can I pay for red?
+        if is_dragon:
+            if (R_cost > self.mana_pool["R"] + self.mana_pool["Dragon"]) \
+                and (R_cost + C_cost > self.mana_pool["R"] + self.mana_pool["Dragon"] + self.mana_pool["C"]):
+                print(f"I cannot afford to cast {card['name']}. It costs {R_cost} R and {C_cost} C.")
+                return False
+        else:
+            if (R_cost > self.mana_pool["R"]) \
+                and (R_cost + C_cost > self.mana_pool["R"] + self.mana_pool["C"]):
+                print(f"I cannot afford to cast {card['name']}. It costs {R_cost} R and {C_cost} C.")
+                return False
+        
+        print(f"I can afford to cast {card['name']}. It will cost {R_cost} R and {C_cost} C.")
+        return True
+    
+
+    def pay_mana_for(self, card, R_cost, C_cost):
+        is_dragon = "Dragon" in card["subtypes"]
+
+        # Pay red cost using Dragon mana.
+        if is_dragon:
+            # CAREFUL
+            # I want to use the Dragon mana to pay for R first,
+            # but it has to cover costs my lands can't. 
+
+
+            can_afford_colorless = self.mana_pool["C"] >= C_cost
+
+            # Cover the colorless cost using Dragon mana.
+            if can_afford_colorless is False:
+                to_spend = C_cost - self.mana_pool["C"]
+
+                C_cost -= to_spend
+                self.mana_pool["Dragon"] -= to_spend
+                
+
+            to_spend = 0
+            if self.mana_pool["Dragon"] <= R_cost:
+                to_spend = self.mana_pool["Dragon"]
+            else:
+                to_spend = R_cost
+            
+            self.mana_pool["Dragon"] -= to_spend            
+            R_cost -= to_spend
+
+            # Now attempt to pay colorless cost.
+            if self.mana_pool["Dragon"] > 0:
+                to_spend = 0
+                if self.mana_pool["Dragon"] <= C_cost:
+                    to_spend = self.mana_pool["Dragon"]
+                else:
+                    to_spend = C_cost
+                
+                self.mana_pool["Dragon"] -= to_spend            
+                C_cost -= to_spend
+
+        # Pay remaining red mana.
+        if self.mana_pool["R"] >= R_cost:
+            self.mana_pool["R"] -= R_cost
+        else:
+            print(f"ERROR! Tried to cast {card['name']} without enough mana to pay red cost!")
+        
+        # Pay remaining colorless mana.
+        if self.mana_pool["R"] + self.mana_pool["C"] >= C_cost:
+            # First, pay using colorless.
+            to_spend = 0
+
+            if self.mana_pool["C"] <= C_cost:
+                to_spend = self.mana_pool["C"]
+            else:
+                to_spend = C_cost
+            
+            self.mana_pool["C"] -= to_spend            
+            C_cost -= to_spend
+
+            # Then, pay using red.
+            to_spend = 0
+
+            if self.mana_pool["R"] <= C_cost:
+                to_spend = self.mana_pool["R"]
+            else:
+                to_spend = C_cost
+            
+            self.mana_pool["R"] -= to_spend            
+            C_cost -= to_spend
+
+        else:
+            print(f"ERROR! Tried to cast {card['name']} without enough mana to pay colorless cost!")
+        
+
+    
+    def dies_to_legend_rule(self, card):
+        is_legendary = "Legendary" in card["supertypes"]
+
+        if is_legendary:
+            for permanent in self.battlefield:
+                # In the case of Nykthos.
+                # or In the cast of PW.
+                if (permanent["name"] == card["name"]) \
+                    or (card["types"] == permanent["types"] and card["subtypes"] == permanent["subtypes"]):
+                    print(f"The card {card['name']} is legenadary and already on the battlefield.")
+                    return True
+
+        return False
+
+        
+    def cast_cards_NEW(self):
+        card_to_cast = False
+        for card in self.hand:
+            # Skip lands.
+            R_cost, C_cost = self.get_mana_cost(card)
+            if self.can_afford_card(card, R_cost, C_cost):
+                # I am able to pay for this card.
+
+                # Do not cast if it would die to the legend rule.
+                if self.dies_to_legend_rule(card):
+                    continue
+
+                card_to_cast = card
+                print(f"I will cast {card['name']} for {R_cost} R and {C_cost} C.")
+                break
+                    
+        if card_to_cast:
+            self.pay_mana_for(card, R_cost, C_cost)
+            self.cast(card)
+            print(f"Mana pool remaining has {self.mana_pool['R']} R, {self.mana_pool['C']} C and {self.mana_pool['Dragon']} Dragon.")
+            self.cast_cards_NEW()
+        else:
+            print(f"Nothing to cast. Mana pool current has {self.mana_pool['R']} R, {self.mana_pool['C']} C and {self.mana_pool['Dragon']} Dragon.")
+                
+
+    def get_mana_cost(self, card):
+        if card["convertedManaCost"] == 0.0: return 0, 0
+
+        # Get mana cost of card.
+        C_cost = 0
+        R_cost = 0
+        for _cost in card["manaCost"].split("{"):
+            cost = _cost[:-1]
+            if len(cost) == 1:
+                if cost.isnumeric():
+                    C_cost += int(cost)
+                if cost == 'R':
+                    R_cost += 1
+                if cost == 'X':
+                    R_cost += 1 # Shivan Devestator will always have X=1.
+                    print(f"The card {card['name']} has an 'X' in its mana cost.")
+        
+        return R_cost, C_cost

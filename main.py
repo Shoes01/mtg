@@ -50,7 +50,7 @@ deck = Deck(cards)
 iterator = 0
 sim_results = []
 
-while iterator < 100:
+while iterator < 3:
     iterator += 1
     print(f"Starting simulation #{iterator}.")
     deck.new_hand()
@@ -67,3 +67,6 @@ while iterator < 100:
 
 print(f"The average damage dealt by dragons in X turns is {sum(sim_results)/len(sim_results):.2f}.")
 print(f"The % of games that dealt more than 20 damage is {len([i for i in sim_results if i >= 20.0])/len(sim_results):.2f}")
+
+
+# TODO: check if shivan devestator is working correctly.

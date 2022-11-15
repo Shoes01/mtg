@@ -1,0 +1,28 @@
+ ## TURN 2 ##
+
+Card drawn. Hand: ['Verix Bladewing', 'Chandra, Dressed to Kill', 'Nykthos, Shrine to Nyx', 'Sarkhan, Fireblood', 'Sarkhan, Fireblood', 'Dragon Whisperer', 'Mountain', 'Shivan Devastator'].
+>> Cast Mountain! <<
+Cards on the battlefield: ['Mountain', 'Mountain'].
+
+Mana pool current has 2 R, 0 C and 0 Dragon.
+I can afford to cast Verix Bladewing. It will cost 2 R and 2 C.
+I will cast Verix Bladewing for 2 R and 2 C.
+ERROR! Tried to cast Verix Bladewing without enough mana to pay red cost!
+
+>> Cast Verix Bladewing! <<
+Cards on the battlefield: ['Mountain', 'Mountain', 'Verix Bladewing'].
+Mana pool remaining has 2 R, 0 C and 0 Dragon.
+I can afford to cast Chandra, Dressed to Kill. It will cost 2 R and 1 C.
+I will cast Chandra, Dressed to Kill for 2 R and 1 C.
+ERROR! Tried to cast Chandra, Dressed to Kill without enough mana to pay colorless cost!
+>> Cast Chandra, Dressed to Kill! <<
+Cards on the battlefield: ['Mountain', 'Mountain', 'Verix Bladewing', 'Chandra, Dressed to Kill'].
+Mana pool remaining has 0 R, 0 C and 0 Dragon.
+I cannot afford to cast Sarkhan, Fireblood. It costs 2 R and 1 C.
+I cannot afford to cast Sarkhan, Fireblood. It costs 2 R and 1 C.
+I cannot afford to cast Dragon Whisperer. It costs 2 R and 0 C.
+The card Shivan Devastator has an 'X' in its mana cost.
+I cannot afford to cast Shivan Devastator. It costs 2 R and 0 C.
+Nothing to cast. Mana pool current has 0 R, 0 C and 0 Dragon.
+Tempest has triggered 0 times.
+Turn ended.
