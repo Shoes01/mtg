@@ -23,7 +23,7 @@ CARDS = list(cards_dict.keys())
 # PREPARE ALL CARDS
 
 file_path = "data/AtomicCards.json"
-file = open(file_path, "r")
+file = open(file_path, "r", encoding="utf8")
 json_file = json.load(file)
 
 ALL_CARDS = json_file["data"]

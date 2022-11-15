@@ -10,7 +10,7 @@ pp = pprint.PrettyPrinter(indent=4)
 # LOAD THE CARD DATABASE.
 
 
-file = open("data/Deck.json", "r")
+file = open("data/Deck.json", "r", encoding="utf8")
 CARDS = json.load(file)
 
 
@@ -38,44 +38,73 @@ for line in deck_txt.readlines():
 cards = []
 
 for key, value in cards_dict.items():
-    cards.extend([key,] * value)
+    cards.extend([CARDS[key],] * value)
 
 deck = Deck(cards)
 
 
-# DRAW 7 CARDS
+# SIMULATOR.
+
+## New game.
+
+iterator = 0
+sim_results = []
+
+while iterator < 1000:
+    iterator += 1
+    print(f"Starting simulation #{iterator}.")
+    deck.new_hand()
+    deck.play_turn()
+    deck.play_turn()
+    deck.play_turn()
+    deck.play_turn()
+    deck.play_turn()
+    deck.play_turn()
+    deck.play_turn()
+    deck.play_turn()
+
+    sim_results.append(deck.trigger_count)
+
+print(f"The average damage dealt by dragons in 10 turns is {sum(sim_results)/len(sim_results)}.")
 
 
-deck.new_hand()
-print(f"Hand is: {deck.hand}.")
+# Old sim.
 
-
-# Analyse the hand.
-
-
-types = []
-for card in deck.hand:
-    types.extend(CARDS[card]["types"])
-
-print(types)
-
-# Fun sim.
-
+"""
 sim_it = 0
 sim_results = []
-while sim_it < 1000:
+
+while sim_it < 0:
     sim_it += 1
+    success = False
 
     deck.new_hand()
 
-    cmcs = []
+    relevant_info = {
+        "types": [],
+        "convertedManaCost": [],
+        "name": [],
+    }
+
+    # Store relevant info in a dict.
     for card in deck.hand:
-        cmcs.append(CARDS[card]["convertedManaCost"])
+        for key in relevant_info.keys():
+            relevant_info[key].append(card[key])
+        
 
-    one_drop_count = cmcs.count(1.0)
-    #two_drop_count = cmcs.count(2.0)
+    #pp.pprint(relevant_info)
 
-    sim_results.append(one_drop_count)
+    # Successful opening hand: 
+    ## 2-4 lands, 1 CMC, 2 CMC, 3or4 CMC.    
+    if (relevant_info["types"].count(["Land",]) >= 2 and relevant_info["types"].count(["Land",]) <= 4) \
+        and ("Dragon Tempest" in relevant_info["name"]) \
+        and (relevant_info["convertedManaCost"].count(3.0) >= 1 or relevant_info["convertedManaCost"].count(4.0) >= 1):
+        success = True
+    
+    sim_results.append(success)
 
-print(f"The average number of 1+2 drop cards in hand is: {sum(sim_results)/len(sim_results)}.")
+#success_rate = sum(sim_results)/len(sim_results)
 
+#print(f"The success rate is {success_rate * 100}%.")
+
+"""
