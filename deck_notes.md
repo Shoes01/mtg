@@ -6,7 +6,7 @@
 
 # Do somethin cards
 4 Leyline Tyrant
-> Do not drain mana from mana_pool
+> Do not drain mana from mana_pool [DONE]
 4 Verix Bladewing
 > Kicker, if possible
 2 Quest for Pure Flame
@@ -18,7 +18,7 @@
 
 # Legendary cards
 4 Nykthos, Shrine to Nyx
-> If devotion >= 3, do the ability
+> If devotion >= 3, do the ability [DONE]
 3 Sarkhan, Fireblood
 > If I need mana, do that
 > Otherwise, discard + draw \\what do I discard? land always?
@@ -28,4 +28,4 @@
 
 # Other lol
 4 Shivan Devastator
-> Cast for X=1 always?
+> Cast for X=1 always? [DONE]

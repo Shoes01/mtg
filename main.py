@@ -1,8 +1,9 @@
-import random
 import json
 import pprint
 
-from deck import Deck
+from deck_v2 import Deck
+
+import pilot
 
 pp = pprint.PrettyPrinter(indent=4)
 
@@ -45,28 +46,23 @@ deck = Deck(cards)
 
 # SIMULATOR.
 
-## New game.
+print("Begin simulation.\n")
 
-iterator = 0
-sim_results = []
+deck.new_hand()
+pilot.play(deck)
+deck.next_turn()
+pilot.play(deck)
+deck.next_turn()
+pilot.play(deck)
+deck.next_turn()
+pilot.play(deck)
+deck.next_turn()
+pilot.play(deck)
+deck.next_turn()
+pilot.play(deck)
+deck.next_turn()
+pilot.play(deck)
+deck.next_turn()
+pilot.play(deck)
 
-while iterator < 3:
-    iterator += 1
-    print(f"Starting simulation #{iterator}.")
-    deck.new_hand()
-    deck.play_turn()
-    deck.play_turn()
-    deck.play_turn()
-    deck.play_turn()
-    deck.play_turn()
-    deck.play_turn()
-    deck.play_turn()
-    deck.play_turn()
-
-    sim_results.append(deck.trigger_count)
-
-print(f"The average damage dealt by dragons in X turns is {sum(sim_results)/len(sim_results):.2f}.")
-print(f"The % of games that dealt more than 20 damage is {len([i for i in sim_results if i >= 20.0])/len(sim_results):.2f}")
-
-
-# TODO: check if shivan devestator is working correctly.
+print("\nSimulation complete.")

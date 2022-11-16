@@ -11,12 +11,12 @@ class Deck():
         self.trigger_count = 0
         self.hand = []
         self.battlefield = []
+        self.land_dropped = False
         self.mana_pool = {
             "R": 0,
             "C": 0, # Don't need other colors...
             "Dragon": 0,
         }
-
         self.verbose = True
 
 
@@ -26,10 +26,10 @@ class Deck():
 
 
     # Reset everything for a new game.
-    def reset(self):
+    def _reset(self):
         self.library = self._deck_list.copy()
         random.shuffle(self.library)
-        self.turn = 0
+        self.turn = 1
         self.trigger_count = 0
         self.hand = []
         self.battlefield = []
@@ -37,17 +37,21 @@ class Deck():
     
 
     # Draw a new card.
-    def draw(self):
-        self.hand.append(self.library.pop())
-        if self.verbose: print(f"Card drawn. Hand: {self._get_human_names(self.hand)}.")
+    def draw(self, new_hand=False):
+        card = self.library.pop()
+        self.hand.append(card)
+        if self.verbose and not new_hand: print(f"Card drawn: {card['name'].upper()}.\nHand: {self.get_human_names(self.hand)}.")
     
 
     # Reset, then draw X cards.
     def new_hand(self, draw=7):
-        self.reset()
+        self._reset()
         for _ in range(draw):
-            self.draw()
-        if self.verbose: print(f"Card drawn. Hand: {self._get_human_names(self.hand)}.")
+            self.draw(new_hand=True)
+        if self.verbose: 
+            print(f"-- NEW GAME --") 
+            print(f"-- STARTING TURN {self.turn} --")
+            print(f"Starting Hand: {self.get_human_names(self.hand)}.")
 
 
     # Cast a card.
@@ -55,11 +59,13 @@ class Deck():
     # Look at triggers.
     def cast(self, card):
         self.hand.remove(card)
-        self.battlefield.append(card)
-        if self.verbose: print(f">> Cast {card['name']}! <<\nCards on the battlefield: {self.get_human_names(self.battlefield)}.")
+        if not self.dies_to_legend_rule(card):
+            self.battlefield.append(card)
+
 
         self.pay_mana_costs(card)
 
+        # Check for Dragon triggers.
         if "Dragon" in card["subtypes"]:
             dragons = 0
             triggers = 0
@@ -70,12 +76,64 @@ class Deck():
                     triggers += 1
             
             self.trigger_count += dragons * triggers
+        
+        if "Land" in card["types"]:
+            self.land_dropped = True
+        
+        if self.verbose: print(f">> Cast {card['name'].upper()}! <<")
 
+
+    # Generate R, C or Dragon mana.
+    def generate_mana(self):
+        # TODO: Have some code for tapping Nykthos
+        for card in self.battlefield:
+            if "Land" in card["types"]:
+                if card["name"] == "Mountain": 
+                    self.mana_pool["R"] += 1
+                else:
+                    self.mana_pool["C"] += 1
+            
+            elif card["name"] == "Sarkhan, Fireblood":
+                self.mana_pool["Dragon"] += 2
+            
+            elif card["name"] == "Chandra, Dressed to Kill":
+                self.mana_pool["R"] += 1
+        
+        if self.verbose: print(f"Mana pool current has {self.mana_pool['R']} R, {self.mana_pool['C']} C and {self.mana_pool['Dragon']} Dragon.")
+
+
+    # End turn, start next turn.
+    def next_turn(self):
+        self.turn += 1
+        if self.verbose: print(f"\n-- STARTING TURN {self.turn} --")
+        empty_mana_pool = True
+        for card in self.battlefield:
+            if "Leyline Tyrant" in card['name']:
+                empty_mana_pool = False
+                break
+        if empty_mana_pool:
+            for key in self.mana_pool.keys():
+                self.mana_pool[key] = 0
+        self.draw()
+        self.land_dropped = False
 
 
     #
     # HELPER FUNCTIONS
     #
+
+    # Return True if the card can be cast.
+    def can_cast(self, card):
+        # Only one land per turn
+        if "Land" in card["types"] and self.land_dropped:
+            return False
+        # Need to afford the card.
+        R, C = self.get_mana_cost(card)
+        dragon_mana = self.mana_pool["Dragon"] if "Dragon" in card["subtypes"] else 0
+        if R + C > self.mana_pool["R"] + self.mana_pool["C"] + dragon_mana or R > self.mana_pool["R"] + dragon_mana:
+            return False
+        
+        return True
 
 
     # Return an array of card names.
@@ -83,13 +141,16 @@ class Deck():
         names = []
         for card in cards:
             names.append(card["name"])
-        return names
+        return sorted(names)
     
 
     # Return the Red mana and the Colorless mana required for this card.
     def get_mana_cost(self, card):
-        R, C = 0
-
+        R, C = 0, 0
+        
+        if card["convertedManaCost"] == 0.0: 
+            return R, C
+        
         for _cost in card["manaCost"].split("{"):
             cost = _cost[:-1]
             if len(cost) == 1:
@@ -109,66 +170,48 @@ class Deck():
         is_dragon = "Dragon" in card["subtypes"]
 
         if is_dragon:
-            cannot_afford_colorless = self.mana_pool["C"] < C
+            # Pay for R using Dragon mana.
+            while R and self.mana_pool["Dragon"]:
+                self.mana_pool["Dragon"] -= 1
+                R -= 1
+            # Pay fro C using Dragon mana, if there is any left.
+            while C and self.mana_pool["Dragon"]:
+                self.mana_pool["Dragon"] -= 1
+                C -= 1
 
-            # Cover the colorless cost using Dragon mana.
-            if cannot_afford_colorless:
-                to_spend = C - self.mana_pool["C"]
-
-                C -= to_spend
-                self.mana_pool["Dragon"] -= to_spend
-                
-            to_spend = 0
-            if self.mana_pool["Dragon"] <= R:
-                to_spend = self.mana_pool["Dragon"]
-            else:
-                to_spend = R
+        # Pay for R using R mana.
+        while R and self.mana_pool["R"]:
+            self.mana_pool["R"] -= 1
+            R -= 1
+        # Pay for C using C mana.
+        while C and self.mana_pool["C"]:
+            self.mana_pool["C"] -= 1
+            C -= 1
+        # Finally, pay for C using R mana.
+        while C and self.mana_pool["R"]:
+            self.mana_pool["R"] -= 1
+            C -= 1
             
-            self.mana_pool["Dragon"] -= to_spend            
-            R -= to_spend
 
-            # Now attempt to pay colorless cost.
-            if self.mana_pool["Dragon"] > 0:
-                to_spend = 0
-                if self.mana_pool["Dragon"] <= C:
-                    to_spend = self.mana_pool["Dragon"]
-                else:
-                    to_spend = C
-                
-                self.mana_pool["Dragon"] -= to_spend            
-                C -= to_spend
 
-        # Pay remaining red mana.
-        if self.mana_pool["R"] >= R:
-            self.mana_pool["R"] -= R
-        else:
-            print(f"ERROR! Tried to cast {card['name']} without enough mana to pay red cost!")
-        
-        # Pay remaining colorless mana.
-        if self.mana_pool["R"] + self.mana_pool["C"] >= C:
-            # First, pay using colorless.
-            to_spend = 0
+    def dies_to_legend_rule(self, card):
+        is_legendary = "Legendary" in card["supertypes"]
 
-            if self.mana_pool["C"] <= C:
-                to_spend = self.mana_pool["C"]
-            else:
-                to_spend = C
-            
-            self.mana_pool["C"] -= to_spend            
-            C -= to_spend
+        if is_legendary:
+            for permanent in self.battlefield:
+                # In the case of Nykthos.
+                # or In the cast of PW.
+                if (permanent["name"] == card["name"]) \
+                    or ("Planeswalker" in card["types"] and card["subtypes"] == permanent["subtypes"]):
+                    if self.verbose: print(f"[WARNING] {card['name']} dies to the Legend Rule.")
+                    return True
 
-            # Then, pay using red.
-            to_spend = 0
+        return False
+    
 
-            if self.mana_pool["R"] <= C:
-                to_spend = self.mana_pool["R"]
-            else:
-                to_spend = C
-            
-            self.mana_pool["R"] -= to_spend            
-            C -= to_spend
-
-        else:
-            print(f"ERROR! Tried to cast {card['name']} without enough mana to pay colorless cost!")
-
-        pass
+    def get_devotion(self):
+        devotion = 0
+        for card in self.battlefield:
+            R, _ = self.get_mana_cost(card)
+            devotion += R
+        return devotion
