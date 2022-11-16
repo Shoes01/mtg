@@ -26,7 +26,8 @@ def play(deck):
                 break
 
     #
-    # TAP LANDS
+    # GENERATE MANA
+    # Using lands and Planeswalkers
     #
 
     deck.generate_mana()
@@ -56,10 +57,50 @@ def play(deck):
                 else:
                     print(f"[ERROR] Tried to activate Nykthos ability, but there is still {nykthos_cost} mana left to pay!")
                 
-    
+    #
+    # ATTEMPT TO CAST SPELLS SMARTLY
+    #
+
+    # Attempt to cast Verix and kick it!
+    # Get mana float.
+    mana_float = 0
+    for key, value in deck.mana_pool.items():
+        mana_float += value
+    if mana_float >= 7 and deck.mana_pool["R"] + deck.mana_pool["Dragon"] >= 2:
+        for card in deck.hand:
+            if "Verix Bladewing" in card['name']:
+                deck.cast(card)
+                # Fake-cast the token.
+                for token in deck._token_list:
+                    if "Karox Bladewing" in token['name']:
+                        print(f"\n\nTRYING TO CAST KAROX <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n\n")
+                        deck.enter_the_battlefield(token)
+                        deck.spend_mana(R=0, C=3, is_dragon=False)
+                        print(f"\n.\n.\n.{card['name'].upper()} was kicked!<<<<<<<<<<<<<<<<<<<<<<<<<<\n.\n.\n")
+
+    # Sort hand by CMC.
+    cmc_hand= {} # { cmc:int, cards:array}
+    for card in deck.hand:
+        cmc = int(card["convertedManaCost"])
+        if card["convertedManaCost"] in cmc_hand:
+            cmc_hand[cmc].append(card)
+        else:
+            cmc_hand[cmc] = [card,]
+    # Get mana float.
+    mana_float = 0
+    for key, value in deck.mana_pool.items():
+        mana_float += value
+
+    for cmc in range(mana_float, 0, -1):
+        if cmc in cmc_hand:
+            for card in cmc_hand[cmc]:
+                if deck.can_cast(card): 
+                    deck.cast(card)
+                    #print(f">>>>>>> {card['name']} has been smart-cast.")
+
 
     #
-    # CAST SPELL
+    # CAST REMAINING SPELLS
     #
 
     for card in deck.hand:

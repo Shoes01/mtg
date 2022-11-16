@@ -3,8 +3,9 @@ import random
 # A general deck, with deck-related functions.
 # Does not contain pilot logic.
 class Deck():
-    def __init__(self, cards):
+    def __init__(self, cards, tokens):
         self._deck_list = cards     
+        self._token_list = tokens
 
         self.library = self._deck_list.copy()
         self.turn = 0
@@ -18,6 +19,7 @@ class Deck():
             "Dragon": 0,
         }
         self.verbose = True
+        self.log = []       
 
 
     #
@@ -52,6 +54,7 @@ class Deck():
             print(f"-- NEW GAME --") 
             print(f"-- STARTING TURN {self.turn} --")
             print(f"Starting Hand: {self.get_human_names(self.hand)}.")
+        self.log.append(f"NEW GAME: Starting Hand: {self.get_human_names(self.hand)}.\n")
 
 
     # Cast a card.
@@ -59,26 +62,8 @@ class Deck():
     # Look at triggers.
     def cast(self, card):
         self.hand.remove(card)
-        if not self.dies_to_legend_rule(card):
-            self.battlefield.append(card)
-
-
         self.pay_mana_costs(card)
-
-        # Check for Dragon triggers.
-        if "Dragon" in card["subtypes"]:
-            dragons = 0
-            triggers = 0
-            for permanent in self.battlefield:
-                if "Dragon" in permanent["subtypes"]: 
-                    dragons += 1
-                if "Dragon Tempest" in permanent["name"] or "Scourge of Valkas" in permanent["name"]:
-                    triggers += 1
-            
-            self.trigger_count += dragons * triggers
-        
-        if "Land" in card["types"]:
-            self.land_dropped = True
+        self.enter_the_battlefield(card)
         
         if self.verbose: print(f">> Cast {card['name'].upper()}! <<")
 
@@ -104,6 +89,8 @@ class Deck():
 
     # End turn, start next turn.
     def next_turn(self):
+        self.log.append(f" Turn: {self.turn}. Trigger count: {self.trigger_count}. Hand: {self.get_human_names(self.hand)}. Battlefield: {self.get_human_names(self.battlefield)}.\n")
+
         self.turn += 1
         if self.verbose: print(f"\n-- STARTING TURN {self.turn} --")
         empty_mana_pool = True
@@ -116,6 +103,29 @@ class Deck():
                 self.mana_pool[key] = 0
         self.draw()
         self.land_dropped = False
+
+    
+    # Put the card on the battlefield.
+    # Trigger effects.
+    # Note: Does not remove from hand.
+    def enter_the_battlefield(self, card):
+        if not self.dies_to_legend_rule(card):
+            self.battlefield.append(card)
+
+        # Check for Dragon triggers.
+        if "Dragon" in card["subtypes"]:
+            dragons = 0
+            triggers = 0
+            for permanent in self.battlefield:
+                if "Dragon" in permanent["subtypes"]: 
+                    dragons += 1
+                if "Dragon Tempest" in permanent["name"] or "Scourge of Valkas" in permanent["name"]:
+                    triggers += 1
+            
+            self.trigger_count += dragons * triggers
+        
+        if "Land" in card["types"]:
+            self.land_dropped = True
 
 
     #
@@ -148,7 +158,7 @@ class Deck():
     def get_mana_cost(self, card):
         R, C = 0, 0
         
-        if card["convertedManaCost"] == 0.0: 
+        if 'Token' in card['types'] or card["convertedManaCost"] == 0.0: 
             return R, C
         
         for _cost in card["manaCost"].split("{"):
@@ -164,11 +174,8 @@ class Deck():
         return R, C
 
     
-    # Pay the costs for the card.
-    def pay_mana_costs(self, card):
-        R, C = self.get_mana_cost(card)
-        is_dragon = "Dragon" in card["subtypes"]
-
+    # Pay arbitrary cost
+    def spend_mana(self, R, C, is_dragon):
         if is_dragon:
             # Pay for R using Dragon mana.
             while R and self.mana_pool["Dragon"]:
@@ -191,6 +198,13 @@ class Deck():
         while C and self.mana_pool["R"]:
             self.mana_pool["R"] -= 1
             C -= 1
+
+
+    # Pay the costs for the card.
+    def pay_mana_costs(self, card):
+        R, C = self.get_mana_cost(card)
+        is_dragon = "Dragon" in card["subtypes"]
+        self.spend_mana(R, C, is_dragon)
             
 
 
