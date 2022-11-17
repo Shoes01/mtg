@@ -8,13 +8,13 @@
 4 Leyline Tyrant
 > Do not drain mana from mana_pool [DONE]
 4 Verix Bladewing
-> Kicker, if possible
+> Kicker, if possible [DONE]
 2 Quest for Pure Flame
 > Tracker how many counters are on it
 > When counters >= 4, do the thing next turn
 > Dragons * (Triggers + 2) \\right?
 4 Dragon Whisperer
-> If able, create dragon token
+> If able, create dragon token [DONE]
 
 # Legendary cards
 4 Nykthos, Shrine to Nyx

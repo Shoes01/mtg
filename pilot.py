@@ -27,10 +27,17 @@ def play(deck):
 
     #
     # GENERATE MANA
-    # Using lands and Planeswalkers
     #
 
-    deck.generate_mana()
+    deck.tap_lands()
+
+    for card in deck.battlefield:
+        if card["name"] == "Sarkhan, Fireblood":
+            deck.mana_pool["Dragon"] += 2
+        elif card["name"] == "Chandra, Dressed to Kill":
+            deck.mana_pool["R"] += 1
+
+    print(f"Mana pool current has {deck.mana_pool['R']} R, {deck.mana_pool['C']} C and {deck.mana_pool['Dragon']} Dragon.")
 
     #
     # NYTHOS CHECK
@@ -61,10 +68,25 @@ def play(deck):
     # ATTEMPT TO CAST SPELLS SMARTLY
     #
 
+    #
+    # SARKHAN, FIREBLOOD
+    #
+
+    # 1) If Tempest/Scourge are not on the battlefield, discard/draw (Mountain/Nykthos/other)
+    # 2) If +2 mana would allow me to cast a dragon, do it
+    # 3) If I have 4 lands down, discard/draw a Mountain
+    # 4) If I have a Nykthos down, and one in hand, discard/draw it
+
+    # Cast Dragon Tempest or Scourge as high priority.
+    for card in deck.hand:
+        if "Dragon Tempest" in card['name'] or "Scourge of Valkas" in card['name']:
+            if deck.can_cast(card): 
+                deck.cast(card)
+                print(f"{card['name'].upper()} has been priority-cast!")
+
     # Attempt to cast Verix and kick it!
-    # Get mana float.
     mana_float = 0
-    for key, value in deck.mana_pool.items():
+    for value in deck.mana_pool.values():
         mana_float += value
     if mana_float >= 7 and deck.mana_pool["R"] + deck.mana_pool["Dragon"] >= 2:
         for card in deck.hand:
@@ -73,10 +95,29 @@ def play(deck):
                 # Fake-cast the token.
                 for token in deck._token_list:
                     if "Karox Bladewing" in token['name']:
-                        print(f"\n\nTRYING TO CAST KAROX <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<\n\n")
                         deck.enter_the_battlefield(token)
                         deck.spend_mana(R=0, C=3, is_dragon=False)
-                        print(f"\n.\n.\n.{card['name'].upper()} was kicked!<<<<<<<<<<<<<<<<<<<<<<<<<<\n.\n.\n")
+                        print(f"{card['name'].upper()} was kicked!")
+
+    # Attempt to activate Dragon Whisperer.    
+    mana_float = 0
+    for value in deck.mana_pool.values():
+        mana_float += value
+    total_power = 0
+    for card in deck.battlefield:
+        if 'power' in card:
+            total_power += int(card['power'])
+    if mana_float >= 6 and total_power >= 8:
+        for card in deck.battlefield:
+            if 'Dragon Whisperer' in card['name']:
+                C = 4
+                R = 2
+                while deck.mana_pool["R"] >= R and deck.mana_pool["R"] + deck.mana_pool["C"] >= R+C:
+                    for token in deck._token_list:
+                        if "Dragon" in token['name']:
+                            deck.spend_mana(R=R, C=C, is_dragon=False)
+                            deck.enter_the_battlefield(token)
+                            print(f"{card['name'].upper()} actviated an ability!")
 
     # Sort hand by CMC.
     cmc_hand= {} # { cmc:int, cards:array}

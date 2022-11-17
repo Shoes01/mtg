@@ -33,15 +33,22 @@ for line in deck_txt.readlines():
     cards_dict[key.rstrip()] = value
 
 
-# LOAD THE TOKENS
+# LOAD THE TOKENS DATABASE
 
 
 file = open("data/Tokens.json", "r", encoding="utf8")
 TOKENS = json.load(file)
 
 
-# ASSEMBLE MTG DECK.
+# LOAD THE TOKENS
 
+tokens_txt = open("data/tokens.txt", "r", newline='')
+tokens_array = []
+
+for line in tokens_txt.read().splitlines():
+    tokens_array.append(line)
+
+# ASSEMBLE MTG DECK.
 
 cards = []
 tokens = []
@@ -51,23 +58,25 @@ for key, value in cards_dict.items():
     # value: number in deck
     cards.extend([CARDS[key],] * value)
 
-tokens.append(TOKENS['Karox Bladewing']) # hardcoded like a lamo lol
+for item in tokens_array:
+    tokens.append(TOKENS[item])
 
 deck = Deck(cards, tokens)
 
 
 # SIMULATOR.
 
+
 print("Begin simulation.\n")
 
 sim_results = []
 sim_iter = 0
 
-deck.verbose = False
+deck.verbose = True
 
-while sim_iter < 10:
+while sim_iter < 1:
     sim_iter += 1
-
+    print("\n")
     deck.new_hand()
     pilot.play(deck)
     deck.next_turn()
@@ -82,7 +91,12 @@ while sim_iter < 10:
     pilot.play(deck)
     deck.next_turn()
     pilot.play(deck)
-   
+    deck.next_turn()
+    pilot.play(deck)
+    deck.next_turn()
+    pilot.play(deck)
+    deck.next_turn()
+    pilot.play(deck)
 
     sim_results.append(deck.trigger_count)
 

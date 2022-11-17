@@ -43,7 +43,7 @@ with open("data/Deck.json", "w") as f:
 tokens_txt = open("data/tokens.txt", "r", newline='')
 tokens_array = []
 
-for line in tokens_txt.readlines():
+for line in tokens_txt.read().splitlines():
     tokens_array.append(line)
 
 TOKENS = tokens_array
@@ -55,6 +55,12 @@ file = open(file_path, "r", encoding="utf8")
 json_file = json.load(file)
 
 ALL_TOKENS = json_file["data"]['tokens']
+
+file_path = "data/DTK.json"
+file = open(file_path, "r", encoding="utf8")
+json_file = json.load(file)
+
+ALL_TOKENS.extend(json_file["data"]['tokens'])
 
 # WRITE NEW JSON
 

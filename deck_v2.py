@@ -69,22 +69,13 @@ class Deck():
 
 
     # Generate R, C or Dragon mana.
-    def generate_mana(self):
-        # TODO: Have some code for tapping Nykthos
+    def tap_lands(self):
         for card in self.battlefield:
             if "Land" in card["types"]:
                 if card["name"] == "Mountain": 
                     self.mana_pool["R"] += 1
                 else:
                     self.mana_pool["C"] += 1
-            
-            elif card["name"] == "Sarkhan, Fireblood":
-                self.mana_pool["Dragon"] += 2
-            
-            elif card["name"] == "Chandra, Dressed to Kill":
-                self.mana_pool["R"] += 1
-        
-        if self.verbose: print(f"Mana pool current has {self.mana_pool['R']} R, {self.mana_pool['C']} C and {self.mana_pool['Dragon']} Dragon.")
 
 
     # End turn, start next turn.
