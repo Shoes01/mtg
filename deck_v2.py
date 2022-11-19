@@ -19,7 +19,8 @@ class Deck():
             "Dragon": 0,
         }
         self.verbose = True
-        self.log = []       
+        self.log = []
+        self.graveyard = []
 
 
     #
@@ -61,6 +62,8 @@ class Deck():
     # Pay its mana. Put it on the battlefield. 
     # Look at triggers.
     def cast(self, card):
+        if not self.can_cast(card): return False
+        
         self.hand.remove(card)
         self.pay_mana_costs(card)
         self.enter_the_battlefield(card)
@@ -68,15 +71,19 @@ class Deck():
         if self.verbose: print(f">> Cast {card['name'].upper()}! <<")
 
 
-    # Generate R, C or Dragon mana.
+    # Generate Red or Colorless mana.
     def tap_lands(self):
         for card in self.battlefield:
             if "Land" in card["types"]:
-                if card["name"] == "Mountain": 
-                    self.mana_pool["R"] += 1
-                else:
-                    self.mana_pool["C"] += 1
+                self.tap_land(card)
 
+
+    # Tap the individual land.
+    def tap_land(self, card):
+        if card['name'] == "Mountain":
+            self.mana_pool["R"] += 1
+        else:
+            self.mana_pool["C"] += 1
 
     # End turn, start next turn.
     def next_turn(self):
@@ -220,3 +227,29 @@ class Deck():
             R, _ = self.get_mana_cost(card)
             devotion += R
         return devotion
+    
+
+    def get_floating_mana(self):
+        return self.mana_pool["Dragon"] + self.mana_pool["R"] + self.mana_pool["C"]
+    
+
+    def discard(self, card):
+        self.hand.remove(card)
+        self.graveyard.append(card)
+        if self.verbose: print(f"Card discarded: {card['name'].upper()}")
+
+
+    def hand_has(self, card_property):
+        for card in self.hand:
+            if card_property in card["name"] or card_property in card["types"]:
+                return card
+        return False
+
+    
+    def battlefield_has(self, card_property):
+        for card in self.battlefield:
+            if card_property in card["name"] or card_property in card["types"]:
+                return card
+        return False
+
+    

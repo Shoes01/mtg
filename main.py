@@ -93,10 +93,6 @@ while sim_iter < 1:
     pilot.play(deck)
     deck.next_turn()
     pilot.play(deck)
-    deck.next_turn()
-    pilot.play(deck)
-    deck.next_turn()
-    pilot.play(deck)
 
     sim_results.append(deck.trigger_count)
 
