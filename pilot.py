@@ -7,15 +7,17 @@ def play(deck):
     # PLAY LAND
     # Unless I have Sarkhan in hand! Then I may want to discard it instead.
 
-    has_sarkhan = deck.hand_has("Sarkhan, Fireblood")
+    hand_has_sarkhan = deck.hand_has("Sarkhan, Fireblood")
+    battlefield_has_sarkhan = deck.battlefield_has("Sarkhan, Fireblood")
+    
 
     land_count = 0
     for card in deck.battlefield:
         if "Land" in card["types"]:
             land_count += 1
-    print(f"Land count is {land_count}")
+    #print(f"Land count is {land_count}")
 
-    if deck.turn < 3:
+    if land_count < 3:
         # Only play mountains first.
         mountain = deck.hand_has('Mountain')
         land = deck.hand_has('Land')
@@ -23,15 +25,15 @@ def play(deck):
             deck.cast(mountain)
         elif land:
             deck.cast(land)
-    elif land_count >= 5 and has_sarkhan:
+    elif land_count >= 5 and hand_has_sarkhan:
         # I have enough lands and a Sarkhan in hand. Discard it.
         # Unless it's my first Nykthos.
         casted_nykthos = deck.battlefield_has('Nykthos, Shrine to Nyx')
         inhand_nythos = deck.hand_has('Nykthos, Shrine to Nyx')
         if not casted_nykthos and inhand_nythos:
             deck.cast(inhand_nythos)
-    elif deck.get_devotion >= 3 and not deck.battlefield_has('Nykthos, Shrine to Nyx'):
-
+    elif deck.get_devotion() >= 3 and not deck.battlefield_has('Nykthos, Shrine to Nyx'):
+        pass
         
     else:
         # Try to cast Nykthos first.
@@ -55,7 +57,7 @@ def play(deck):
         if card["name"] == "Chandra, Dressed to Kill":
             deck.mana_pool["R"] += 1
 
-    print(f"Mana pool current has {deck.mana_pool['R']} R, {deck.mana_pool['C']} C and {deck.mana_pool['Dragon']} Dragon.")
+    #print(f"Mana pool current has {deck.mana_pool['R']} R, {deck.mana_pool['C']} C and {deck.mana_pool['Dragon']} Dragon.")
 
     #
     # NYTHOS CHECK
@@ -77,10 +79,11 @@ def play(deck):
                     deck.mana_pool["R"] -= 1
                 if nykthos_cost == 0:
                     deck.mana_pool["R"] += devotion
-                    print(f"Activated Nykthos ability.")
-                    print(f"Mana pool current has {deck.mana_pool['R']} R, {deck.mana_pool['C']} C and {deck.mana_pool['Dragon']} Dragon.")
+                    #print(f"Activated Nykthos ability.")
+                    #print(f"Mana pool current has {deck.mana_pool['R']} R, {deck.mana_pool['C']} C and {deck.mana_pool['Dragon']} Dragon.")
                 else:
-                    print(f"[ERROR] Tried to activate Nykthos ability, but there is still {nykthos_cost} mana left to pay!")
+                    #print(f"[ERROR] Tried to activate Nykthos ability, but there is still {nykthos_cost} mana left to pay!")
+                    pass
                 
     #
     # ATTEMPT TO CAST SPELLS SMARTLY
@@ -107,7 +110,7 @@ def play(deck):
         if "Dragon Tempest" in card['name'] or "Scourge of Valkas" in card['name']:
             if deck.can_cast(card): 
                 deck.cast(card)
-                print(f"{card['name'].upper()} has been priority-cast!")
+                #print(f"{card['name'].upper()} has been priority-cast!")
 
     # Attempt to cast Verix and kick it!
     mana_float = deck.get_floating_mana()
@@ -120,7 +123,7 @@ def play(deck):
                     if "Karox Bladewing" in token['name']:
                         deck.enter_the_battlefield(token)
                         deck.spend_mana(R=0, C=3, is_dragon=False)
-                        print(f"{card['name'].upper()} was kicked!")
+                        #print(f"{card['name'].upper()} was kicked!")
 
     # Attempt to activate Dragon Whisperer.    
     for card in deck.hand:
@@ -146,7 +149,7 @@ def play(deck):
                         pilot_sarkhan(deck)
                     if "Dragon Whisperer" in card["name"]:
                         activate(deck, card)
-                    #print(f">>>>>>> {card['name']} has been smart-cast.")
+                    ##print(f">>>>>>> {card['name']} has been smart-cast.")
 
 
     #
@@ -158,14 +161,14 @@ def play(deck):
             deck.cast(card)
             if "Sarkhan, Fireblood" in card["name"]:
                 pilot_sarkhan(deck)
-            print(f"Remaining mana: {deck.mana_pool}.")
+            #print(f"Remaining mana: {deck.mana_pool}.")
 
-    print(f"Cards on the battlefield: {deck.get_human_names(deck.battlefield)}.")
-    print(f"Dragon Trigger count: {deck.trigger_count}.")
+    #print(f"Cards on the battlefield: {deck.get_human_names(deck.battlefield)}.")
+    #print(f"Dragon Trigger count: {deck.trigger_count}.")
 
 
 def pilot_sarkhan(deck):
-    print("Sarkhan, Fireblood is on the battlefield.")
+    #print("Sarkhan, Fireblood is on the battlefield.")
     #
     # Use the +2 mana ability if it would allow me to cast a dragon.
     #
@@ -178,11 +181,11 @@ def pilot_sarkhan(deck):
                 card_cmc += 3 # Cover the cost of Kicker.
             if card_cmc > highest_cmc:
                 highest_cmc = card_cmc
-    print(f"The dragon with highest cmc has {highest_cmc} cmc, and the mana_pool is has {mana_pool}.")
+    #print(f"The dragon with highest cmc has {highest_cmc} cmc, and the mana_pool is has {mana_pool}.")
     if highest_cmc > mana_pool and highest_cmc <= mana_pool + 2:
         # +2 would allow me to cast a dragon.
         deck.mana_pool["Dragon"] += 2
-        print(f"Activated Sarkhan's mana ability.")
+        #print(f"Activated Sarkhan's mana ability.")
         return
 
     #
@@ -190,17 +193,18 @@ def pilot_sarkhan(deck):
     #
     used_discard_ability = False
     if mana_pool >= 5:
-        print("I have 5+ mana, so I will discard/draw a land.")
+        #print("I have 5+ mana, so I will discard/draw a land.")
         # Discard/draw a land.
         for card in deck.hand:
             if "Land" in card["types"]:
-                print(f"Activated Sarkhan's discard ability due to high mana pool.")
+                #print(f"Activated Sarkhan's discard ability due to high mana pool.")
                 deck.discard(card)
                 deck.draw()
                 used_discard_ability = True
                 break
         else:
-            print(f"[ERROR] Tried to discard a land, but there are no lands in hand!")
+            #print(f"[ERROR] Tried to discard a land, but there are no lands in hand!")
+            pass
         if used_discard_ability:
             return
     
@@ -212,11 +216,11 @@ def pilot_sarkhan(deck):
         if "Nykthos, Shrine to Nyx" in card["name"]:
             has_nykthos = True
             break
-    print(f"Has Nykthos: {has_nykthos}")
+    #print(f"Has Nykthos: {has_nykthos}")
     if has_nykthos:
         for card in deck.hand:
             if "Nykthos, Shrine to Nyx" in card["name"]:
-                print(f"Activated Sarkhan's discard ability due to Nykthos.")
+                #print(f"Activated Sarkhan's discard ability due to Nykthos.")
                 deck.discard(card)
                 deck.draw()
                 used_discard_ability = True
@@ -232,20 +236,20 @@ def pilot_sarkhan(deck):
         if "Dragon Tempest" in card['name'] or "Scourge of Valkas" in card['name']:
             has_dragon_trigger = True
             break
-    print(f"Has Dragon Tempest or Scourge of Valkas: {has_dragon_trigger}")
+    #print(f"Has Dragon Tempest or Scourge of Valkas: {has_dragon_trigger}")
     if not has_dragon_trigger:
         # Discard/draw a land.
         for card in deck.hand:
             if "Land" in card["types"]:
-                print(f"Activated Sarkhan's discard ability due to lack of Dragon Tempest/Scourge of Valkas.")
+                #print(f"Activated Sarkhan's discard ability due to lack of Dragon Tempest/Scourge of Valkas.")
                 deck.discard(card)
                 deck.draw()
                 used_discard_ability = True
                 break
         else:
             for card in deck.hand:
-                if "Dragon" not in card["types"]:
-                    print(f"Activated Sarkhan's discard ability due to lack of Dragon Tempest/Scourge of Valkas.")
+                if "Dragon" not in card["subtypes"]:
+                    #print(f"Activated Sarkhan's discard ability due to lack of Dragon Tempest/Scourge of Valkas.")
                     deck.discard(card)
                     deck.draw()
                     used_discard_ability = True
@@ -253,7 +257,7 @@ def pilot_sarkhan(deck):
         if used_discard_ability:
             return
     
-    print(f"[WARNING] Did not use Sarkhan's ability.")
+    #print(f"[WARNING] Did not use Sarkhan's ability.")
     return
 
 
@@ -271,5 +275,8 @@ def activate(deck, card):
                     if "Dragon" in token['name']:
                         deck.spend_mana(R=R, C=C, is_dragon=False)
                         deck.enter_the_battlefield(token)
-                        print(f"{card['name'].upper()} actviated an ability!")
+                        #print(f"{card['name'].upper()} actviated an ability!")
+                else:
+                    #print(f"[ERROR] Could not find a dragon token in the token list!")
+                    break
         return

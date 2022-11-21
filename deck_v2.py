@@ -18,7 +18,7 @@ class Deck():
             "C": 0, # Don't need other colors...
             "Dragon": 0,
         }
-        self.verbose = True
+        self.verbose = False
         self.log = []
         self.graveyard = []
 
@@ -140,8 +140,10 @@ class Deck():
         dragon_mana = self.mana_pool["Dragon"] if "Dragon" in card["subtypes"] else 0
         if R + C > self.mana_pool["R"] + self.mana_pool["C"] + dragon_mana or R > self.mana_pool["R"] + dragon_mana:
             return False
-        
-        return True
+        for c in self.hand:
+            if c == card:
+                return True
+        return False
 
 
     # Return an array of card names.
