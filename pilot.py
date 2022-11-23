@@ -11,6 +11,9 @@ def play(deck):
     battlefield_has_sarkhan = deck.battlefield_has("Sarkhan, Fireblood")
     
 
+    if deck.battlefield_has("Avaricious Dragon"):
+        deck.draw()
+
     land_count = 0
     for card in deck.battlefield:
         if "Land" in card["types"]:
@@ -89,6 +92,8 @@ def play(deck):
     # ATTEMPT TO CAST SPELLS SMARTLY
     #
 
+    battlefield_has_lathliss = deck.battlefield_has("Lathliss, Dragon Queen")
+
     #
     # SARKHAN, FIREBLOOD
     # NOTE: The AI for using the +2 mana ability can be improved.
@@ -104,12 +109,18 @@ def play(deck):
                 deck.cast(card)
                 deck.tap_land(card)
                 break
-
+    
     # Cast Dragon Tempest or Scourge as high priority.
     for card in deck.hand:
         if "Dragon Tempest" in card['name'] or "Scourge of Valkas" in card['name']:
             if deck.can_cast(card): 
                 deck.cast(card)
+                if battlefield_has_lathliss: 
+                    for token in deck._token_list:
+                        if "Dragon" in token['name']:
+                            deck.enter_the_battlefield(token)
+                            break
+                    
                 #print(f"{card['name'].upper()} has been priority-cast!")
 
     # Attempt to cast Verix and kick it!
@@ -118,6 +129,11 @@ def play(deck):
         for card in deck.hand:
             if "Verix Bladewing" in card['name']:
                 deck.cast(card)
+                if battlefield_has_lathliss: 
+                    for token in deck._token_list:
+                        if "Dragon" in token['name']:
+                            deck.enter_the_battlefield(token)
+                            break
                 # Fake-cast the token.
                 for token in deck._token_list:
                     if "Karox Bladewing" in token['name']:
@@ -126,7 +142,7 @@ def play(deck):
                         #print(f"{card['name'].upper()} was kicked!")
 
     # Attempt to activate Dragon Whisperer.    
-    for card in deck.hand:
+    for card in deck.battlefield:
         if "Dragon Whisperer" in card['name']:
             activate(deck, card)
 
@@ -143,12 +159,18 @@ def play(deck):
     for cmc in range(mana_float, 0, -1):
         if cmc in cmc_hand:
             for card in cmc_hand[cmc]:
-                if deck.can_cast(card): 
+                if deck.can_cast(card):
+                    battlefield_has_lathliss = deck.battlefield_has("Lathliss, Dragon Queen") 
                     deck.cast(card)
                     if "Sarkhan, Fireblood" in card["name"]:
                         pilot_sarkhan(deck)
                     if "Dragon Whisperer" in card["name"]:
                         activate(deck, card)
+                    if battlefield_has_lathliss: 
+                        for token in deck._token_list:
+                            if "Dragon" in token['name']:
+                                deck.enter_the_battlefield(token)
+                                break
                     ##print(f">>>>>>> {card['name']} has been smart-cast.")
 
 
@@ -158,14 +180,28 @@ def play(deck):
 
     for card in deck.hand:
         if deck.can_cast(card): 
+            battlefield_has_lathliss = deck.battlefield_has("Lathliss, Dragon Queen") 
             deck.cast(card)
             if "Sarkhan, Fireblood" in card["name"]:
                 pilot_sarkhan(deck)
+            if battlefield_has_lathliss: 
+                for token in deck._token_list:
+                    if "Dragon" in token['name']:
+                        deck.enter_the_battlefield(token)
+                        break
             #print(f"Remaining mana: {deck.mana_pool}.")
 
     #print(f"Cards on the battlefield: {deck.get_human_names(deck.battlefield)}.")
     #print(f"Dragon Trigger count: {deck.trigger_count}.")
 
+
+    #
+    # AVARICIOUS DRAGON TRIGGER
+    #
+    if deck.battlefield_has("Avaricious Dragon"):
+        for card in deck.hand:
+            deck.discard(card)
+    
 
 def pilot_sarkhan(deck):
     #print("Sarkhan, Fireblood is on the battlefield.")
@@ -175,7 +211,7 @@ def pilot_sarkhan(deck):
     highest_cmc = 0
     mana_pool = deck.get_floating_mana()
     for card in deck.hand:
-        if "Dragon" in card["subtypes"]:
+        if "Dragon" in card["subtypes"] or "Shapeshifter" in card["subtypes"]:
             card_cmc = int(card["convertedManaCost"])
             if "Verix Bladewing" in card["name"]:
                 card_cmc += 3 # Cover the cost of Kicker.
@@ -248,7 +284,7 @@ def pilot_sarkhan(deck):
                 break
         else:
             for card in deck.hand:
-                if "Dragon" not in card["subtypes"]:
+                if "Dragon" not in card["subtypes"] and "Shapeshifter" not in card["subtypes"]:
                     #print(f"Activated Sarkhan's discard ability due to lack of Dragon Tempest/Scourge of Valkas.")
                     deck.discard(card)
                     deck.draw()

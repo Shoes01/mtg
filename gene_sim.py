@@ -1,6 +1,7 @@
 import json
 import pprint
 import time
+import cProfile
 
 from deck_v2 import Deck
 
@@ -71,7 +72,12 @@ deck = Deck(cards, tokens)
 
 def display_function(candidate_deck):
     print(f"Score: {candidate_deck.Fitness}")
-    print(f"Deck: {deck.get_human_names(candidate_deck.Genes)}")
+    keys = set(deck.get_human_names(candidate_deck.Genes))
+    deck_array = deck.get_human_names(candidate_deck.Genes)
+    decklist = {}
+    for key in keys:
+        decklist[key] = deck_array.count(key)
+    print(f"Deck: {pp.pformat(decklist)}")
 
 
 def fitness_function(candidate_deck):
@@ -80,12 +86,12 @@ def fitness_function(candidate_deck):
     # Return the average.
     trigger_counts = []
     simulation_count = 0
-    while simulation_count < 400:
+    while simulation_count < 200:
         simulation_count += 1
         turn_count = 0
         candidate_deck.new_hand()
         pilot.play(candidate_deck)
-        while turn_count < 6:
+        while turn_count < 5:
             turn_count += 1
             candidate_deck.next_turn()
             pilot.play(candidate_deck)
@@ -98,7 +104,7 @@ def fitness_function(candidate_deck):
         if "Dragon Tempest" in card['name'] or "Scourge of Valkas" in card['name']: 
             tempest += 1
 
-    score = dragons + tempest * 2 + average_triggers * 100
+    score = dragons * 0 + tempest * 2 + average_triggers * 100
     #print(f"This deck's score is {dragons} + {tempest}x2 + {average_triggers}x10 = {score}.")
     return score
 
@@ -108,3 +114,6 @@ best = genetic.get_best(fitness_function,60,100000.0,deck_set,tokens,display_fun
 
 print(f"Best deck: {deck.get_human_names(best.Genes)}")
 
+
+if __name__ == "__main__":
+    cProfile.run("fitness_function(deck)")

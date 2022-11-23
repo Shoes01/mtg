@@ -111,11 +111,11 @@ class Deck():
             self.battlefield.append(card)
 
         # Check for Dragon triggers.
-        if "Dragon" in card["subtypes"]:
+        if "Dragon" in card["subtypes"] or "Shapeshifter" in card["subtypes"]:
             dragons = 0
             triggers = 0
             for permanent in self.battlefield:
-                if "Dragon" in permanent["subtypes"]: 
+                if "Dragon" in permanent["subtypes"] or "Shapeshifter" in permanent["subtypes"]:
                     dragons += 1
                 if "Dragon Tempest" in permanent["name"] or "Scourge of Valkas" in permanent["name"]:
                     triggers += 1
@@ -137,7 +137,7 @@ class Deck():
             return False
         # Need to afford the card.
         R, C = self.get_mana_cost(card)
-        dragon_mana = self.mana_pool["Dragon"] if "Dragon" in card["subtypes"] else 0
+        dragon_mana = self.mana_pool["Dragon"] if "Dragon" in card["subtypes"] or "Shapeshifter" in card["subtypes"] else 0
         if R + C > self.mana_pool["R"] + self.mana_pool["C"] + dragon_mana or R > self.mana_pool["R"] + dragon_mana:
             return False
         for c in self.hand:
@@ -203,7 +203,7 @@ class Deck():
     # Pay the costs for the card.
     def pay_mana_costs(self, card):
         R, C = self.get_mana_cost(card)
-        is_dragon = "Dragon" in card["subtypes"]
+        is_dragon = "Dragon" in card["subtypes"] or "Shapeshifter" in card["subtypes"]
         self.spend_mana(R, C, is_dragon)
             
 

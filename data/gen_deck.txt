@@ -10,3 +10,6 @@
 60 Mountain
 0 Sarkhan, Fireblood
 0 Chandra, Dressed to Kill
+0 Lathliss, Dragon Queen
+0 Avaricious Dragon
+0 Universal Automaton

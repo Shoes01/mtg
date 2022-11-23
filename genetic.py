@@ -20,12 +20,12 @@ def _generate_parent(length, geneSet, tokens, get_fitness):
     return Chromosome(parent._deck_list, fitness)
 
 
-def _mutate(parent, geneSet, tokens, get_fitness):
-    index = random.randrange(0, len(parent.Genes))
+def _mutate(parent, geneSet, tokens, get_fitness, num_mutations):
     childGenes = list(parent.Genes)
-    mutated = False
+    index = random.randrange(0, len(parent.Genes))
+    mutated = 0
     mutation_attempts = 0
-    while not mutated:
+    while mutated < num_mutations:
         mutation_attempts += 1
         if mutation_attempts >= 1000: 
             print("Mutation attempts exceeded 1000. Exiting.")
@@ -38,7 +38,7 @@ def _mutate(parent, geneSet, tokens, get_fitness):
             less_than_four = False
 
         if childGenes[index] != newGene and less_than_four:
-            mutated = True
+            mutated += 1
             childGenes[index] = newGene
             #print(f"Replace {childGenes[index]['name']} with {newGene['name']}")
     child = Deck(childGenes, tokens)
@@ -60,19 +60,22 @@ def get_best(get_fitness, targetLen, optimalFitness, geneSet, tokens, display):
     if bestParent.Fitness >= optimalFitness:
         return bestParent
     while True:
-        generation += 1
-        if failed_mutations > 10000:
+        if failed_mutations % 10 == 0:
+            print(f"\rChild number {failed_mutations}...", end="")
+        if failed_mutations > 100000:
             print("\n\nFailed mutations exceeded 10000. Exiting.")
+            print(f"Total generations: {generation}")
             display(bestParent)
             sys.exit()
-        child = _mutate(bestParent, geneSet, tokens, get_fitness)
+        child = _mutate(bestParent, geneSet, tokens, get_fitness, random.randint(0,1)+random.randint(0,1)+random.randint(0,1))
         if bestParent.Fitness >= child.Fitness:
             failed_mutations += 1
             continue
         display(child)
+        generation += 1
+        failed_mutations = 0
         if child.Fitness >= optimalFitness:
             print(f"Total generations: {generation}")
-            failed_mutations = 0
             return child
         bestParent = child
 
